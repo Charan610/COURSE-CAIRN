@@ -1,0 +1,12 @@
+.git
+node_modules
+.local-data
+.env
+.env.*
+!.env.example
+.vercel
+.agents
+skills-lock.json
+artifacts
+tests
+dist
