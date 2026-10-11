@@ -1,0 +1,5594 @@
+{
+  "title": "DSA Mastery",
+  "trackId": "dsa-cpp-main-v1",
+  "primaryLanguage": "cpp17",
+  "supportedLanguages": [
+    "cpp17",
+    "java",
+    "python3"
+  ],
+  "hours": 720,
+  "plannedWeeks": 48,
+  "phaseCount": 8,
+  "moduleCount": 48,
+  "studyDays": 288,
+  "resources": [
+    {
+      "id": "L-CPP-01",
+      "title": "LearnCpp — chapter index",
+      "url": "https://www.learncpp.com/",
+      "hostname": "www.learncpp.com",
+      "scope": "Modern C++ getting started, builds, variables, functions, arrays, classes, pointers, references and templates; weeks 1–4",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "L-CPP-02",
+      "title": "cppreference: containers",
+      "url": "https://en.cppreference.com/w/cpp/container",
+      "hostname": "en.cppreference.com",
+      "scope": "vector, deque, map, set, unordered_map, stack, queue, priority_queue, operations, iterator invalidation; weeks 3–24",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        3,
+        21
+      ]
+    },
+    {
+      "id": "L-CPP-03",
+      "title": "cppreference: algorithms",
+      "url": "https://en.cppreference.com/w/cpp/algorithm",
+      "hostname": "en.cppreference.com",
+      "scope": "sort, lower_bound, upper_bound, binary_search, heaps, permutations and standard algorithms",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        4
+      ]
+    },
+    {
+      "id": "L-CPP-04",
+      "title": "cppreference: unordered_map",
+      "url": "https://en.cppreference.com/w/cpp/container/unordered_map",
+      "hostname": "en.cppreference.com",
+      "scope": "Hash map operations and average vs worst-case complexity",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        3,
+        23
+      ]
+    },
+    {
+      "id": "L-CPP-05",
+      "title": "cppreference: priority_queue",
+      "url": "https://en.cppreference.com/w/cpp/container/priority_queue",
+      "hostname": "en.cppreference.com",
+      "scope": "Heap API, default max heap, comparators, O(log n) insertion/extraction",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        3,
+        22
+      ]
+    },
+    {
+      "id": "L-JAVA-01",
+      "title": "dev.java: Learn Java",
+      "url": "https://dev.java/learn/",
+      "hostname": "dev.java",
+      "scope": "Java first steps, language basics, collections, classes and modern official learning pathway; weeks 5–6",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        5
+      ]
+    },
+    {
+      "id": "L-JAVA-02",
+      "title": "Oracle Java API reference",
+      "url": "https://docs.oracle.com/en/java/javase/25/docs/api/index.html",
+      "hostname": "docs.oracle.com",
+      "scope": "API signatures and complexity-relevant collections contract; version-specific reference (use installed-version selector)",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": []
+    },
+    {
+      "id": "L-PY-01",
+      "title": "Python tutorial",
+      "url": "https://docs.python.org/3/tutorial/",
+      "hostname": "docs.python.org",
+      "scope": "Core syntax, data structures, functions, classes, imports and exceptions",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        6
+      ]
+    },
+    {
+      "id": "L-PY-02",
+      "title": "Python collections",
+      "url": "https://docs.python.org/3/library/collections.html",
+      "hostname": "docs.python.org",
+      "scope": "deque, Counter, defaultdict; weeks 5–6 and translations",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        6
+      ]
+    },
+    {
+      "id": "L-PY-03",
+      "title": "Python heapq",
+      "url": "https://docs.python.org/3/library/heapq.html",
+      "hostname": "docs.python.org",
+      "scope": "Python min-heaps and heap operations",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        6
+      ]
+    },
+    {
+      "id": "L-TOOLS-01",
+      "title": "Git book",
+      "url": "https://git-scm.com/book/en/v2",
+      "hostname": "git-scm.com",
+      "scope": "Git repo, branches, commits and portfolio history",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        4,
+        46
+      ]
+    },
+    {
+      "id": "L-TOOLS-02",
+      "title": "GCC manuals",
+      "url": "https://gcc.gnu.org/onlinedocs/",
+      "hostname": "gcc.gnu.org",
+      "scope": "Compiler flags, optimization, sanitizer diagnostics",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": []
+    },
+    {
+      "id": "D-STRIVER",
+      "title": "Striver A2Z DSA Sheet",
+      "url": "https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet",
+      "hostname": "takeuforward.org",
+      "scope": "Curated foundational → advanced modules, problem links, editorials/video associations. Primary ordered breadth spine for weeks 7–36; live count changes",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        24,
+        31,
+        32,
+        33,
+        36,
+        38
+      ]
+    },
+    {
+      "id": "D-NEET150",
+      "title": "NeetCode 150 + pattern roadmap",
+      "url": "https://neetcode.io/roadmap",
+      "hostname": "neetcode.io",
+      "scope": "Interview pattern order with 150 problems and solution videos, Python/Java/C++ support; use weeks 13–48",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        8,
+        10,
+        11,
+        13,
+        14,
+        16,
+        18,
+        19,
+        20,
+        22,
+        23,
+        24,
+        25,
+        26,
+        31,
+        42,
+        44,
+        45
+      ]
+    },
+    {
+      "id": "D-NEET250",
+      "title": "NeetCode practice/course home",
+      "url": "https://neetcode.io/practice",
+      "hostname": "neetcode.io",
+      "scope": "Additional practice lists; check current free/premium access",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": []
+    },
+    {
+      "id": "D-LC75",
+      "title": "LeetCode 75",
+      "url": "https://leetcode.com/studyplan/leetcode-75/",
+      "hostname": "leetcode.com",
+      "scope": "Interview-focused starter list, use for phased revision",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        13
+      ]
+    },
+    {
+      "id": "D-LC150",
+      "title": "LeetCode Top Interview 150",
+      "url": "https://leetcode.com/studyplan/top-interview-150/",
+      "hostname": "leetcode.com",
+      "scope": "Broad 150-question interview track officially described as suitable for 3+ months",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        36,
+        42,
+        43,
+        44,
+        45,
+        48
+      ]
+    },
+    {
+      "id": "D-CSES",
+      "title": "CSES Problem Set",
+      "url": "https://cses.fi/problemset/",
+      "hostname": "cses.fi",
+      "scope": "Introductory, searching/sorting, DP, graphs, range queries, trees, mathematics, strings",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        8,
+        12,
+        15,
+        25,
+        27,
+        29,
+        30,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42
+      ]
+    },
+    {
+      "id": "D-CSES-GUIDE",
+      "title": "CSES introduction",
+      "url": "https://cses.fi/problemset/text/2433",
+      "hostname": "cses.fi",
+      "scope": "Format and supported languages; CSES itself states C++/Java/Python are supported",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": []
+    },
+    {
+      "id": "D-USACO",
+      "title": "USACO Guide",
+      "url": "https://usaco.guide/",
+      "hostname": "usaco.guide",
+      "scope": "Progressive Bronze/Silver/Gold/Platinum lessons, implementations and practice; deeper contest enrichment",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        10,
+        16,
+        28,
+        29,
+        30,
+        31,
+        35,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "id": "D-USACO-USE",
+      "title": "How to use USACO Guide",
+      "url": "https://usaco.guide/general/using-this-guide",
+      "hostname": "usaco.guide",
+      "scope": "How lessons/practice/stars work; warning it is not an official future contest syllabus",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": []
+    },
+    {
+      "id": "D-USACO-INTRO",
+      "title": "USACO expected knowledge",
+      "url": "https://usaco.guide/general/expected-knowledge",
+      "hostname": "usaco.guide",
+      "scope": "Baseline loops, functions, arrays, recursion",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": []
+    },
+    {
+      "id": "D-CPALG",
+      "title": "CP-Algorithms",
+      "url": "https://cp-algorithms.com/",
+      "hostname": "cp-algorithms.com",
+      "scope": "Reference implementations/explanations for graph algorithms, DP, string algorithms, math, segment trees",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        11,
+        12,
+        24,
+        26,
+        27,
+        28,
+        29,
+        33,
+        35,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "id": "D-MIT",
+      "title": "MIT OCW 6.006 Spring 2020",
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/",
+      "hostname": "ocw.mit.edu",
+      "scope": "Theoretical DSA lectures, notes, problem sets and solutions; particularly complexity, graphs, dynamic programming",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        7,
+        19,
+        30
+      ]
+    },
+    {
+      "id": "D-MIT-VIDEOS",
+      "title": "MIT 6.006 lecture video index",
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/",
+      "hostname": "ocw.mit.edu",
+      "scope": "Individual lecture videos; choose by lecture title (no fabricated timestamps)",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        25,
+        27,
+        32,
+        34
+      ]
+    },
+    {
+      "id": "D-MIT-NOTES",
+      "title": "MIT 6.006 lecture notes",
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/pages/lecture-notes/",
+      "hostname": "ocw.mit.edu",
+      "scope": "Lecture 1 analysis → sorting/hash → trees/heaps → BFS/DFS → shortest paths → DP",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        9,
+        21,
+        26
+      ]
+    },
+    {
+      "id": "D-VIS",
+      "title": "VisuAlgo",
+      "url": "https://visualgo.net/en",
+      "hostname": "visualgo.net",
+      "scope": "Interactive animations for sorting, trees, heaps, graph algorithms and data structures",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        9
+      ]
+    },
+    {
+      "id": "D-GFG",
+      "title": "GeeksforGeeks DSA tutorial",
+      "url": "https://www.geeksforgeeks.org/dsa/dsa-tutorial-learn-data-structures-and-algorithms/",
+      "hostname": "www.geeksforgeeks.org",
+      "scope": "Alternative explanations and Java/Python/C++ examples; cross-check claims with reference docs",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": []
+    },
+    {
+      "id": "D-ATCODER-DP",
+      "title": "AtCoder Educational DP tasks",
+      "url": "https://atcoder.jp/contests/dp/tasks?lang=en",
+      "hostname": "atcoder.jp",
+      "scope": "26 named DP tasks A–Z, from Frog and Knapsack to advanced DP",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        32,
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "id": "D-CF",
+      "title": "Codeforces",
+      "url": "https://codeforces.com/",
+      "hostname": "codeforces.com",
+      "scope": "Timed programming contests, tags, editorial discussion; optional deeper CP track",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        41
+      ]
+    },
+    {
+      "id": "D-KATTIS",
+      "title": "Kattis problems",
+      "url": "https://open.kattis.com/problems",
+      "hostname": "open.kattis.com",
+      "scope": "Format-specific parsing and contest programming practice",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": []
+    },
+    {
+      "id": "D-PRINCETON",
+      "title": "Princeton Algorithms, 4th ed website",
+      "url": "https://algs4.cs.princeton.edu/home/",
+      "hostname": "algs4.cs.princeton.edu",
+      "scope": "Sorting, searching, priority queues, strings and graphs, Java-based companion exercises",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": []
+    },
+    {
+      "id": "D-COURSE-UCSD",
+      "title": "UC San Diego DSA specialization",
+      "url": "https://www.coursera.org/specializations/data-structures-algorithms",
+      "hostname": "www.coursera.org",
+      "scope": "Structured algorithm puzzles and graded exercises; some content/payment may require subscription",
+      "role": "reference",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": []
+    },
+    {
+      "id": "I-MS",
+      "title": "Microsoft official technical interview tips",
+      "url": "https://careers.microsoft.com/v2/global/en/hiring-tips/technical-interviewing",
+      "hostname": "careers.microsoft.com",
+      "scope": "Problem clarification, design, coding, testing, common DS/algorithms, communication, role-dependent interview skills",
+      "role": "interview",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        43,
+        44,
+        45,
+        47,
+        48
+      ]
+    },
+    {
+      "id": "I-MS-STUDENT",
+      "title": "Microsoft student interviews",
+      "url": "https://careers.microsoft.com/v2/global/en/hiring-tips/student-interviewing",
+      "hostname": "careers.microsoft.com",
+      "scope": "Student/early-career interview format and preparation resources",
+      "role": "interview",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        46
+      ]
+    },
+    {
+      "id": "I-AMAZON",
+      "title": "Amazon official university SDE online assessment preparation",
+      "url": "https://www.amazon.jobs/content/en/how-we-hire/university/sde-oa",
+      "hostname": "www.amazon.jobs",
+      "scope": "Official early-career SDE online assessment preparation; process and timing vary by location, position and candidate instructions",
+      "role": "interview",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        47
+      ]
+    },
+    {
+      "id": "I-AMAZON-TOPICS",
+      "title": "Amazon official software development topics",
+      "url": "https://prod.gamma.amazon.jobs/content/en/how-we-hire/interview-prep/software-development-topics",
+      "hostname": "prod.gamma.amazon.jobs",
+      "scope": "Interview preparation videos/coding examples and leadership-principle context",
+      "role": "interview",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        43,
+        48
+      ]
+    },
+    {
+      "id": "I-GOOGLE-JOBS",
+      "title": "Google Careers job search",
+      "url": "https://www.google.com/about/careers/applications/",
+      "hostname": "www.google.com",
+      "scope": "Check exact role's current qualifications, interview instructions from recruiter; role postings vary",
+      "role": "interview",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": [
+        46,
+        47
+      ]
+    },
+    {
+      "id": "I-LC150",
+      "title": "LeetCode Top Interview 150",
+      "url": "https://leetcode.com/studyplan/top-interview-150/",
+      "hostname": "leetcode.com",
+      "scope": "General practice only; NOT the official exam of any employer",
+      "role": "interview",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": []
+    },
+    {
+      "id": "I-NEET",
+      "title": "NeetCode 150",
+      "url": "https://neetcode.io/roadmap",
+      "hostname": "neetcode.io",
+      "scope": "Guided general interview practice; NOT employer-provided frequency data",
+      "role": "interview",
+      "kind": "documentation",
+      "status": "Source register · availability review pending",
+      "modules": []
+    }
+  ],
+  "videos": [
+    {
+      "id": "V-CPP",
+      "title": "Bro Code C++ Full Course",
+      "url": "https://www.youtube.com/watch?v=-TkoO8Z07hI",
+      "youtubeId": "-TkoO8Z07hI",
+      "author": "Bro Code",
+      "publicationDate": "",
+      "used": "Weeks 1–4 and recursion refresher",
+      "status": "Source-document chapter verification; live recheck pending",
+      "notes": "Introductory C++; older, little modern STL detail",
+      "kind": "video",
+      "chapters": [
+        {
+          "title": "Intro",
+          "time": "00:00:00",
+          "startSeconds": 0,
+          "url": "https://www.youtube.com/watch?v=-TkoO8Z07hI&t=0s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Variables",
+          "time": "00:13:30",
+          "startSeconds": 810,
+          "url": "https://www.youtube.com/watch?v=-TkoO8Z07hI&t=810s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Input",
+          "time": "00:47:05",
+          "startSeconds": 2825,
+          "url": "https://www.youtube.com/watch?v=-TkoO8Z07hI&t=2825s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "If",
+          "time": "00:58:44",
+          "startSeconds": 3524,
+          "url": "https://www.youtube.com/watch?v=-TkoO8Z07hI&t=3524s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "While loops",
+          "time": "01:35:51",
+          "startSeconds": 5751,
+          "url": "https://www.youtube.com/watch?v=-TkoO8Z07hI&t=5751s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "For loops",
+          "time": "01:42:15",
+          "startSeconds": 6135,
+          "url": "https://www.youtube.com/watch?v=-TkoO8Z07hI&t=6135s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Functions",
+          "time": "02:03:10",
+          "startSeconds": 7390,
+          "url": "https://www.youtube.com/watch?v=-TkoO8Z07hI&t=7390s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Arrays",
+          "time": "02:51:11",
+          "startSeconds": 10271,
+          "url": "https://www.youtube.com/watch?v=-TkoO8Z07hI&t=10271s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Memory addresses",
+          "time": "03:57:42",
+          "startSeconds": 14262,
+          "url": "https://www.youtube.com/watch?v=-TkoO8Z07hI&t=14262s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Pass by value/reference",
+          "time": "04:00:31",
+          "startSeconds": 14431,
+          "url": "https://www.youtube.com/watch?v=-TkoO8Z07hI&t=14431s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Pointers",
+          "time": "04:17:56",
+          "startSeconds": 15476,
+          "url": "https://www.youtube.com/watch?v=-TkoO8Z07hI&t=15476s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Dynamic memory",
+          "time": "04:46:26",
+          "startSeconds": 17186,
+          "url": "https://www.youtube.com/watch?v=-TkoO8Z07hI&t=17186s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Recursion",
+          "time": "04:52:15",
+          "startSeconds": 17535,
+          "url": "https://www.youtube.com/watch?v=-TkoO8Z07hI&t=17535s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Function templates",
+          "time": "04:58:35",
+          "startSeconds": 17915,
+          "url": "https://www.youtube.com/watch?v=-TkoO8Z07hI&t=17915s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "OOP",
+          "time": "05:18:38",
+          "startSeconds": 19118,
+          "url": "https://www.youtube.com/watch?v=-TkoO8Z07hI&t=19118s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        }
+      ]
+    },
+    {
+      "id": "V-JAVA",
+      "title": "Bro Code Java Full Course 2025",
+      "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ",
+      "youtubeId": "xTtL8E4LzTQ",
+      "author": "Bro Code",
+      "publicationDate": "",
+      "used": "Weeks 5–6 Java bridge",
+      "status": "Source-document chapter verification; live recheck pending",
+      "notes": "Select relevant segments; games and threads optional",
+      "kind": "video",
+      "chapters": [
+        {
+          "title": "Introduction",
+          "time": "00:00:00",
+          "startSeconds": 0,
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=0s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Variables",
+          "time": "00:10:58",
+          "startSeconds": 658,
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=658s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Input",
+          "time": "00:31:30",
+          "startSeconds": 1890,
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=1890s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "If",
+          "time": "01:09:00",
+          "startSeconds": 4140,
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=4140s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "While loops",
+          "time": "03:21:23",
+          "startSeconds": 12083,
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=12083s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "For loops",
+          "time": "03:43:33",
+          "startSeconds": 13413,
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=13413s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Methods",
+          "time": "04:04:27",
+          "startSeconds": 14667,
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=14667s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Arrays",
+          "time": "05:03:26",
+          "startSeconds": 18206,
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=18206s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "2D arrays",
+          "time": "05:34:36",
+          "startSeconds": 20076,
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=20076s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "OOP",
+          "time": "06:41:47",
+          "startSeconds": 24107,
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=24107s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Inheritance",
+          "time": "07:22:04",
+          "startSeconds": 26524,
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=26524s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Interfaces",
+          "time": "08:01:30",
+          "startSeconds": 28890,
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=28890s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "ArrayLists",
+          "time": "08:55:51",
+          "startSeconds": 32151,
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=32151s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Exceptions",
+          "time": "09:05:29",
+          "startSeconds": 32729,
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=32729s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Generics",
+          "time": "10:38:16",
+          "startSeconds": 38296,
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=38296s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "HashMaps",
+          "time": "10:52:09",
+          "startSeconds": 39129,
+          "url": "https://www.youtube.com/watch?v=xTtL8E4LzTQ&t=39129s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        }
+      ]
+    },
+    {
+      "id": "V-PY",
+      "title": "Bro Code Python Full Course 2024",
+      "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0",
+      "youtubeId": "ix9cRaBkVe0",
+      "author": "Bro Code",
+      "publicationDate": "",
+      "used": "Weeks 5–6 Python bridge",
+      "status": "Source-document chapter verification; live recheck pending",
+      "notes": "Skip unrelated GUI sections",
+      "kind": "video",
+      "chapters": [
+        {
+          "title": "Intro",
+          "time": "00:00:00",
+          "startSeconds": 0,
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=0s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Variables",
+          "time": "00:05:49",
+          "startSeconds": 349,
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=349s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "If",
+          "time": "00:51:46",
+          "startSeconds": 3106,
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=3106s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "While loops",
+          "time": "01:51:55",
+          "startSeconds": 6715,
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=6715s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "For loops",
+          "time": "02:06:28",
+          "startSeconds": 7588,
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=7588s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Lists, sets and tuples",
+          "time": "02:23:03",
+          "startSeconds": 8583,
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=8583s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Dictionaries",
+          "time": "03:03:27",
+          "startSeconds": 11007,
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=11007s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Functions",
+          "time": "03:52:12",
+          "startSeconds": 13932,
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=13932s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "List comprehensions",
+          "time": "04:45:56",
+          "startSeconds": 17156,
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=17156s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Modules",
+          "time": "05:02:13",
+          "startSeconds": 18133,
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=18133s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "OOP",
+          "time": "06:32:32",
+          "startSeconds": 23552,
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=23552s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Exception handling",
+          "time": "08:14:57",
+          "startSeconds": 29697,
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=29697s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        }
+      ]
+    },
+    {
+      "id": "V-FISET",
+      "title": "William Fiset / freeCodeCamp Data Structures",
+      "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM",
+      "youtubeId": "RBSGKlAvoiM",
+      "author": "Original publisher",
+      "publicationDate": "",
+      "used": "Weeks 7–35 by chapter",
+      "status": "Source-document chapter verification; live recheck pending",
+      "notes": "Animated concepts, worked implementations in Java",
+      "kind": "video",
+      "chapters": [
+        {
+          "title": "Abstract data types",
+          "time": "00:00:00",
+          "startSeconds": 0,
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=0s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Big-O",
+          "time": "00:04:28",
+          "startSeconds": 268,
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=268s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Static and dynamic arrays",
+          "time": "00:17:00",
+          "startSeconds": 1020,
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=1020s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Linked lists",
+          "time": "00:35:03",
+          "startSeconds": 2103,
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=2103s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Stack",
+          "time": "00:58:26",
+          "startSeconds": 3506,
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=3506s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Queue",
+          "time": "01:15:58",
+          "startSeconds": 4558,
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=4558s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Priority queue",
+          "time": "01:31:32",
+          "startSeconds": 5492,
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=5492s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "DSU/Union Find",
+          "time": "02:28:26",
+          "startSeconds": 8906,
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=8906s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "BST",
+          "time": "03:03:54",
+          "startSeconds": 11034,
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=11034s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "BST traversals",
+          "time": "03:34:47",
+          "startSeconds": 12887,
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=12887s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Hash tables and hash functions",
+          "time": "03:59:26",
+          "startSeconds": 14366,
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=14366s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Open addressing",
+          "time": "04:35:44",
+          "startSeconds": 16544,
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=16544s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Fenwick tree",
+          "time": "05:45:36",
+          "startSeconds": 20736,
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=20736s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Suffix arrays",
+          "time": "06:14:47",
+          "startSeconds": 22487,
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=22487s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Balanced BST rotations",
+          "time": "06:48:13",
+          "startSeconds": 24493,
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=24493s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        },
+        {
+          "title": "Indexed priority queue",
+          "time": "07:30:49",
+          "startSeconds": 27049,
+          "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=27049s",
+          "provenance": "Publisher description transcribed in supplied research, 2026-10-11; not frame-reviewed",
+          "timestampStatus": "description_chapter_verified",
+          "reviewStatus": "live_recheck_pending"
+        }
+      ]
+    },
+    {
+      "id": "V-MIT",
+      "title": "MIT 6.006 lecture videos",
+      "url": "https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/video_galleries/lecture-videos/",
+      "youtubeId": "",
+      "author": "Original publisher",
+      "publicationDate": "",
+      "used": "Sorting, hashing, trees, graphs, DP",
+      "status": "Timestamp not supplied",
+      "notes": "Separate lecture videos, **no verified chapter timestamps**",
+      "kind": "video",
+      "chapters": []
+    },
+    {
+      "id": "V-STRIVER",
+      "title": "Striver A2Z maintainer sheet with teaching links",
+      "url": "https://takeuforward.org/prep-hub/strivers-a2z-dsa-sheet",
+      "youtubeId": "",
+      "author": "Original publisher",
+      "publicationDate": "",
+      "used": "Weeks 7–36",
+      "status": "Timestamp not supplied",
+      "notes": "Video links per lesson may change; pull from source; no speculative timestamps",
+      "kind": "video",
+      "chapters": []
+    },
+    {
+      "id": "V-NEET",
+      "title": "NeetCode 150 roadmap/videos",
+      "url": "https://neetcode.io/roadmap",
+      "youtubeId": "",
+      "author": "Original publisher",
+      "publicationDate": "",
+      "used": "Weeks 13–48",
+      "status": "Timestamp not supplied",
+      "notes": "Use problem-associated solution explanations **after** attempt",
+      "kind": "video",
+      "chapters": []
+    },
+    {
+      "id": "V-USACO",
+      "title": "USACO Guide modules",
+      "url": "https://usaco.guide/",
+      "youtubeId": "",
+      "author": "Original publisher",
+      "publicationDate": "",
+      "used": "Weeks 27–42",
+      "status": "Timestamp not supplied",
+      "notes": "Primarily articles and problems, not one indexed video",
+      "kind": "video",
+      "chapters": []
+    }
+  ],
+  "modules": [
+    {
+      "id": 1,
+      "slug": "dsa-w01",
+      "title": "C++ setup, first programs & variables",
+      "weeks": "1",
+      "coverage": "C++ setup, first programs & variables",
+      "resourceIds": [
+        "L-CPP-01"
+      ],
+      "videoIds": [
+        "V-CPP"
+      ],
+      "build": "Applied lab / mock: Build CLI grade calculator + 8 warmups.",
+      "passWhen": "Explain compilation, input handling, loop invariant basics."
+    },
+    {
+      "id": 2,
+      "slug": "dsa-w02",
+      "title": "C++ functions, strings, vectors",
+      "weeks": "2",
+      "coverage": "C++ functions, strings, vectors",
+      "resourceIds": [
+        "L-CPP-01"
+      ],
+      "videoIds": [
+        "V-CPP"
+      ],
+      "build": "Applied lab / mock: Build a text analyzer using vector/string and tests.",
+      "passWhen": "Use vector and function signatures from memory."
+    },
+    {
+      "id": 3,
+      "slug": "dsa-w03",
+      "title": "C++ memory, pointers, STL",
+      "weeks": "3",
+      "coverage": "C++ memory, pointers, STL",
+      "resourceIds": [
+        "L-CPP-02",
+        "L-CPP-04",
+        "L-CPP-05"
+      ],
+      "videoIds": [
+        "V-CPP"
+      ],
+      "build": "Applied lab / mock: Create STL cookbook with ten tiny examples.",
+      "passWhen": "Choose correct container and identify iterator invalidation."
+    },
+    {
+      "id": 4,
+      "slug": "dsa-w04",
+      "title": "C++ modern patterns, recursion & tooling",
+      "weeks": "4",
+      "coverage": "C++ modern patterns, recursion & tooling",
+      "resourceIds": [
+        "L-CPP-01",
+        "L-CPP-03",
+        "L-TOOLS-01"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Build C++ problem-solving starter kit and 12 warmups.",
+      "passWhen": "Explain integer overflow, O() and recursion stack."
+    },
+    {
+      "id": 5,
+      "slug": "dsa-w05",
+      "title": "Java language bridge",
+      "weeks": "5",
+      "coverage": "Java language bridge",
+      "resourceIds": [
+        "L-JAVA-01"
+      ],
+      "videoIds": [
+        "V-JAVA"
+      ],
+      "build": "Applied lab / mock: Port 5 C++ exercises into Java, compare complexities.",
+      "passWhen": "Explain Java collections vs STL analogues."
+    },
+    {
+      "id": 6,
+      "slug": "dsa-w06",
+      "title": "Python language bridge & language assessment",
+      "weeks": "6",
+      "coverage": "Python language bridge & language assessment",
+      "resourceIds": [
+        "L-PY-01",
+        "L-PY-02",
+        "L-PY-03"
+      ],
+      "videoIds": [
+        "V-PY"
+      ],
+      "build": "Applied lab / mock: Port 5 C++ solutions into Python and complete language exam.",
+      "passWhen": "Pick primary C++ and demonstrate alternate-language basics."
+    },
+    {
+      "id": 7,
+      "slug": "dsa-w07",
+      "title": "Complexity, proofs & input bounds",
+      "weeks": "7",
+      "coverage": "Complexity, proofs & input bounds",
+      "resourceIds": [
+        "D-MIT",
+        "D-STRIVER"
+      ],
+      "videoIds": [
+        "V-FISET"
+      ],
+      "build": "Applied lab / mock: Build benchmarking lab for linear vs quadratic vs nlogn.",
+      "passWhen": "Derive and justify time/space for 10 snippets."
+    },
+    {
+      "id": 8,
+      "slug": "dsa-w08",
+      "title": "Arrays and basic hashing",
+      "weeks": "8",
+      "coverage": "Arrays and basic hashing",
+      "resourceIds": [
+        "D-STRIVER",
+        "D-CSES",
+        "D-NEET150"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Solve 12 array/hashing tasks, document tradeoffs.",
+      "passWhen": "Implement prefix sums without hints."
+    },
+    {
+      "id": 9,
+      "slug": "dsa-w09",
+      "title": "Sorting and comparator design",
+      "weeks": "9",
+      "coverage": "Sorting and comparator design",
+      "resourceIds": [
+        "D-MIT-NOTES",
+        "D-STRIVER",
+        "D-VIS"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Implement merge sort, quick sort and benchmark.",
+      "passWhen": "Explain O(nlogn), stable vs unstable, partition invariant."
+    },
+    {
+      "id": 10,
+      "slug": "dsa-w10",
+      "title": "Binary search mastery",
+      "weeks": "10",
+      "coverage": "Binary search mastery",
+      "resourceIds": [
+        "D-STRIVER",
+        "D-NEET150",
+        "D-USACO"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Solve 10 binary-search cases including parametric search.",
+      "passWhen": "State monotonic predicate and prevent infinite loops."
+    },
+    {
+      "id": 11,
+      "slug": "dsa-w11",
+      "title": "Strings, character counts and KMP intro",
+      "weeks": "11",
+      "coverage": "Strings, character counts and KMP intro",
+      "resourceIds": [
+        "D-STRIVER",
+        "D-CPALG",
+        "D-NEET150"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Build string matcher, compare naive and KMP.",
+      "passWhen": "Explain KMP prefix fallback with one dry run."
+    },
+    {
+      "id": 12,
+      "slug": "dsa-w12",
+      "title": "Math, bits and foundation checkpoint",
+      "weeks": "12",
+      "coverage": "Math, bits and foundation checkpoint",
+      "resourceIds": [
+        "D-CSES",
+        "D-STRIVER",
+        "D-CPALG"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Complete 90-minute fundamentals mock + 10 tasks.",
+      "passWhen": "Pass foundation gate: arrays, sorting, binary search, complexity."
+    },
+    {
+      "id": 13,
+      "slug": "dsa-w13",
+      "title": "Two pointers",
+      "weeks": "13",
+      "coverage": "Two pointers",
+      "resourceIds": [
+        "D-NEET150",
+        "D-LC75"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Timed medium set + dry-run edge cases.",
+      "passWhen": "Choose pointer motion invariant correctly."
+    },
+    {
+      "id": 14,
+      "slug": "dsa-w14",
+      "title": "Sliding windows",
+      "weeks": "14",
+      "coverage": "Sliding windows",
+      "resourceIds": [
+        "D-NEET150",
+        "D-STRIVER"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Solve 8 windows and compare O(n) vs O(n²).",
+      "passWhen": "Derive window validity and shrinking rule."
+    },
+    {
+      "id": 15,
+      "slug": "dsa-w15",
+      "title": "Prefix sums, maps and subarray patterns",
+      "weeks": "15",
+      "coverage": "Prefix sums, maps and subarray patterns",
+      "resourceIds": [
+        "D-STRIVER",
+        "D-CSES"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Build subarray pattern notebook and 8 problems.",
+      "passWhen": "Explain when two pointers fails and prefix hash works."
+    },
+    {
+      "id": 16,
+      "slug": "dsa-w16",
+      "title": "Recursion and backtracking",
+      "weeks": "16",
+      "coverage": "Recursion and backtracking",
+      "resourceIds": [
+        "D-NEET150",
+        "D-STRIVER",
+        "D-USACO"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Implement generic backtracking templates and 6 tasks.",
+      "passWhen": "Explain pruning, duplicate avoidance and recursion space."
+    },
+    {
+      "id": 17,
+      "slug": "dsa-w17",
+      "title": "Linked lists from scratch",
+      "weeks": "17",
+      "coverage": "Linked lists from scratch",
+      "resourceIds": [
+        "D-STRIVER"
+      ],
+      "videoIds": [
+        "V-FISET"
+      ],
+      "build": "Applied lab / mock: Implement linked list toolkit and tests.",
+      "passWhen": "Handle null, one-node, cycles and memory cleanup."
+    },
+    {
+      "id": 18,
+      "slug": "dsa-w18",
+      "title": "Stacks and queues + mixed checkpoint",
+      "weeks": "18",
+      "coverage": "Stacks and queues + mixed checkpoint",
+      "resourceIds": [
+        "D-NEET150",
+        "D-STRIVER"
+      ],
+      "videoIds": [
+        "V-FISET"
+      ],
+      "build": "Applied lab / mock: Mixed 90-minute patterns mock and queue mini-lab.",
+      "passWhen": "Recognize stack vs deque, derive amortized bound."
+    },
+    {
+      "id": 19,
+      "slug": "dsa-w19",
+      "title": "Binary trees I",
+      "weeks": "19",
+      "coverage": "Binary trees I",
+      "resourceIds": [
+        "D-STRIVER",
+        "D-NEET150",
+        "D-MIT"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Implement traversal visualizer data + 8 tree tasks.",
+      "passWhen": "Explain DFS recursion and level-order space."
+    },
+    {
+      "id": 20,
+      "slug": "dsa-w20",
+      "title": "Binary trees II",
+      "weeks": "20",
+      "coverage": "Binary trees II",
+      "resourceIds": [
+        "D-STRIVER",
+        "D-NEET150"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Implement tree codec and timed tree mock.",
+      "passWhen": "Derive tree recursion state and avoid quadratic recomputation."
+    },
+    {
+      "id": 21,
+      "slug": "dsa-w21",
+      "title": "Binary search trees & balancing",
+      "weeks": "21",
+      "coverage": "Binary search trees & balancing",
+      "resourceIds": [
+        "D-MIT-NOTES",
+        "L-CPP-02"
+      ],
+      "videoIds": [
+        "V-FISET"
+      ],
+      "build": "Applied lab / mock: Implement BST and compare against std::set.",
+      "passWhen": "Explain BST worst-case vs balanced complexity."
+    },
+    {
+      "id": 22,
+      "slug": "dsa-w22",
+      "title": "Heaps and priority queues",
+      "weeks": "22",
+      "coverage": "Heaps and priority queues",
+      "resourceIds": [
+        "D-NEET150",
+        "L-CPP-05"
+      ],
+      "videoIds": [
+        "V-FISET"
+      ],
+      "build": "Applied lab / mock: Build min/max heap from scratch, solve 8 tasks.",
+      "passWhen": "Choose heap correctly, compare O(log n) operations."
+    },
+    {
+      "id": 23,
+      "slug": "dsa-w23",
+      "title": "Hash tables and design tasks",
+      "weeks": "23",
+      "coverage": "Hash tables and design tasks",
+      "resourceIds": [
+        "D-NEET150",
+        "L-CPP-04"
+      ],
+      "videoIds": [
+        "V-FISET"
+      ],
+      "build": "Applied lab / mock: Implement LRU cache and check O(1) average operations.",
+      "passWhen": "Explain collision resolution and ownership."
+    },
+    {
+      "id": 24,
+      "slug": "dsa-w24",
+      "title": "Tries and core-DS assessment",
+      "weeks": "24",
+      "coverage": "Tries and core-DS assessment",
+      "resourceIds": [
+        "D-NEET150",
+        "D-STRIVER",
+        "D-CPALG"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Build autocomplete trie + 90-minute DS mock.",
+      "passWhen": "Implement trie from memory, state complexity clearly."
+    },
+    {
+      "id": 25,
+      "slug": "dsa-w25",
+      "title": "Graphs representation and traversal",
+      "weeks": "25",
+      "coverage": "Graphs representation and traversal",
+      "resourceIds": [
+        "D-MIT-VIDEOS",
+        "D-CSES",
+        "D-NEET150"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Implement graph toolkit and solve 10 traversal tasks.",
+      "passWhen": "Explain visited marking and O(V+E)."
+    },
+    {
+      "id": 26,
+      "slug": "dsa-w26",
+      "title": "Directed graphs and topological ordering",
+      "weeks": "26",
+      "coverage": "Directed graphs and topological ordering",
+      "resourceIds": [
+        "D-MIT-NOTES",
+        "D-CPALG",
+        "D-NEET150"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Build dependency scheduler; test cycles.",
+      "passWhen": "Prove topo exists iff DAG."
+    },
+    {
+      "id": 27,
+      "slug": "dsa-w27",
+      "title": "Shortest paths",
+      "weeks": "27",
+      "coverage": "Shortest paths",
+      "resourceIds": [
+        "D-MIT-VIDEOS",
+        "D-CPALG",
+        "D-CSES"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Implement 3 shortest-path solvers and compare.",
+      "passWhen": "Know negative-weight limitations of Dijkstra."
+    },
+    {
+      "id": 28,
+      "slug": "dsa-w28",
+      "title": "MST and disjoint sets",
+      "weeks": "28",
+      "coverage": "MST and disjoint sets",
+      "resourceIds": [
+        "D-CPALG",
+        "D-USACO"
+      ],
+      "videoIds": [
+        "V-FISET"
+      ],
+      "build": "Applied lab / mock: Build network cost optimizer + 8 graph questions.",
+      "passWhen": "Explain MST cut intuition and DSU amortized cost."
+    },
+    {
+      "id": 29,
+      "slug": "dsa-w29",
+      "title": "Advanced graph patterns",
+      "weeks": "29",
+      "coverage": "Advanced graph patterns",
+      "resourceIds": [
+        "D-CSES",
+        "D-CPALG",
+        "D-USACO"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Solve 8 intermediate graph pattern tasks.",
+      "passWhen": "Know when state graph needs extra dimension."
+    },
+    {
+      "id": 30,
+      "slug": "dsa-w30",
+      "title": "Graph assessment and contest",
+      "weeks": "30",
+      "coverage": "Graph assessment and contest",
+      "resourceIds": [
+        "D-CSES",
+        "D-MIT",
+        "D-USACO"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Complete 2.5h graph contest + postmortem.",
+      "passWhen": "Pass graph gate, explain memory and weighted edges."
+    },
+    {
+      "id": 31,
+      "slug": "dsa-w31",
+      "title": "Greedy and interval techniques",
+      "weeks": "31",
+      "coverage": "Greedy and interval techniques",
+      "resourceIds": [
+        "D-STRIVER",
+        "D-NEET150",
+        "D-USACO"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Solve 10 greedy problems + proof write-up.",
+      "passWhen": "Prove or disprove greedy strategy."
+    },
+    {
+      "id": 32,
+      "slug": "dsa-w32",
+      "title": "Dynamic programming foundation",
+      "weeks": "32",
+      "coverage": "Dynamic programming foundation",
+      "resourceIds": [
+        "D-MIT-VIDEOS",
+        "D-ATCODER-DP",
+        "D-STRIVER"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Solve 8 DP intros; start AtCoder Frog/Vacation.",
+      "passWhen": "Explain state, transition, base and iteration order."
+    },
+    {
+      "id": 33,
+      "slug": "dsa-w33",
+      "title": "Knapsack, coin change and subsequences",
+      "weeks": "33",
+      "coverage": "Knapsack, coin change and subsequences",
+      "resourceIds": [
+        "D-ATCODER-DP",
+        "D-STRIVER",
+        "D-CPALG"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Solve AtCoder Knapsack/LCS + 6 equivalents.",
+      "passWhen": "Distinguish permutations vs combinations count."
+    },
+    {
+      "id": 34,
+      "slug": "dsa-w34",
+      "title": "String DP and interval DP",
+      "weeks": "34",
+      "coverage": "String DP and interval DP",
+      "resourceIds": [
+        "D-MIT-VIDEOS",
+        "D-ATCODER-DP"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Build DP workbook with state tables and 7 tasks.",
+      "passWhen": "Reconstruct a DP answer, not only length."
+    },
+    {
+      "id": 35,
+      "slug": "dsa-w35",
+      "title": "Tree DP, graph DP and bitmask",
+      "weeks": "35",
+      "coverage": "Tree DP, graph DP and bitmask",
+      "resourceIds": [
+        "D-ATCODER-DP",
+        "D-CPALG",
+        "D-USACO"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Solve 6 advanced DP tasks, classify complexity.",
+      "passWhen": "Identify feasible 2^n constraints and transitions."
+    },
+    {
+      "id": 36,
+      "slug": "dsa-w36",
+      "title": "Advanced DP exam & recurrence review",
+      "weeks": "36",
+      "coverage": "Advanced DP exam & recurrence review",
+      "resourceIds": [
+        "D-ATCODER-DP",
+        "D-STRIVER",
+        "D-LC150"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Complete 5-hour DP lab and postmortem.",
+      "passWhen": "Pass DP gate by deriving recurrences independently."
+    },
+    {
+      "id": 37,
+      "slug": "dsa-w37",
+      "title": "Range queries: Fenwick and segment trees",
+      "weeks": "37",
+      "coverage": "Range queries: Fenwick and segment trees",
+      "resourceIds": [
+        "D-CPALG",
+        "D-CSES"
+      ],
+      "videoIds": [
+        "V-FISET"
+      ],
+      "build": "Applied lab / mock: Implement both structures with random testing.",
+      "passWhen": "Pick DS based on update/query operations."
+    },
+    {
+      "id": 38,
+      "slug": "dsa-w38",
+      "title": "Advanced strings",
+      "weeks": "38",
+      "coverage": "Advanced strings",
+      "resourceIds": [
+        "D-CPALG",
+        "D-CSES",
+        "D-STRIVER"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Build multi-algorithm string search lab.",
+      "passWhen": "State complexity, hashing collision caveat."
+    },
+    {
+      "id": 39,
+      "slug": "dsa-w39",
+      "title": "Number theory and combinatorics",
+      "weeks": "39",
+      "coverage": "Number theory and combinatorics",
+      "resourceIds": [
+        "D-CPALG",
+        "D-CSES",
+        "D-USACO"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Build modular toolkit and 8 tasks.",
+      "passWhen": "Use modular inverses only when valid."
+    },
+    {
+      "id": 40,
+      "slug": "dsa-w40",
+      "title": "Advanced tree / graph enrichment",
+      "weeks": "40",
+      "coverage": "Advanced tree / graph enrichment",
+      "resourceIds": [
+        "D-CPALG",
+        "D-USACO",
+        "D-CSES"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Implement LCA + tree query lab.",
+      "passWhen": "Explain logarithmic lifting and preprocessing."
+    },
+    {
+      "id": 41,
+      "slug": "dsa-w41",
+      "title": "Competitive programming workflow",
+      "weeks": "41",
+      "coverage": "Competitive programming workflow",
+      "resourceIds": [
+        "D-CF",
+        "D-USACO",
+        "D-CSES"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Join a public practice contest / virtual contest.",
+      "passWhen": "Improve time management and test coverage."
+    },
+    {
+      "id": 42,
+      "slug": "dsa-w42",
+      "title": "Algorithm mastery diagnostic",
+      "weeks": "42",
+      "coverage": "Algorithm mastery diagnostic",
+      "resourceIds": [
+        "D-LC150",
+        "D-NEET150",
+        "D-CSES"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Complete stretch problem and architecture recap.",
+      "passWhen": "Meet pacing and communication goals before placement phase."
+    },
+    {
+      "id": 43,
+      "slug": "dsa-w43",
+      "title": "Coding assessment execution",
+      "weeks": "43",
+      "coverage": "Coding assessment execution",
+      "resourceIds": [
+        "I-MS",
+        "I-AMAZON-TOPICS",
+        "D-LC150"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: 3-hour mock OA plus review + 2 CS quizzes.",
+      "passWhen": "Solve under timer without unauthorized assistance."
+    },
+    {
+      "id": 44,
+      "slug": "dsa-w44",
+      "title": "Interview patterns I",
+      "weeks": "44",
+      "coverage": "Interview patterns I",
+      "resourceIds": [
+        "D-NEET150",
+        "D-LC150",
+        "I-MS"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: 2 coding interviews + 1 peer review.",
+      "passWhen": "Show brute force to optimized progression."
+    },
+    {
+      "id": 45,
+      "slug": "dsa-w45",
+      "title": "Interview patterns II",
+      "weeks": "45",
+      "coverage": "Interview patterns II",
+      "resourceIds": [
+        "D-NEET150",
+        "D-LC150",
+        "I-MS"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: 2 interviewer-style mocks + behavioral story.",
+      "passWhen": "No pattern keyword hints needed."
+    },
+    {
+      "id": 46,
+      "slug": "dsa-w46",
+      "title": "Core CS + OOP + project evidence",
+      "weeks": "46",
+      "coverage": "Core CS + OOP + project evidence",
+      "resourceIds": [
+        "I-MS-STUDENT",
+        "I-GOOGLE-JOBS",
+        "L-TOOLS-01"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Build project walk-through and 30 Q CS flashcards.",
+      "passWhen": "Communicate engineering tradeoffs credibly."
+    },
+    {
+      "id": 47,
+      "slug": "dsa-w47",
+      "title": "Role/company-specific preparation",
+      "weeks": "47",
+      "coverage": "Role/company-specific preparation",
+      "resourceIds": [
+        "I-AMAZON",
+        "I-MS",
+        "I-GOOGLE-JOBS"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Conduct 2 role-targeted mock loops and revise resume.",
+      "passWhen": "Source each company claim to official posting or prep page."
+    },
+    {
+      "id": 48,
+      "slug": "dsa-w48",
+      "title": "Final placement-readiness assessment",
+      "weeks": "48",
+      "coverage": "Final placement-readiness assessment",
+      "resourceIds": [
+        "I-MS",
+        "I-AMAZON-TOPICS",
+        "D-LC150"
+      ],
+      "videoIds": [],
+      "build": "Applied lab / mock: Final capstone: multi-round simulated loop and portfolio submission.",
+      "passWhen": "Final gate: independent solution, tests, explanations, ethical record."
+    }
+  ],
+  "weeks": [
+    {
+      "number": 1,
+      "id": "dsa-w01",
+      "title": "C++ setup, first programs & variables",
+      "moduleId": 1,
+      "phase": 1,
+      "focus": "C++ setup, first programs & variables",
+      "resourceIds": [
+        "L-CPP-01"
+      ],
+      "videoIds": [
+        "V-CPP"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Install modern C++ compiler/IDE, compile a hello-world.",
+          "status": "guided_outline",
+          "id": "dsa-w01-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Study types, literals, integer division and overflow.",
+          "status": "guided_outline",
+          "id": "dsa-w01-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Practice input/output, conditionals and booleans.",
+          "status": "guided_outline",
+          "id": "dsa-w01-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Use loops for number and pattern printing.",
+          "status": "guided_outline",
+          "id": "dsa-w01-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Debug five broken programs; test edge inputs.",
+          "status": "guided_outline",
+          "id": "dsa-w01-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Build CLI grade calculator + 8 warmups.",
+          "status": "guided_outline",
+          "id": "dsa-w01-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Build CLI grade calculator + 8 warmups.",
+      "checkpoint": "Explain compilation, input handling, loop invariant basics.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 2,
+      "id": "dsa-w02",
+      "title": "C++ functions, strings, vectors",
+      "moduleId": 2,
+      "phase": 1,
+      "focus": "C++ functions, strings, vectors",
+      "resourceIds": [
+        "L-CPP-01"
+      ],
+      "videoIds": [
+        "V-CPP"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Functions, value/reference parameters and scope.",
+          "status": "guided_outline",
+          "id": "dsa-w02-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "std::string indexing, substrings, conversions.",
+          "status": "guided_outline",
+          "id": "dsa-w02-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "C-style array vs std::array vs vector.",
+          "status": "guided_outline",
+          "id": "dsa-w02-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Nested loops, 2D vectors and iteration.",
+          "status": "guided_outline",
+          "id": "dsa-w02-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Solve palindrome, frequency and matrix tasks.",
+          "status": "guided_outline",
+          "id": "dsa-w02-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Build a text analyzer using vector/string and tests.",
+          "status": "guided_outline",
+          "id": "dsa-w02-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Build a text analyzer using vector/string and tests.",
+      "checkpoint": "Use vector and function signatures from memory.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 3,
+      "id": "dsa-w03",
+      "title": "C++ memory, pointers, STL",
+      "moduleId": 3,
+      "phase": 1,
+      "focus": "C++ memory, pointers, STL",
+      "resourceIds": [
+        "L-CPP-02",
+        "L-CPP-04",
+        "L-CPP-05"
+      ],
+      "videoIds": [
+        "V-CPP"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "References, const, pointer basics, lifetime.",
+          "status": "guided_outline",
+          "id": "dsa-w03-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Classes/structs, constructors, RAII principles.",
+          "status": "guided_outline",
+          "id": "dsa-w03-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "STL vector/deque/pair and iterator basics.",
+          "status": "guided_outline",
+          "id": "dsa-w03-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "map/unordered_map/set/multiset; comparison.",
+          "status": "guided_outline",
+          "id": "dsa-w03-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "priority_queue/stack/queue; complexity lookup.",
+          "status": "guided_outline",
+          "id": "dsa-w03-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Create STL cookbook with ten tiny examples.",
+          "status": "guided_outline",
+          "id": "dsa-w03-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Create STL cookbook with ten tiny examples.",
+      "checkpoint": "Choose correct container and identify iterator invalidation.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 4,
+      "id": "dsa-w04",
+      "title": "C++ modern patterns, recursion & tooling",
+      "moduleId": 4,
+      "phase": 1,
+      "focus": "C++ modern patterns, recursion & tooling",
+      "resourceIds": [
+        "L-CPP-01",
+        "L-CPP-03",
+        "L-TOOLS-01"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Recursive function calls and base cases.",
+          "status": "guided_outline",
+          "id": "dsa-w04-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Pass-by-reference, copies, const correctness.",
+          "status": "guided_outline",
+          "id": "dsa-w04-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Lambdas, custom comparators, stable vs unstable sorting.",
+          "status": "guided_outline",
+          "id": "dsa-w04-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Complexity of STL operations, bounds and heap API.",
+          "status": "guided_outline",
+          "id": "dsa-w04-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Git, debugging, sanitizers and unit smoke tests.",
+          "status": "guided_outline",
+          "id": "dsa-w04-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Build C++ problem-solving starter kit and 12 warmups.",
+          "status": "guided_outline",
+          "id": "dsa-w04-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Build C++ problem-solving starter kit and 12 warmups.",
+      "checkpoint": "Explain integer overflow, O() and recursion stack.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 5,
+      "id": "dsa-w05",
+      "title": "Java language bridge",
+      "moduleId": 5,
+      "phase": 1,
+      "focus": "Java language bridge",
+      "resourceIds": [
+        "L-JAVA-01"
+      ],
+      "videoIds": [
+        "V-JAVA"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Install JDK and run Java class; primitives and I/O.",
+          "status": "guided_outline",
+          "id": "dsa-w05-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Conditions, loops, methods, arrays.",
+          "status": "guided_outline",
+          "id": "dsa-w05-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Classes/objects and ArrayList, generics.",
+          "status": "guided_outline",
+          "id": "dsa-w05-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "HashMap, HashSet, ArrayDeque, PriorityQueue.",
+          "status": "guided_outline",
+          "id": "dsa-w05-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Comparator, StringBuilder, int/long overflow.",
+          "status": "guided_outline",
+          "id": "dsa-w05-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Port 5 C++ exercises into Java, compare complexities.",
+          "status": "guided_outline",
+          "id": "dsa-w05-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Port 5 C++ exercises into Java, compare complexities.",
+      "checkpoint": "Explain Java collections vs STL analogues.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 6,
+      "id": "dsa-w06",
+      "title": "Python language bridge & language assessment",
+      "moduleId": 6,
+      "phase": 1,
+      "focus": "Python language bridge & language assessment",
+      "resourceIds": [
+        "L-PY-01",
+        "L-PY-02",
+        "L-PY-03"
+      ],
+      "videoIds": [
+        "V-PY"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Python setup, list/tuple/dict/set syntax.",
+          "status": "guided_outline",
+          "id": "dsa-w06-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Functions, comprehensions and recursion.",
+          "status": "guided_outline",
+          "id": "dsa-w06-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "deque, Counter, defaultdict, heapq.",
+          "status": "guided_outline",
+          "id": "dsa-w06-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "bisect, sort keys and input parsing.",
+          "status": "guided_outline",
+          "id": "dsa-w06-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Compare code complexity and memory across languages.",
+          "status": "guided_outline",
+          "id": "dsa-w06-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Port 5 C++ solutions into Python and complete language exam.",
+          "status": "guided_outline",
+          "id": "dsa-w06-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Port 5 C++ solutions into Python and complete language exam.",
+      "checkpoint": "Pick primary C++ and demonstrate alternate-language basics.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 7,
+      "id": "dsa-w07",
+      "title": "Complexity, proofs & input bounds",
+      "moduleId": 7,
+      "phase": 2,
+      "focus": "Complexity, proofs & input bounds",
+      "resourceIds": [
+        "D-MIT",
+        "D-STRIVER"
+      ],
+      "videoIds": [
+        "V-FISET"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Big-O, Theta, Omega and growth plots.",
+          "status": "guided_outline",
+          "id": "dsa-w07-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Nested loops, logarithms and amortized complexity.",
+          "status": "guided_outline",
+          "id": "dsa-w07-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Worst/average cases, memory and call stack.",
+          "status": "guided_outline",
+          "id": "dsa-w07-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Loop invariants, correctness proofs by induction.",
+          "status": "guided_outline",
+          "id": "dsa-w07-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Estimate allowable complexity from input constraints.",
+          "status": "guided_outline",
+          "id": "dsa-w07-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Build benchmarking lab for linear vs quadratic vs nlogn.",
+          "status": "guided_outline",
+          "id": "dsa-w07-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Build benchmarking lab for linear vs quadratic vs nlogn.",
+      "checkpoint": "Derive and justify time/space for 10 snippets.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 8,
+      "id": "dsa-w08",
+      "title": "Arrays and basic hashing",
+      "moduleId": 8,
+      "phase": 2,
+      "focus": "Arrays and basic hashing",
+      "resourceIds": [
+        "D-STRIVER",
+        "D-CSES",
+        "D-NEET150"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Static/dynamic arrays and in-place operations.",
+          "status": "guided_outline",
+          "id": "dsa-w08-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Frequency counting with vectors and maps.",
+          "status": "guided_outline",
+          "id": "dsa-w08-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Prefix/suffix sums and difference arrays basics.",
+          "status": "guided_outline",
+          "id": "dsa-w08-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Duplicate detection and Two Sum variants.",
+          "status": "guided_outline",
+          "id": "dsa-w08-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Sliding sum and min/max patterns.",
+          "status": "guided_outline",
+          "id": "dsa-w08-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Solve 12 array/hashing tasks, document tradeoffs.",
+          "status": "guided_outline",
+          "id": "dsa-w08-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Solve 12 array/hashing tasks, document tradeoffs.",
+      "checkpoint": "Implement prefix sums without hints.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 9,
+      "id": "dsa-w09",
+      "title": "Sorting and comparator design",
+      "moduleId": 9,
+      "phase": 2,
+      "focus": "Sorting and comparator design",
+      "resourceIds": [
+        "D-MIT-NOTES",
+        "D-STRIVER",
+        "D-VIS"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Selection, insertion, bubble conceptual comparison.",
+          "status": "guided_outline",
+          "id": "dsa-w09-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Merge sort implementation and stability.",
+          "status": "guided_outline",
+          "id": "dsa-w09-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Quick sort partition, recursion and worst case.",
+          "status": "guided_outline",
+          "id": "dsa-w09-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Counting/radix basics and std::sort comparator.",
+          "status": "guided_outline",
+          "id": "dsa-w09-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Test duplicates, negatives, nearly sorted inputs.",
+          "status": "guided_outline",
+          "id": "dsa-w09-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Implement merge sort, quick sort and benchmark.",
+          "status": "guided_outline",
+          "id": "dsa-w09-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Implement merge sort, quick sort and benchmark.",
+      "checkpoint": "Explain O(nlogn), stable vs unstable, partition invariant.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 10,
+      "id": "dsa-w10",
+      "title": "Binary search mastery",
+      "moduleId": 10,
+      "phase": 2,
+      "focus": "Binary search mastery",
+      "resourceIds": [
+        "D-STRIVER",
+        "D-NEET150",
+        "D-USACO"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Classic binary search boundaries and invariants.",
+          "status": "guided_outline",
+          "id": "dsa-w10-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "lower_bound/upper_bound, first/last occurrence.",
+          "status": "guided_outline",
+          "id": "dsa-w10-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Rotated sorted arrays and peaks.",
+          "status": "guided_outline",
+          "id": "dsa-w10-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Binary search on answer/feasibility predicate.",
+          "status": "guided_outline",
+          "id": "dsa-w10-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Floating point binary search caveats.",
+          "status": "guided_outline",
+          "id": "dsa-w10-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Solve 10 binary-search cases including parametric search.",
+          "status": "guided_outline",
+          "id": "dsa-w10-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Solve 10 binary-search cases including parametric search.",
+      "checkpoint": "State monotonic predicate and prevent infinite loops.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 11,
+      "id": "dsa-w11",
+      "title": "Strings, character counts and KMP intro",
+      "moduleId": 11,
+      "phase": 2,
+      "focus": "Strings, character counts and KMP intro",
+      "resourceIds": [
+        "D-STRIVER",
+        "D-CPALG",
+        "D-NEET150"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Character encodings and C++ string functions.",
+          "status": "guided_outline",
+          "id": "dsa-w11-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Anagram, frequency, palindrome algorithms.",
+          "status": "guided_outline",
+          "id": "dsa-w11-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Naive pattern matching, prefix-function intuition.",
+          "status": "guided_outline",
+          "id": "dsa-w11-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "KMP prefix-function implementation and tests.",
+          "status": "guided_outline",
+          "id": "dsa-w11-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "String hashing as optional concept, collision caution.",
+          "status": "guided_outline",
+          "id": "dsa-w11-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Build string matcher, compare naive and KMP.",
+          "status": "guided_outline",
+          "id": "dsa-w11-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Build string matcher, compare naive and KMP.",
+      "checkpoint": "Explain KMP prefix fallback with one dry run.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 12,
+      "id": "dsa-w12",
+      "title": "Math, bits and foundation checkpoint",
+      "moduleId": 12,
+      "phase": 2,
+      "focus": "Math, bits and foundation checkpoint",
+      "resourceIds": [
+        "D-CSES",
+        "D-STRIVER",
+        "D-CPALG"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "GCD/LCM, Euclid and sieve fundamentals.",
+          "status": "guided_outline",
+          "id": "dsa-w12-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Modular arithmetic and fast exponentiation.",
+          "status": "guided_outline",
+          "id": "dsa-w12-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Bitwise ops, shifts, XOR tricks and masks.",
+          "status": "guided_outline",
+          "id": "dsa-w12-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Counting, divisibility, primes and overflow.",
+          "status": "guided_outline",
+          "id": "dsa-w12-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Mixed timed practice and review weak topics.",
+          "status": "guided_outline",
+          "id": "dsa-w12-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Complete 90-minute fundamentals mock + 10 tasks.",
+          "status": "guided_outline",
+          "id": "dsa-w12-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Complete 90-minute fundamentals mock + 10 tasks.",
+      "checkpoint": "Pass foundation gate: arrays, sorting, binary search, complexity.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 13,
+      "id": "dsa-w13",
+      "title": "Two pointers",
+      "moduleId": 13,
+      "phase": 3,
+      "focus": "Two pointers",
+      "resourceIds": [
+        "D-NEET150",
+        "D-LC75"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Opposite-direction pair sum and sorted arrays.",
+          "status": "guided_outline",
+          "id": "dsa-w13-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Fast/slow pointers and cycle detection intuition.",
+          "status": "guided_outline",
+          "id": "dsa-w13-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Deduplication and partitioning.",
+          "status": "guided_outline",
+          "id": "dsa-w13-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Container area and 3Sum reasoning.",
+          "status": "guided_outline",
+          "id": "dsa-w13-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Solve 5 mixed two-pointer problems.",
+          "status": "guided_outline",
+          "id": "dsa-w13-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Timed medium set + dry-run edge cases.",
+          "status": "guided_outline",
+          "id": "dsa-w13-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Timed medium set + dry-run edge cases.",
+      "checkpoint": "Choose pointer motion invariant correctly.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 14,
+      "id": "dsa-w14",
+      "title": "Sliding windows",
+      "moduleId": 14,
+      "phase": 3,
+      "focus": "Sliding windows",
+      "resourceIds": [
+        "D-NEET150",
+        "D-STRIVER"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Fixed-size windows and O(n) reuse.",
+          "status": "guided_outline",
+          "id": "dsa-w14-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Variable windows with counts/maps.",
+          "status": "guided_outline",
+          "id": "dsa-w14-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Longest unique substring problems.",
+          "status": "guided_outline",
+          "id": "dsa-w14-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "At most K vs exactly K transformations.",
+          "status": "guided_outline",
+          "id": "dsa-w14-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Minimum window and negative-number caveats.",
+          "status": "guided_outline",
+          "id": "dsa-w14-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Solve 8 windows and compare O(n) vs O(n²).",
+          "status": "guided_outline",
+          "id": "dsa-w14-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Solve 8 windows and compare O(n) vs O(n²).",
+      "checkpoint": "Derive window validity and shrinking rule.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 15,
+      "id": "dsa-w15",
+      "title": "Prefix sums, maps and subarray patterns",
+      "moduleId": 15,
+      "phase": 3,
+      "focus": "Prefix sums, maps and subarray patterns",
+      "resourceIds": [
+        "D-STRIVER",
+        "D-CSES"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "One-dimensional and 2D prefix sums.",
+          "status": "guided_outline",
+          "id": "dsa-w15-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Subarray sum = K using hash counts.",
+          "status": "guided_outline",
+          "id": "dsa-w15-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Difference arrays and range updates.",
+          "status": "guided_outline",
+          "id": "dsa-w15-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Modulo prefix and divisibility cases.",
+          "status": "guided_outline",
+          "id": "dsa-w15-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Kadane algorithm and negative-only arrays.",
+          "status": "guided_outline",
+          "id": "dsa-w15-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Build subarray pattern notebook and 8 problems.",
+          "status": "guided_outline",
+          "id": "dsa-w15-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Build subarray pattern notebook and 8 problems.",
+      "checkpoint": "Explain when two pointers fails and prefix hash works.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 16,
+      "id": "dsa-w16",
+      "title": "Recursion and backtracking",
+      "moduleId": 16,
+      "phase": 3,
+      "focus": "Recursion and backtracking",
+      "resourceIds": [
+        "D-NEET150",
+        "D-STRIVER",
+        "D-USACO"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Recursion trees, frames and pruning.",
+          "status": "guided_outline",
+          "id": "dsa-w16-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Subsets and permutations.",
+          "status": "guided_outline",
+          "id": "dsa-w16-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Combination sum with deduplication.",
+          "status": "guided_outline",
+          "id": "dsa-w16-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "N-Queens, constraint checking.",
+          "status": "guided_outline",
+          "id": "dsa-w16-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Grid word search and restoration of state.",
+          "status": "guided_outline",
+          "id": "dsa-w16-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Implement generic backtracking templates and 6 tasks.",
+          "status": "guided_outline",
+          "id": "dsa-w16-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Implement generic backtracking templates and 6 tasks.",
+      "checkpoint": "Explain pruning, duplicate avoidance and recursion space.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 17,
+      "id": "dsa-w17",
+      "title": "Linked lists from scratch",
+      "moduleId": 17,
+      "phase": 3,
+      "focus": "Linked lists from scratch",
+      "resourceIds": [
+        "D-STRIVER"
+      ],
+      "videoIds": [
+        "V-FISET"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Singly list, node ownership and traversals.",
+          "status": "guided_outline",
+          "id": "dsa-w17-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Insert, delete, reverse and dummy node.",
+          "status": "guided_outline",
+          "id": "dsa-w17-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Cycle detection, midpoint and merge.",
+          "status": "guided_outline",
+          "id": "dsa-w17-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Two-list merge and k-group/reversal variants.",
+          "status": "guided_outline",
+          "id": "dsa-w17-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Doubly list, LRU design intro.",
+          "status": "guided_outline",
+          "id": "dsa-w17-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Implement linked list toolkit and tests.",
+          "status": "guided_outline",
+          "id": "dsa-w17-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Implement linked list toolkit and tests.",
+      "checkpoint": "Handle null, one-node, cycles and memory cleanup.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 18,
+      "id": "dsa-w18",
+      "title": "Stacks and queues + mixed checkpoint",
+      "moduleId": 18,
+      "phase": 3,
+      "focus": "Stacks and queues + mixed checkpoint",
+      "resourceIds": [
+        "D-NEET150",
+        "D-STRIVER"
+      ],
+      "videoIds": [
+        "V-FISET"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Stack, queue and deque abstraction.",
+          "status": "guided_outline",
+          "id": "dsa-w18-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Balanced brackets, next greater via stack.",
+          "status": "guided_outline",
+          "id": "dsa-w18-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Monotonic stack / daily temperatures.",
+          "status": "guided_outline",
+          "id": "dsa-w18-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Monotonic deque / sliding window max.",
+          "status": "guided_outline",
+          "id": "dsa-w18-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Expression parsing, postfix and evaluation.",
+          "status": "guided_outline",
+          "id": "dsa-w18-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Mixed 90-minute patterns mock and queue mini-lab.",
+          "status": "guided_outline",
+          "id": "dsa-w18-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Mixed 90-minute patterns mock and queue mini-lab.",
+      "checkpoint": "Recognize stack vs deque, derive amortized bound.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 19,
+      "id": "dsa-w19",
+      "title": "Binary trees I",
+      "moduleId": 19,
+      "phase": 4,
+      "focus": "Binary trees I",
+      "resourceIds": [
+        "D-STRIVER",
+        "D-NEET150",
+        "D-MIT"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Node representation; DFS traversals recursive.",
+          "status": "guided_outline",
+          "id": "dsa-w19-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Iterative preorder/inorder/postorder.",
+          "status": "guided_outline",
+          "id": "dsa-w19-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Level-order BFS, depth/height.",
+          "status": "guided_outline",
+          "id": "dsa-w19-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Diameter and balanced tree checks.",
+          "status": "guided_outline",
+          "id": "dsa-w19-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Same/symmetric/subtree problems.",
+          "status": "guided_outline",
+          "id": "dsa-w19-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Implement traversal visualizer data + 8 tree tasks.",
+          "status": "guided_outline",
+          "id": "dsa-w19-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Implement traversal visualizer data + 8 tree tasks.",
+      "checkpoint": "Explain DFS recursion and level-order space.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 20,
+      "id": "dsa-w20",
+      "title": "Binary trees II",
+      "moduleId": 20,
+      "phase": 4,
+      "focus": "Binary trees II",
+      "resourceIds": [
+        "D-STRIVER",
+        "D-NEET150"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Lowest common ancestor patterns.",
+          "status": "guided_outline",
+          "id": "dsa-w20-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Path sum, root-to-leaf variants.",
+          "status": "guided_outline",
+          "id": "dsa-w20-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Tree construction from traversal arrays.",
+          "status": "guided_outline",
+          "id": "dsa-w20-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Serialize/deserialize trees.",
+          "status": "guided_outline",
+          "id": "dsa-w20-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Views, boundary, vertical-order traversal.",
+          "status": "guided_outline",
+          "id": "dsa-w20-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Implement tree codec and timed tree mock.",
+          "status": "guided_outline",
+          "id": "dsa-w20-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Implement tree codec and timed tree mock.",
+      "checkpoint": "Derive tree recursion state and avoid quadratic recomputation.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 21,
+      "id": "dsa-w21",
+      "title": "Binary search trees & balancing",
+      "moduleId": 21,
+      "phase": 4,
+      "focus": "Binary search trees & balancing",
+      "resourceIds": [
+        "D-MIT-NOTES",
+        "L-CPP-02"
+      ],
+      "videoIds": [
+        "V-FISET"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "BST invariant, search, insert and delete.",
+          "status": "guided_outline",
+          "id": "dsa-w21-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Validate BST and kth smallest.",
+          "status": "guided_outline",
+          "id": "dsa-w21-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Successor/predecessor and bounds.",
+          "status": "guided_outline",
+          "id": "dsa-w21-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Ordered sets/maps and balanced BST overview.",
+          "status": "guided_outline",
+          "id": "dsa-w21-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "AVL/RB rotation intuition, no reinventing every library.",
+          "status": "guided_outline",
+          "id": "dsa-w21-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Implement BST and compare against std::set.",
+          "status": "guided_outline",
+          "id": "dsa-w21-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Implement BST and compare against std::set.",
+      "checkpoint": "Explain BST worst-case vs balanced complexity.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 22,
+      "id": "dsa-w22",
+      "title": "Heaps and priority queues",
+      "moduleId": 22,
+      "phase": 4,
+      "focus": "Heaps and priority queues",
+      "resourceIds": [
+        "D-NEET150",
+        "L-CPP-05"
+      ],
+      "videoIds": [
+        "V-FISET"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Binary heap array representation.",
+          "status": "guided_outline",
+          "id": "dsa-w22-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Build heap and heapify operations.",
+          "status": "guided_outline",
+          "id": "dsa-w22-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Kth largest and top-K frequent.",
+          "status": "guided_outline",
+          "id": "dsa-w22-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Merge K sorted lists and heap merging.",
+          "status": "guided_outline",
+          "id": "dsa-w22-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Two-heaps median and interval scheduling prep.",
+          "status": "guided_outline",
+          "id": "dsa-w22-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Build min/max heap from scratch, solve 8 tasks.",
+          "status": "guided_outline",
+          "id": "dsa-w22-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Build min/max heap from scratch, solve 8 tasks.",
+      "checkpoint": "Choose heap correctly, compare O(log n) operations.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 23,
+      "id": "dsa-w23",
+      "title": "Hash tables and design tasks",
+      "moduleId": 23,
+      "phase": 4,
+      "focus": "Hash tables and design tasks",
+      "resourceIds": [
+        "D-NEET150",
+        "L-CPP-04"
+      ],
+      "videoIds": [
+        "V-FISET"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Hashing, load factor, collisions and rehash.",
+          "status": "guided_outline",
+          "id": "dsa-w23-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Implement chaining hash table basic.",
+          "status": "guided_outline",
+          "id": "dsa-w23-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Frequency tables, grouping, deduplication.",
+          "status": "guided_outline",
+          "id": "dsa-w23-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "LRU cache: hash + doubly list.",
+          "status": "guided_outline",
+          "id": "dsa-w23-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Time/space profiling and pathological collisions.",
+          "status": "guided_outline",
+          "id": "dsa-w23-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Implement LRU cache and check O(1) average operations.",
+          "status": "guided_outline",
+          "id": "dsa-w23-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Implement LRU cache and check O(1) average operations.",
+      "checkpoint": "Explain collision resolution and ownership.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 24,
+      "id": "dsa-w24",
+      "title": "Tries and core-DS assessment",
+      "moduleId": 24,
+      "phase": 4,
+      "focus": "Tries and core-DS assessment",
+      "resourceIds": [
+        "D-NEET150",
+        "D-STRIVER",
+        "D-CPALG"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Trie insert, find and prefix lookup.",
+          "status": "guided_outline",
+          "id": "dsa-w24-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Trie delete and memory model.",
+          "status": "guided_outline",
+          "id": "dsa-w24-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Word dictionary wildcard search.",
+          "status": "guided_outline",
+          "id": "dsa-w24-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Word search II and pruning.",
+          "status": "guided_outline",
+          "id": "dsa-w24-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Autocomplete prefix scoring design.",
+          "status": "guided_outline",
+          "id": "dsa-w24-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Build autocomplete trie + 90-minute DS mock.",
+          "status": "guided_outline",
+          "id": "dsa-w24-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Build autocomplete trie + 90-minute DS mock.",
+      "checkpoint": "Implement trie from memory, state complexity clearly.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 25,
+      "id": "dsa-w25",
+      "title": "Graphs representation and traversal",
+      "moduleId": 25,
+      "phase": 5,
+      "focus": "Graphs representation and traversal",
+      "resourceIds": [
+        "D-MIT-VIDEOS",
+        "D-CSES",
+        "D-NEET150"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Graph types, adjacency list vs matrix.",
+          "status": "guided_outline",
+          "id": "dsa-w25-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "BFS shortest paths in unweighted graphs.",
+          "status": "guided_outline",
+          "id": "dsa-w25-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "DFS connectivity and components.",
+          "status": "guided_outline",
+          "id": "dsa-w25-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Grid BFS/DFS, flood fill and island counts.",
+          "status": "guided_outline",
+          "id": "dsa-w25-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Bipartite check using coloring.",
+          "status": "guided_outline",
+          "id": "dsa-w25-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Implement graph toolkit and solve 10 traversal tasks.",
+          "status": "guided_outline",
+          "id": "dsa-w25-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Implement graph toolkit and solve 10 traversal tasks.",
+      "checkpoint": "Explain visited marking and O(V+E).",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 26,
+      "id": "dsa-w26",
+      "title": "Directed graphs and topological ordering",
+      "moduleId": 26,
+      "phase": 5,
+      "focus": "Directed graphs and topological ordering",
+      "resourceIds": [
+        "D-MIT-NOTES",
+        "D-CPALG",
+        "D-NEET150"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Cycle detection undirected via DFS/DSU.",
+          "status": "guided_outline",
+          "id": "dsa-w26-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Directed cycle detection recursion colors.",
+          "status": "guided_outline",
+          "id": "dsa-w26-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Kahn algorithm and indegrees.",
+          "status": "guided_outline",
+          "id": "dsa-w26-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "DFS topological ordering and validation.",
+          "status": "guided_outline",
+          "id": "dsa-w26-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Course schedule and dependency planning.",
+          "status": "guided_outline",
+          "id": "dsa-w26-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Build dependency scheduler; test cycles.",
+          "status": "guided_outline",
+          "id": "dsa-w26-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Build dependency scheduler; test cycles.",
+      "checkpoint": "Prove topo exists iff DAG.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 27,
+      "id": "dsa-w27",
+      "title": "Shortest paths",
+      "moduleId": 27,
+      "phase": 5,
+      "focus": "Shortest paths",
+      "resourceIds": [
+        "D-MIT-VIDEOS",
+        "D-CPALG",
+        "D-CSES"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Dijkstra with heap; nonnegative weights.",
+          "status": "guided_outline",
+          "id": "dsa-w27-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Bellman-Ford and negative cycles.",
+          "status": "guided_outline",
+          "id": "dsa-w27-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "0-1 BFS and edge-weight constraints.",
+          "status": "guided_outline",
+          "id": "dsa-w27-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Floyd–Warshall all-pairs and memory.",
+          "status": "guided_outline",
+          "id": "dsa-w27-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Choose proper algorithm for constraints.",
+          "status": "guided_outline",
+          "id": "dsa-w27-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Implement 3 shortest-path solvers and compare.",
+          "status": "guided_outline",
+          "id": "dsa-w27-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Implement 3 shortest-path solvers and compare.",
+      "checkpoint": "Know negative-weight limitations of Dijkstra.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 28,
+      "id": "dsa-w28",
+      "title": "MST and disjoint sets",
+      "moduleId": 28,
+      "phase": 5,
+      "focus": "MST and disjoint sets",
+      "resourceIds": [
+        "D-CPALG",
+        "D-USACO"
+      ],
+      "videoIds": [
+        "V-FISET"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "DSU parent, rank/size, path compression.",
+          "status": "guided_outline",
+          "id": "dsa-w28-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Kruskal and edge sorting.",
+          "status": "guided_outline",
+          "id": "dsa-w28-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Prim with heap and disconnected graphs.",
+          "status": "guided_outline",
+          "id": "dsa-w28-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Cycle detection, islands with DSU.",
+          "status": "guided_outline",
+          "id": "dsa-w28-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Dynamic connectivity conceptual problems.",
+          "status": "guided_outline",
+          "id": "dsa-w28-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Build network cost optimizer + 8 graph questions.",
+          "status": "guided_outline",
+          "id": "dsa-w28-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Build network cost optimizer + 8 graph questions.",
+      "checkpoint": "Explain MST cut intuition and DSU amortized cost.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 29,
+      "id": "dsa-w29",
+      "title": "Advanced graph patterns",
+      "moduleId": 29,
+      "phase": 5,
+      "focus": "Advanced graph patterns",
+      "resourceIds": [
+        "D-CSES",
+        "D-CPALG",
+        "D-USACO"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Multi-source BFS and state graph modeling.",
+          "status": "guided_outline",
+          "id": "dsa-w29-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Graph state BFS (keys, distance, grid).",
+          "status": "guided_outline",
+          "id": "dsa-w29-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Bridges/articulation points low-link intuition.",
+          "status": "guided_outline",
+          "id": "dsa-w29-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "SCC Kosaraju/Tarjan basics.",
+          "status": "guided_outline",
+          "id": "dsa-w29-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Eulerian paths and optional network flow intro.",
+          "status": "guided_outline",
+          "id": "dsa-w29-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Solve 8 intermediate graph pattern tasks.",
+          "status": "guided_outline",
+          "id": "dsa-w29-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Solve 8 intermediate graph pattern tasks.",
+      "checkpoint": "Know when state graph needs extra dimension.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 30,
+      "id": "dsa-w30",
+      "title": "Graph assessment and contest",
+      "moduleId": 30,
+      "phase": 5,
+      "focus": "Graph assessment and contest",
+      "resourceIds": [
+        "D-CSES",
+        "D-MIT",
+        "D-USACO"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Revisit BFS/DFS/toposort without notes.",
+          "status": "guided_outline",
+          "id": "dsa-w30-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Revisit shortest paths and DSU.",
+          "status": "guided_outline",
+          "id": "dsa-w30-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Proofs: cycles, reachable components, shortest paths.",
+          "status": "guided_outline",
+          "id": "dsa-w30-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Practice 2 medium + 1 hard graph problems.",
+          "status": "guided_outline",
+          "id": "dsa-w30-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Timed graph mock, compare optimized solutions.",
+          "status": "guided_outline",
+          "id": "dsa-w30-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Complete 2.5h graph contest + postmortem.",
+          "status": "guided_outline",
+          "id": "dsa-w30-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Complete 2.5h graph contest + postmortem.",
+      "checkpoint": "Pass graph gate, explain memory and weighted edges.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 31,
+      "id": "dsa-w31",
+      "title": "Greedy and interval techniques",
+      "moduleId": 31,
+      "phase": 6,
+      "focus": "Greedy and interval techniques",
+      "resourceIds": [
+        "D-STRIVER",
+        "D-NEET150",
+        "D-USACO"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Greedy proof by exchange argument.",
+          "status": "guided_outline",
+          "id": "dsa-w31-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Activity selection and interval merging.",
+          "status": "guided_outline",
+          "id": "dsa-w31-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Jump Game and reachability.",
+          "status": "guided_outline",
+          "id": "dsa-w31-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Gas station, partitioning and heaps.",
+          "status": "guided_outline",
+          "id": "dsa-w31-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Counterexamples to incorrect greedy choices.",
+          "status": "guided_outline",
+          "id": "dsa-w31-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Solve 10 greedy problems + proof write-up.",
+          "status": "guided_outline",
+          "id": "dsa-w31-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Solve 10 greedy problems + proof write-up.",
+      "checkpoint": "Prove or disprove greedy strategy.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 32,
+      "id": "dsa-w32",
+      "title": "Dynamic programming foundation",
+      "moduleId": 32,
+      "phase": 6,
+      "focus": "Dynamic programming foundation",
+      "resourceIds": [
+        "D-MIT-VIDEOS",
+        "D-ATCODER-DP",
+        "D-STRIVER"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Recurrence, overlapping subproblems.",
+          "status": "guided_outline",
+          "id": "dsa-w32-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Memoization to tabulation.",
+          "status": "guided_outline",
+          "id": "dsa-w32-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "1D DP: stairs, house robber.",
+          "status": "guided_outline",
+          "id": "dsa-w32-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "2D DP: grid paths and minimum path sums.",
+          "status": "guided_outline",
+          "id": "dsa-w32-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Space optimization, state definition.",
+          "status": "guided_outline",
+          "id": "dsa-w32-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Solve 8 DP intros; start AtCoder Frog/Vacation.",
+          "status": "guided_outline",
+          "id": "dsa-w32-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Solve 8 DP intros; start AtCoder Frog/Vacation.",
+      "checkpoint": "Explain state, transition, base and iteration order.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 33,
+      "id": "dsa-w33",
+      "title": "Knapsack, coin change and subsequences",
+      "moduleId": 33,
+      "phase": 6,
+      "focus": "Knapsack, coin change and subsequences",
+      "resourceIds": [
+        "D-ATCODER-DP",
+        "D-STRIVER",
+        "D-CPALG"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "0/1 knapsack and dimensions.",
+          "status": "guided_outline",
+          "id": "dsa-w33-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Unbounded knapsack / coin change.",
+          "status": "guided_outline",
+          "id": "dsa-w33-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Subset sum, partition variants.",
+          "status": "guided_outline",
+          "id": "dsa-w33-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "LIS O(n²) and binary-search O(nlogn).",
+          "status": "guided_outline",
+          "id": "dsa-w33-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Target sum and counting formulations.",
+          "status": "guided_outline",
+          "id": "dsa-w33-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Solve AtCoder Knapsack/LCS + 6 equivalents.",
+          "status": "guided_outline",
+          "id": "dsa-w33-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Solve AtCoder Knapsack/LCS + 6 equivalents.",
+      "checkpoint": "Distinguish permutations vs combinations count.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 34,
+      "id": "dsa-w34",
+      "title": "String DP and interval DP",
+      "moduleId": 34,
+      "phase": 6,
+      "focus": "String DP and interval DP",
+      "resourceIds": [
+        "D-MIT-VIDEOS",
+        "D-ATCODER-DP"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "LCS and reconstructing solution.",
+          "status": "guided_outline",
+          "id": "dsa-w34-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Edit distance and alignment.",
+          "status": "guided_outline",
+          "id": "dsa-w34-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Palindrome substring vs subsequence.",
+          "status": "guided_outline",
+          "id": "dsa-w34-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Interval DP: matrix chain and burst balloons.",
+          "status": "guided_outline",
+          "id": "dsa-w34-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "DP state compression and boundary pitfalls.",
+          "status": "guided_outline",
+          "id": "dsa-w34-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Build DP workbook with state tables and 7 tasks.",
+          "status": "guided_outline",
+          "id": "dsa-w34-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Build DP workbook with state tables and 7 tasks.",
+      "checkpoint": "Reconstruct a DP answer, not only length.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 35,
+      "id": "dsa-w35",
+      "title": "Tree DP, graph DP and bitmask",
+      "moduleId": 35,
+      "phase": 6,
+      "focus": "Tree DP, graph DP and bitmask",
+      "resourceIds": [
+        "D-ATCODER-DP",
+        "D-CPALG",
+        "D-USACO"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Tree take/skip DP and reroot overview.",
+          "status": "guided_outline",
+          "id": "dsa-w35-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "DAG longest path and topological DP.",
+          "status": "guided_outline",
+          "id": "dsa-w35-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Bitmask state representation.",
+          "status": "guided_outline",
+          "id": "dsa-w35-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "TSP subset DP and matching intuition.",
+          "status": "guided_outline",
+          "id": "dsa-w35-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Digit DP optional stretch and optimization.",
+          "status": "guided_outline",
+          "id": "dsa-w35-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Solve 6 advanced DP tasks, classify complexity.",
+          "status": "guided_outline",
+          "id": "dsa-w35-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Solve 6 advanced DP tasks, classify complexity.",
+      "checkpoint": "Identify feasible 2^n constraints and transitions.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 36,
+      "id": "dsa-w36",
+      "title": "Advanced DP exam & recurrence review",
+      "moduleId": 36,
+      "phase": 6,
+      "focus": "Advanced DP exam & recurrence review",
+      "resourceIds": [
+        "D-ATCODER-DP",
+        "D-STRIVER",
+        "D-LC150"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Translate recursion -> memoization -> tabulation.",
+          "status": "guided_outline",
+          "id": "dsa-w36-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Recover decisions and verify base cases.",
+          "status": "guided_outline",
+          "id": "dsa-w36-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Knapsack/LIS/LCS revisit on fresh tasks.",
+          "status": "guided_outline",
+          "id": "dsa-w36-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Review negative cases and optimization correctness.",
+          "status": "guided_outline",
+          "id": "dsa-w36-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Timed DP mock with two medium + one hard.",
+          "status": "guided_outline",
+          "id": "dsa-w36-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Complete 5-hour DP lab and postmortem.",
+          "status": "guided_outline",
+          "id": "dsa-w36-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Complete 5-hour DP lab and postmortem.",
+      "checkpoint": "Pass DP gate by deriving recurrences independently.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 37,
+      "id": "dsa-w37",
+      "title": "Range queries: Fenwick and segment trees",
+      "moduleId": 37,
+      "phase": 7,
+      "focus": "Range queries: Fenwick and segment trees",
+      "resourceIds": [
+        "D-CPALG",
+        "D-CSES"
+      ],
+      "videoIds": [
+        "V-FISET"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Prefix sums vs Fenwick suitability.",
+          "status": "guided_outline",
+          "id": "dsa-w37-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Fenwick point-update prefix-query implementation.",
+          "status": "guided_outline",
+          "id": "dsa-w37-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Segment tree build, point update, range query.",
+          "status": "guided_outline",
+          "id": "dsa-w37-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Lazy propagation intro: range update.",
+          "status": "guided_outline",
+          "id": "dsa-w37-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Comparison with sparse table and constraints.",
+          "status": "guided_outline",
+          "id": "dsa-w37-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Implement both structures with random testing.",
+          "status": "guided_outline",
+          "id": "dsa-w37-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Implement both structures with random testing.",
+      "checkpoint": "Pick DS based on update/query operations.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 38,
+      "id": "dsa-w38",
+      "title": "Advanced strings",
+      "moduleId": 38,
+      "phase": 7,
+      "focus": "Advanced strings",
+      "resourceIds": [
+        "D-CPALG",
+        "D-CSES",
+        "D-STRIVER"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "KMP full implementation and prefix function.",
+          "status": "guided_outline",
+          "id": "dsa-w38-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Z algorithm and substring match.",
+          "status": "guided_outline",
+          "id": "dsa-w38-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Rabin-Karp rolling hash collision awareness.",
+          "status": "guided_outline",
+          "id": "dsa-w38-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Trie, suffix array and LCP concepts.",
+          "status": "guided_outline",
+          "id": "dsa-w38-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Aho-Corasick intro as optional stretch.",
+          "status": "guided_outline",
+          "id": "dsa-w38-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Build multi-algorithm string search lab.",
+          "status": "guided_outline",
+          "id": "dsa-w38-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Build multi-algorithm string search lab.",
+      "checkpoint": "State complexity, hashing collision caveat.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 39,
+      "id": "dsa-w39",
+      "title": "Number theory and combinatorics",
+      "moduleId": 39,
+      "phase": 7,
+      "focus": "Number theory and combinatorics",
+      "resourceIds": [
+        "D-CPALG",
+        "D-CSES",
+        "D-USACO"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Sieve and segmented sieve ideas.",
+          "status": "guided_outline",
+          "id": "dsa-w39-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Mod inverse, Fermat conditions, Euclid.",
+          "status": "guided_outline",
+          "id": "dsa-w39-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "nCr precomputation and modular arithmetic.",
+          "status": "guided_outline",
+          "id": "dsa-w39-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Fast power, factorials and constraints.",
+          "status": "guided_outline",
+          "id": "dsa-w39-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Combinatorics/counting pattern contest.",
+          "status": "guided_outline",
+          "id": "dsa-w39-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Build modular toolkit and 8 tasks.",
+          "status": "guided_outline",
+          "id": "dsa-w39-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Build modular toolkit and 8 tasks.",
+      "checkpoint": "Use modular inverses only when valid.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 40,
+      "id": "dsa-w40",
+      "title": "Advanced tree / graph enrichment",
+      "moduleId": 40,
+      "phase": 7,
+      "focus": "Advanced tree / graph enrichment",
+      "resourceIds": [
+        "D-CPALG",
+        "D-USACO",
+        "D-CSES"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Euler tour, subtree flattening.",
+          "status": "guided_outline",
+          "id": "dsa-w40-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "LCA binary lifting.",
+          "status": "guided_outline",
+          "id": "dsa-w40-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Sparse table and RMQ.",
+          "status": "guided_outline",
+          "id": "dsa-w40-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "SCC review, bridges and articulation.",
+          "status": "guided_outline",
+          "id": "dsa-w40-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Optional network flow and matching basics.",
+          "status": "guided_outline",
+          "id": "dsa-w40-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Implement LCA + tree query lab.",
+          "status": "guided_outline",
+          "id": "dsa-w40-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Implement LCA + tree query lab.",
+      "checkpoint": "Explain logarithmic lifting and preprocessing.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 41,
+      "id": "dsa-w41",
+      "title": "Competitive programming workflow",
+      "moduleId": 41,
+      "phase": 7,
+      "focus": "Competitive programming workflow",
+      "resourceIds": [
+        "D-CF",
+        "D-USACO",
+        "D-CSES"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Learn contest IO speed and safe templates.",
+          "status": "guided_outline",
+          "id": "dsa-w41-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Analyze constraints and choose algorithm.",
+          "status": "guided_outline",
+          "id": "dsa-w41-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Solve mixed A/B/C-style practice.",
+          "status": "guided_outline",
+          "id": "dsa-w41-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Observe editorial after independent attempt.",
+          "status": "guided_outline",
+          "id": "dsa-w41-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "One timed contest; build error log.",
+          "status": "guided_outline",
+          "id": "dsa-w41-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Join a public practice contest / virtual contest.",
+          "status": "guided_outline",
+          "id": "dsa-w41-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Join a public practice contest / virtual contest.",
+      "checkpoint": "Improve time management and test coverage.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 42,
+      "id": "dsa-w42",
+      "title": "Algorithm mastery diagnostic",
+      "moduleId": 42,
+      "phase": 7,
+      "focus": "Algorithm mastery diagnostic",
+      "resourceIds": [
+        "D-LC150",
+        "D-NEET150",
+        "D-CSES"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Mixed easy/medium triage.",
+          "status": "guided_outline",
+          "id": "dsa-w42-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Timed arrays/trees/graphs mock.",
+          "status": "guided_outline",
+          "id": "dsa-w42-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Timed DP/greedy/strings mock.",
+          "status": "guided_outline",
+          "id": "dsa-w42-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Review error log and weak topic microdrills.",
+          "status": "guided_outline",
+          "id": "dsa-w42-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Full 90-minute mixed technical simulation.",
+          "status": "guided_outline",
+          "id": "dsa-w42-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Complete stretch problem and architecture recap.",
+          "status": "guided_outline",
+          "id": "dsa-w42-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Complete stretch problem and architecture recap.",
+      "checkpoint": "Meet pacing and communication goals before placement phase.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 43,
+      "id": "dsa-w43",
+      "title": "Coding assessment execution",
+      "moduleId": 43,
+      "phase": 8,
+      "focus": "Coding assessment execution",
+      "resourceIds": [
+        "I-MS",
+        "I-AMAZON-TOPICS",
+        "D-LC150"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Online assessment structure, proctoring ethics.",
+          "status": "guided_outline",
+          "id": "dsa-w43-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Timed two-question medium mock.",
+          "status": "guided_outline",
+          "id": "dsa-w43-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Debug template failures, test boundaries.",
+          "status": "guided_outline",
+          "id": "dsa-w43-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Complexity and memory under time limits.",
+          "status": "guided_outline",
+          "id": "dsa-w43-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Communicate solution plan verbally.",
+          "status": "guided_outline",
+          "id": "dsa-w43-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: 3-hour mock OA plus review + 2 CS quizzes.",
+          "status": "guided_outline",
+          "id": "dsa-w43-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: 3-hour mock OA plus review + 2 CS quizzes.",
+      "checkpoint": "Solve under timer without unauthorized assistance.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 44,
+      "id": "dsa-w44",
+      "title": "Interview patterns I",
+      "moduleId": 44,
+      "phase": 8,
+      "focus": "Interview patterns I",
+      "resourceIds": [
+        "D-NEET150",
+        "D-LC150",
+        "I-MS"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Arrays/hashing and two pointers rapid review.",
+          "status": "guided_outline",
+          "id": "dsa-w44-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Sliding window and interval patterns.",
+          "status": "guided_outline",
+          "id": "dsa-w44-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Binary search and searching answer.",
+          "status": "guided_outline",
+          "id": "dsa-w44-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Linked list and stack/queue review.",
+          "status": "guided_outline",
+          "id": "dsa-w44-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Live mock: think aloud, test, optimize.",
+          "status": "guided_outline",
+          "id": "dsa-w44-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: 2 coding interviews + 1 peer review.",
+          "status": "guided_outline",
+          "id": "dsa-w44-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: 2 coding interviews + 1 peer review.",
+      "checkpoint": "Show brute force to optimized progression.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 45,
+      "id": "dsa-w45",
+      "title": "Interview patterns II",
+      "moduleId": 45,
+      "phase": 8,
+      "focus": "Interview patterns II",
+      "resourceIds": [
+        "D-NEET150",
+        "D-LC150",
+        "I-MS"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Trees/BST and heaps timed review.",
+          "status": "guided_outline",
+          "id": "dsa-w45-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Graphs BFS/DFS/topo path choices.",
+          "status": "guided_outline",
+          "id": "dsa-w45-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Dynamic programming explanations.",
+          "status": "guided_outline",
+          "id": "dsa-w45-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Backtracking and pruning.",
+          "status": "guided_outline",
+          "id": "dsa-w45-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Mixed interview with ambiguous constraints.",
+          "status": "guided_outline",
+          "id": "dsa-w45-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: 2 interviewer-style mocks + behavioral story.",
+          "status": "guided_outline",
+          "id": "dsa-w45-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: 2 interviewer-style mocks + behavioral story.",
+      "checkpoint": "No pattern keyword hints needed.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 46,
+      "id": "dsa-w46",
+      "title": "Core CS + OOP + project evidence",
+      "moduleId": 46,
+      "phase": 8,
+      "focus": "Core CS + OOP + project evidence",
+      "resourceIds": [
+        "I-MS-STUDENT",
+        "I-GOOGLE-JOBS",
+        "L-TOOLS-01"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "OOP design, SOLID basics relevant to coding.",
+          "status": "guided_outline",
+          "id": "dsa-w46-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "DBMS SQL/joins/index fundamentals.",
+          "status": "guided_outline",
+          "id": "dsa-w46-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "OS processes/threads/memory/deadlocks.",
+          "status": "guided_outline",
+          "id": "dsa-w46-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Networks HTTP/TCP/DNS fundamentals.",
+          "status": "guided_outline",
+          "id": "dsa-w46-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Resume, GitHub, explain a project with tradeoffs.",
+          "status": "guided_outline",
+          "id": "dsa-w46-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Build project walk-through and 30 Q CS flashcards.",
+          "status": "guided_outline",
+          "id": "dsa-w46-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Build project walk-through and 30 Q CS flashcards.",
+      "checkpoint": "Communicate engineering tradeoffs credibly.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 47,
+      "id": "dsa-w47",
+      "title": "Role/company-specific preparation",
+      "moduleId": 47,
+      "phase": 8,
+      "focus": "Role/company-specific preparation",
+      "resourceIds": [
+        "I-AMAZON",
+        "I-MS",
+        "I-GOOGLE-JOBS"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Target role and geography research via official careers.",
+          "status": "guided_outline",
+          "id": "dsa-w47-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Tailor mock to relevant DS topics, not folklore.",
+          "status": "guided_outline",
+          "id": "dsa-w47-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Amazon LP STAR stories / Microsoft testing & design.",
+          "status": "guided_outline",
+          "id": "dsa-w47-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Optional online aptitude / verbal / SQL as posting demands.",
+          "status": "guided_outline",
+          "id": "dsa-w47-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Behavioral + code review mock.",
+          "status": "guided_outline",
+          "id": "dsa-w47-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Conduct 2 role-targeted mock loops and revise resume.",
+          "status": "guided_outline",
+          "id": "dsa-w47-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Conduct 2 role-targeted mock loops and revise resume.",
+      "checkpoint": "Source each company claim to official posting or prep page.",
+      "estimatedMinutes": 900
+    },
+    {
+      "number": 48,
+      "id": "dsa-w48",
+      "title": "Final placement-readiness assessment",
+      "moduleId": 48,
+      "phase": 8,
+      "focus": "Final placement-readiness assessment",
+      "resourceIds": [
+        "I-MS",
+        "I-AMAZON-TOPICS",
+        "D-LC150"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "90-min independent mock OA with reports.",
+          "status": "guided_outline",
+          "id": "dsa-w48-d01"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "45-min interactive DSA interview + tests.",
+          "status": "guided_outline",
+          "id": "dsa-w48-d02"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "45-min second DSA interview, alternate pattern.",
+          "status": "guided_outline",
+          "id": "dsa-w48-d03"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Behavioral round + project discussion.",
+          "status": "guided_outline",
+          "id": "dsa-w48-d04"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Review failure log; make future 8-week plan.",
+          "status": "guided_outline",
+          "id": "dsa-w48-d05"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "Applied lab / mock: Final capstone: multi-round simulated loop and portfolio submission.",
+          "status": "guided_outline",
+          "id": "dsa-w48-d06"
+        }
+      ],
+      "artefact": "Applied lab / mock: Final capstone: multi-round simulated loop and portfolio submission.",
+      "checkpoint": "Final gate: independent solution, tests, explanations, ethical record.",
+      "estimatedMinutes": 900
+    }
+  ],
+  "phases": [
+    {
+      "id": 1,
+      "title": "Programming Languages",
+      "range": "1–6",
+      "weeksStart": 1,
+      "weeksEnd": 6
+    },
+    {
+      "id": 2,
+      "title": "Fundamental DSA",
+      "range": "7–12",
+      "weeksStart": 7,
+      "weeksEnd": 12
+    },
+    {
+      "id": 3,
+      "title": "Interview Patterns I",
+      "range": "13–18",
+      "weeksStart": 13,
+      "weeksEnd": 18
+    },
+    {
+      "id": 4,
+      "title": "Trees and DS Design",
+      "range": "19–24",
+      "weeksStart": 19,
+      "weeksEnd": 24
+    },
+    {
+      "id": 5,
+      "title": "Graphs",
+      "range": "25–30",
+      "weeksStart": 25,
+      "weeksEnd": 30
+    },
+    {
+      "id": 6,
+      "title": "Greedy and Dynamic Programming",
+      "range": "31–36",
+      "weeksStart": 31,
+      "weeksEnd": 36
+    },
+    {
+      "id": 7,
+      "title": "Advanced Algorithms and Contests",
+      "range": "37–42",
+      "weeksStart": 37,
+      "weeksEnd": 42
+    },
+    {
+      "id": 8,
+      "title": "Product-Company Placement Readiness",
+      "range": "43–48",
+      "weeksStart": 43,
+      "weeksEnd": 48
+    }
+  ],
+  "projects": [
+    {
+      "id": "DSA-P01",
+      "title": "Programming Languages independent gate",
+      "weeks": "6",
+      "criteria": "Pick primary C++ and demonstrate alternate-language basics."
+    },
+    {
+      "id": "DSA-P02",
+      "title": "Fundamental DSA independent gate",
+      "weeks": "12",
+      "criteria": "Pass foundation gate: arrays, sorting, binary search, complexity."
+    },
+    {
+      "id": "DSA-P03",
+      "title": "Interview Patterns I independent gate",
+      "weeks": "18",
+      "criteria": "Recognize stack vs deque, derive amortized bound."
+    },
+    {
+      "id": "DSA-P04",
+      "title": "Trees and DS Design independent gate",
+      "weeks": "24",
+      "criteria": "Implement trie from memory, state complexity clearly."
+    },
+    {
+      "id": "DSA-P05",
+      "title": "Graphs independent gate",
+      "weeks": "30",
+      "criteria": "Pass graph gate, explain memory and weighted edges."
+    },
+    {
+      "id": "DSA-P06",
+      "title": "Greedy and Dynamic Programming independent gate",
+      "weeks": "36",
+      "criteria": "Pass DP gate by deriving recurrences independently."
+    },
+    {
+      "id": "DSA-P07",
+      "title": "Advanced Algorithms and Contests independent gate",
+      "weeks": "42",
+      "criteria": "Meet pacing and communication goals before placement phase."
+    },
+    {
+      "id": "DSA-P08",
+      "title": "Product-Company Placement Readiness independent gate",
+      "weeks": "48",
+      "criteria": "Final gate: independent solution, tests, explanations, ethical record."
+    }
+  ],
+  "problems": [
+    {
+      "id": "cses.fi:problemset",
+      "title": "CSES Intro",
+      "url": "https://cses.fi/problemset/",
+      "slug": "problemset",
+      "provider": "cses.fi",
+      "topic": "C++ STL",
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        9,
+        15,
+        27,
+        28,
+        37,
+        38,
+        39,
+        40
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "practice_directory"
+    },
+    {
+      "id": "leetcode.com:two-sum",
+      "title": "Two Sum",
+      "url": "https://leetcode.com/problems/two-sum/",
+      "slug": "two-sum",
+      "provider": "leetcode.com",
+      "topic": "Arrays/hashing",
+      "weeks": [
+        8,
+        15
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:contains-duplicate",
+      "title": "Contains Duplicate",
+      "url": "https://leetcode.com/problems/contains-duplicate/",
+      "slug": "contains-duplicate",
+      "provider": "leetcode.com",
+      "topic": "Arrays/hashing",
+      "weeks": [
+        8,
+        15
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:group-anagrams",
+      "title": "Group Anagrams",
+      "url": "https://leetcode.com/problems/group-anagrams/",
+      "slug": "group-anagrams",
+      "provider": "leetcode.com",
+      "topic": "Arrays/hashing",
+      "weeks": [
+        8,
+        15
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:binary-search",
+      "title": "Binary Search",
+      "url": "https://leetcode.com/problems/binary-search/",
+      "slug": "binary-search",
+      "provider": "leetcode.com",
+      "topic": "Binary search",
+      "weeks": [
+        10
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:search-in-rotated-sorted-array",
+      "title": "Search in Rotated Sorted Array",
+      "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+      "slug": "search-in-rotated-sorted-array",
+      "provider": "leetcode.com",
+      "topic": "Binary search",
+      "weeks": [
+        10
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:valid-anagram",
+      "title": "Valid Anagram",
+      "url": "https://leetcode.com/problems/valid-anagram/",
+      "slug": "valid-anagram",
+      "provider": "leetcode.com",
+      "topic": "Strings",
+      "weeks": [
+        11,
+        38
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:longest-substring-without-repeating-characters",
+      "title": "Longest Substring Without Repeating Characters",
+      "url": "https://leetcode.com/problems/longest-substring-without-repeating-characters/",
+      "slug": "longest-substring-without-repeating-characters",
+      "provider": "leetcode.com",
+      "topic": "Strings",
+      "weeks": [
+        11,
+        38
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:valid-palindrome",
+      "title": "Valid Palindrome",
+      "url": "https://leetcode.com/problems/valid-palindrome/",
+      "slug": "valid-palindrome",
+      "provider": "leetcode.com",
+      "topic": "Two pointers",
+      "weeks": [
+        13
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:3sum",
+      "title": "3Sum",
+      "url": "https://leetcode.com/problems/3sum/",
+      "slug": "3sum",
+      "provider": "leetcode.com",
+      "topic": "Two pointers",
+      "weeks": [
+        13
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:best-time-to-buy-and-sell-stock",
+      "title": "Best Time to Buy and Sell Stock",
+      "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
+      "slug": "best-time-to-buy-and-sell-stock",
+      "provider": "leetcode.com",
+      "topic": "Sliding window",
+      "weeks": [
+        14
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:minimum-window-substring",
+      "title": "Minimum Window Substring",
+      "url": "https://leetcode.com/problems/minimum-window-substring/",
+      "slug": "minimum-window-substring",
+      "provider": "leetcode.com",
+      "topic": "Sliding window",
+      "weeks": [
+        14
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:subarray-sum-equals-k",
+      "title": "Subarray Sum Equals K",
+      "url": "https://leetcode.com/problems/subarray-sum-equals-k/",
+      "slug": "subarray-sum-equals-k",
+      "provider": "leetcode.com",
+      "topic": "Prefix sums",
+      "weeks": [
+        15
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:subsets",
+      "title": "Subsets",
+      "url": "https://leetcode.com/problems/subsets/",
+      "slug": "subsets",
+      "provider": "leetcode.com",
+      "topic": "Backtracking",
+      "weeks": [
+        16
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:combination-sum",
+      "title": "Combination Sum",
+      "url": "https://leetcode.com/problems/combination-sum/",
+      "slug": "combination-sum",
+      "provider": "leetcode.com",
+      "topic": "Backtracking",
+      "weeks": [
+        16
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:n-queens",
+      "title": "N-Queens",
+      "url": "https://leetcode.com/problems/n-queens/",
+      "slug": "n-queens",
+      "provider": "leetcode.com",
+      "topic": "Backtracking",
+      "weeks": [
+        16
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:reverse-linked-list",
+      "title": "Reverse Linked List",
+      "url": "https://leetcode.com/problems/reverse-linked-list/",
+      "slug": "reverse-linked-list",
+      "provider": "leetcode.com",
+      "topic": "Linked lists",
+      "weeks": [
+        17
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:linked-list-cycle",
+      "title": "Linked List Cycle",
+      "url": "https://leetcode.com/problems/linked-list-cycle/",
+      "slug": "linked-list-cycle",
+      "provider": "leetcode.com",
+      "topic": "Linked lists",
+      "weeks": [
+        17
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:daily-temperatures",
+      "title": "Daily Temperatures",
+      "url": "https://leetcode.com/problems/daily-temperatures/",
+      "slug": "daily-temperatures",
+      "provider": "leetcode.com",
+      "topic": "Monotonic stack",
+      "weeks": [
+        18
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:largest-rectangle-in-histogram",
+      "title": "Largest Rectangle in Histogram",
+      "url": "https://leetcode.com/problems/largest-rectangle-in-histogram/",
+      "slug": "largest-rectangle-in-histogram",
+      "provider": "leetcode.com",
+      "topic": "Monotonic stack",
+      "weeks": [
+        18
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:binary-tree-level-order-traversal",
+      "title": "Binary Tree Level Order Traversal",
+      "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
+      "slug": "binary-tree-level-order-traversal",
+      "provider": "leetcode.com",
+      "topic": "Binary trees",
+      "weeks": [
+        19,
+        20,
+        21
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:diameter-of-binary-tree",
+      "title": "Diameter of Binary Tree",
+      "url": "https://leetcode.com/problems/diameter-of-binary-tree/",
+      "slug": "diameter-of-binary-tree",
+      "provider": "leetcode.com",
+      "topic": "Binary trees",
+      "weeks": [
+        19,
+        20,
+        21
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:kth-largest-element-in-an-array",
+      "title": "Kth Largest Element in an Array",
+      "url": "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+      "slug": "kth-largest-element-in-an-array",
+      "provider": "leetcode.com",
+      "topic": "Heaps",
+      "weeks": [
+        22
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:find-median-from-data-stream",
+      "title": "Find Median from Data Stream",
+      "url": "https://leetcode.com/problems/find-median-from-data-stream/",
+      "slug": "find-median-from-data-stream",
+      "provider": "leetcode.com",
+      "topic": "Heaps",
+      "weeks": [
+        22
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:lru-cache",
+      "title": "LRU Cache",
+      "url": "https://leetcode.com/problems/lru-cache/",
+      "slug": "lru-cache",
+      "provider": "leetcode.com",
+      "topic": "LRU / hashing",
+      "weeks": [
+        23
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:implement-trie-prefix-tree",
+      "title": "Implement Trie",
+      "url": "https://leetcode.com/problems/implement-trie-prefix-tree/",
+      "slug": "implement-trie-prefix-tree",
+      "provider": "leetcode.com",
+      "topic": "Trie",
+      "weeks": [
+        24
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:word-search-ii",
+      "title": "Word Search II",
+      "url": "https://leetcode.com/problems/word-search-ii/",
+      "slug": "word-search-ii",
+      "provider": "leetcode.com",
+      "topic": "Trie",
+      "weeks": [
+        24
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:number-of-islands",
+      "title": "Number of Islands",
+      "url": "https://leetcode.com/problems/number-of-islands/",
+      "slug": "number-of-islands",
+      "provider": "leetcode.com",
+      "topic": "Graph BFS/DFS",
+      "weeks": [
+        25
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:rotting-oranges",
+      "title": "Rotting Oranges",
+      "url": "https://leetcode.com/problems/rotting-oranges/",
+      "slug": "rotting-oranges",
+      "provider": "leetcode.com",
+      "topic": "Graph BFS/DFS",
+      "weeks": [
+        25
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:course-schedule",
+      "title": "Course Schedule",
+      "url": "https://leetcode.com/problems/course-schedule/",
+      "slug": "course-schedule",
+      "provider": "leetcode.com",
+      "topic": "Toposort",
+      "weeks": [
+        26
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:network-delay-time",
+      "title": "Network Delay Time",
+      "url": "https://leetcode.com/problems/network-delay-time/",
+      "slug": "network-delay-time",
+      "provider": "leetcode.com",
+      "topic": "Shortest paths",
+      "weeks": [
+        27
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:number-of-connected-components-in-an-undirected-graph",
+      "title": "Number of Connected Components",
+      "url": "https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/",
+      "slug": "number-of-connected-components-in-an-undirected-graph",
+      "provider": "leetcode.com",
+      "topic": "DSU / MST",
+      "weeks": [
+        28
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:jump-game",
+      "title": "Jump Game",
+      "url": "https://leetcode.com/problems/jump-game/",
+      "slug": "jump-game",
+      "provider": "leetcode.com",
+      "topic": "Greedy",
+      "weeks": [
+        31
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:non-overlapping-intervals",
+      "title": "Non-overlapping Intervals",
+      "url": "https://leetcode.com/problems/non-overlapping-intervals/",
+      "slug": "non-overlapping-intervals",
+      "provider": "leetcode.com",
+      "topic": "Greedy",
+      "weeks": [
+        31
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:house-robber",
+      "title": "House Robber",
+      "url": "https://leetcode.com/problems/house-robber/",
+      "slug": "house-robber",
+      "provider": "leetcode.com",
+      "topic": "DP 1D/2D",
+      "weeks": [
+        32
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "leetcode.com:climbing-stairs",
+      "title": "Climbing Stairs",
+      "url": "https://leetcode.com/problems/climbing-stairs/",
+      "slug": "climbing-stairs",
+      "provider": "leetcode.com",
+      "topic": "DP 1D/2D",
+      "weeks": [
+        32
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "atcoder.jp:dp_d",
+      "title": "AtCoder DP D Knapsack",
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_d",
+      "slug": "dp_d",
+      "provider": "atcoder.jp",
+      "topic": "Knapsack/LIS/LCS",
+      "weeks": [
+        33,
+        34
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "atcoder.jp:dp_f",
+      "title": "AtCoder DP F LCS",
+      "url": "https://atcoder.jp/contests/dp/tasks/dp_f",
+      "slug": "dp_f",
+      "provider": "atcoder.jp",
+      "topic": "Knapsack/LIS/LCS",
+      "weeks": [
+        33,
+        34
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "problem"
+    },
+    {
+      "id": "atcoder.jp:tasks",
+      "title": "AtCoder DP problems",
+      "url": "https://atcoder.jp/contests/dp/tasks?lang=en",
+      "slug": "tasks",
+      "provider": "atcoder.jp",
+      "topic": "Advanced DP",
+      "weeks": [
+        35,
+        36
+      ],
+      "paidStatus": "unknown",
+      "difficultySnapshot": null,
+      "kind": "practice_directory"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "activeCourseId": "backend-mastery",
+  "courses": [
+    {
+      "id": "backend-mastery",
+      "number": "01",
+      "title": "Backend Mastery",
+      "category": "Backend engineering",
+      "description": "A 36-week path through Python, FastAPI, PostgreSQL and production backend engineering.",
+      "curriculum": "curriculum.json",
+      "status": "available",
+      "weeks": 36,
+      "modules": 24,
+      "hours": 540
+    },
+    {
+      "id": "dsa",
+      "number": "02",
+      "title": "DSA Mastery",
+      "category": "Algorithms \u00b7 C++ first",
+      "description": "48 weeks of algorithms, independent practice and placement preparation. Java and Python bridges included.",
+      "curriculum": "dsa-curriculum.json",
+      "status": "available",
+      "weeks": 48,
+      "modules": 48,
+      "hours": 720
+    }
+  ],
+  "plannedCourses": []
+}

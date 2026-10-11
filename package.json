@@ -1,0 +1,19 @@
+{
+  "name": "coursecairn",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "build": "node scripts/build.mjs",
+    "migrate": "node --env-file-if-exists=.env scripts/migrate.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "cleanup": "node --env-file-if-exists=.env scripts/cleanup.mjs"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
+  }
+}

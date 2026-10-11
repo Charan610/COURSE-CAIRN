@@ -1,0 +1,4235 @@
+{
+  "title": "Backend Mastery Academy",
+  "hours": 540,
+  "plannedWeeks": 36,
+  "phaseCount": 6,
+  "moduleCount": 24,
+  "studyDays": 216,
+  "resources": [
+    {
+      "id": "R01",
+      "title": "Python official tutorial",
+      "url": "https://docs.python.org/3/tutorial/",
+      "hostname": "docs.python.org",
+      "scope": "Python foundations, types, functions, modules, OOP",
+      "modules": [
+        1
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R02",
+      "title": "Python asyncio",
+      "url": "https://docs.python.org/3/library/asyncio.html",
+      "hostname": "docs.python.org",
+      "scope": "Event loops, tasks, cancellation, coroutines",
+      "modules": [
+        1,
+        17
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R03",
+      "title": "Python venv",
+      "url": "https://docs.python.org/3/library/venv.html",
+      "hostname": "docs.python.org",
+      "scope": "Reproducible virtual environments",
+      "modules": [
+        1,
+        3
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R04",
+      "title": "PyPA packaging user guide",
+      "url": "https://packaging.python.org/en/latest/tutorials/installing-packages/",
+      "hostname": "packaging.python.org",
+      "scope": "Installing packages, pip and dependency practice",
+      "modules": [
+        1,
+        3
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R05",
+      "title": "MDN HTTP overview",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview",
+      "hostname": "developer.mozilla.org",
+      "scope": "HTTP request-response lifecycle, clients and servers",
+      "modules": [
+        2,
+        4
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R06",
+      "title": "HTTP Semantics RFC 9110",
+      "url": "https://www.rfc-editor.org/rfc/rfc9110",
+      "hostname": "www.rfc-editor.org",
+      "scope": "Methods, statuses, safety, idempotency",
+      "modules": [
+        2,
+        4,
+        8
+      ],
+      "role": "reference",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R07",
+      "title": "HTTP Caching RFC 9111",
+      "url": "https://www.rfc-editor.org/rfc/rfc9111",
+      "hostname": "www.rfc-editor.org",
+      "scope": "Cache semantics",
+      "modules": [
+        8
+      ],
+      "role": "reference",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R08",
+      "title": "Pro Git",
+      "url": "https://git-scm.com/book/en/v2",
+      "hostname": "git-scm.com",
+      "scope": "Version control, collaboration, branches, merges",
+      "modules": [
+        3
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R09",
+      "title": "GitHub Docs",
+      "url": "https://docs.github.com/en/get-started",
+      "hostname": "docs.github.com",
+      "scope": "Remote repositories, pull requests, review",
+      "modules": [
+        3
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R10",
+      "title": "Postman learning center",
+      "url": "https://learning.postman.com/docs/getting-started/quick-start",
+      "hostname": "learning.postman.com",
+      "scope": "API requests and collections",
+      "modules": [
+        3,
+        4
+      ],
+      "role": "supplement",
+      "kind": "documentation",
+      "status": "SUPPLEMENT"
+    },
+    {
+      "id": "R11",
+      "title": "FastAPI tutorial",
+      "url": "https://fastapi.tiangolo.com/tutorial/",
+      "hostname": "fastapi.tiangolo.com",
+      "scope": "Routes, validation, deps, security, testing",
+      "modules": [
+        5,
+        7,
+        8,
+        13,
+        15
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R12",
+      "title": "FastAPI dependencies",
+      "url": "https://fastapi.tiangolo.com/tutorial/dependencies/",
+      "hostname": "fastapi.tiangolo.com",
+      "scope": "Dependency injection and cleanup",
+      "modules": [
+        7
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R13",
+      "title": "FastAPI response models",
+      "url": "https://fastapi.tiangolo.com/tutorial/response-model/",
+      "hostname": "fastapi.tiangolo.com",
+      "scope": "Response contracts and information exposure",
+      "modules": [
+        5,
+        8
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R14",
+      "title": "FastAPI settings",
+      "url": "https://fastapi.tiangolo.com/advanced/settings/",
+      "hostname": "fastapi.tiangolo.com",
+      "scope": "Typed configuration",
+      "modules": [
+        7
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R15",
+      "title": "FastAPI WebSockets",
+      "url": "https://fastapi.tiangolo.com/advanced/websockets/",
+      "hostname": "fastapi.tiangolo.com",
+      "scope": "Real-time bi-directional communications",
+      "modules": [
+        19
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R16",
+      "title": "FastAPI security JWT",
+      "url": "https://fastapi.tiangolo.com/tutorial/security/oauth2-jwt/",
+      "hostname": "fastapi.tiangolo.com",
+      "scope": "JWT and password hashing with pwdlib Argon2",
+      "modules": [
+        13
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R17",
+      "title": "FastAPI testing",
+      "url": "https://fastapi.tiangolo.com/tutorial/testing/",
+      "hostname": "fastapi.tiangolo.com",
+      "scope": "TestClient and dependency overrides",
+      "modules": [
+        15
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R18",
+      "title": "Pydantic concepts",
+      "url": "https://docs.pydantic.dev/latest/concepts/models/",
+      "hostname": "docs.pydantic.dev",
+      "scope": "Pydantic models and validation",
+      "modules": [
+        6
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R19",
+      "title": "Pydantic validators",
+      "url": "https://docs.pydantic.dev/latest/concepts/validators/",
+      "hostname": "docs.pydantic.dev",
+      "scope": "Field/model validators",
+      "modules": [
+        6
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R20",
+      "title": "PostgreSQL tutorial",
+      "url": "https://www.postgresql.org/docs/current/tutorial.html",
+      "hostname": "www.postgresql.org",
+      "scope": "SQL and database foundations",
+      "modules": [
+        9
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R21",
+      "title": "PostgreSQL SQL language",
+      "url": "https://www.postgresql.org/docs/current/sql.html",
+      "hostname": "www.postgresql.org",
+      "scope": "SQL commands and syntax",
+      "modules": [
+        9,
+        10
+      ],
+      "role": "reference",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R22",
+      "title": "PostgreSQL indexes",
+      "url": "https://www.postgresql.org/docs/current/indexes.html",
+      "hostname": "www.postgresql.org",
+      "scope": "Index types, planning and tradeoffs",
+      "modules": [
+        10,
+        12,
+        24
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R23",
+      "title": "PostgreSQL concurrency",
+      "url": "https://www.postgresql.org/docs/current/mvcc.html",
+      "hostname": "www.postgresql.org",
+      "scope": "MVCC and isolation",
+      "modules": [
+        10,
+        20
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R24",
+      "title": "PostgreSQL EXPLAIN",
+      "url": "https://www.postgresql.org/docs/current/using-explain.html",
+      "hostname": "www.postgresql.org",
+      "scope": "Execution plans, estimates, actuals",
+      "modules": [
+        10,
+        12,
+        24
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R25",
+      "title": "PostgreSQL backup/restore",
+      "url": "https://www.postgresql.org/docs/current/backup.html",
+      "hostname": "www.postgresql.org",
+      "scope": "Backup methods and recovery",
+      "modules": [
+        12,
+        23
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R26",
+      "title": "SQLAlchemy ORM quickstart",
+      "url": "https://docs.sqlalchemy.org/en/20/orm/quickstart.html",
+      "hostname": "docs.sqlalchemy.org",
+      "scope": "Models, relationships and sessions",
+      "modules": [
+        11
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R27",
+      "title": "SQLAlchemy session basics",
+      "url": "https://docs.sqlalchemy.org/en/20/orm/session_basics.html",
+      "hostname": "docs.sqlalchemy.org",
+      "scope": "Transaction lifecycle",
+      "modules": [
+        11
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R28",
+      "title": "SQLAlchemy async ORM",
+      "url": "https://docs.sqlalchemy.org/en/20/orm/extensions/asyncio.html",
+      "hostname": "docs.sqlalchemy.org",
+      "scope": "Async engines and sessions",
+      "modules": [
+        11,
+        17
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R29",
+      "title": "Alembic tutorial",
+      "url": "https://alembic.sqlalchemy.org/en/latest/tutorial.html",
+      "hostname": "alembic.sqlalchemy.org",
+      "scope": "Migration workflow",
+      "modules": [
+        12
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R30",
+      "title": "OWASP API Security Top 10 (2023)",
+      "url": "https://owasp.org/API-Security/editions/2023/en/0x11-t10/",
+      "hostname": "owasp.org",
+      "scope": "API authorization and security risks",
+      "modules": [
+        14
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R31",
+      "title": "OAuth 2.0 Security BCP (RFC 9700)",
+      "url": "https://www.rfc-editor.org/rfc/rfc9700.html",
+      "hostname": "www.rfc-editor.org",
+      "scope": "OAuth security best practices",
+      "modules": [
+        13,
+        14
+      ],
+      "role": "reference",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R32",
+      "title": "OpenID Connect Core",
+      "url": "https://openid.net/specs/openid-connect-core-1_0.html",
+      "hostname": "openid.net",
+      "scope": "Authentication layer over OAuth2",
+      "modules": [
+        13
+      ],
+      "role": "reference",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R33",
+      "title": "pytest docs",
+      "url": "https://docs.pytest.org/en/stable/",
+      "hostname": "docs.pytest.org",
+      "scope": "Fixtures, parametrization, execution",
+      "modules": [
+        15
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R34",
+      "title": "HTTPX docs",
+      "url": "https://www.python-httpx.org/",
+      "hostname": "www.python-httpx.org",
+      "scope": "Async clients and testing",
+      "modules": [
+        15,
+        17
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R35",
+      "title": "Architecture Patterns with Python",
+      "url": "https://www.cosmicpython.com/book/preface.html",
+      "hostname": "www.cosmicpython.com",
+      "scope": "Layers, repositories, unit of work",
+      "modules": [
+        16
+      ],
+      "role": "supplement",
+      "kind": "documentation",
+      "status": "SUPPLEMENT"
+    },
+    {
+      "id": "R36",
+      "title": "Ruff docs",
+      "url": "https://docs.astral.sh/ruff/",
+      "hostname": "docs.astral.sh",
+      "scope": "Linting and formatting",
+      "modules": [
+        16
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R37",
+      "title": "Redis docs",
+      "url": "https://redis.io/docs/latest/",
+      "hostname": "redis.io",
+      "scope": "Caching, TTL, Streams and data types",
+      "modules": [
+        18
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R38",
+      "title": "Celery docs",
+      "url": "https://docs.celeryq.dev/en/stable/",
+      "hostname": "docs.celeryq.dev",
+      "scope": "Job queues, retries, workers",
+      "modules": [
+        18
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R39",
+      "title": "MDN Server-Sent Events",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events",
+      "hostname": "developer.mozilla.org",
+      "scope": "SSE APIs and client usage",
+      "modules": [
+        19
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R40",
+      "title": "AWS Well-Architected Framework",
+      "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+      "hostname": "docs.aws.amazon.com",
+      "scope": "Reliability, security, performance tradeoffs",
+      "modules": [
+        20,
+        23
+      ],
+      "role": "reference",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R41",
+      "title": "Docker getting started",
+      "url": "https://docs.docker.com/get-started/",
+      "hostname": "docs.docker.com",
+      "scope": "Containers, images, Dockerfiles",
+      "modules": [
+        21
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R42",
+      "title": "Docker Compose docs",
+      "url": "https://docs.docker.com/compose/",
+      "hostname": "docs.docker.com",
+      "scope": "Multi-service local environment",
+      "modules": [
+        21
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R43",
+      "title": "GitHub Actions getting started",
+      "url": "https://docs.github.com/en/actions/get-started",
+      "hostname": "docs.github.com",
+      "scope": "CI/CD workflow fundamentals",
+      "modules": [
+        22
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R44",
+      "title": "OpenTelemetry Python",
+      "url": "https://opentelemetry.io/docs/languages/python/",
+      "hostname": "opentelemetry.io",
+      "scope": "Instrumentation and tracing",
+      "modules": [
+        23
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R45",
+      "title": "Prometheus overview",
+      "url": "https://prometheus.io/docs/introduction/overview/",
+      "hostname": "prometheus.io",
+      "scope": "Metrics and alerting",
+      "modules": [
+        23
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R46",
+      "title": "Grafana documentation",
+      "url": "https://grafana.com/docs/grafana/latest/",
+      "hostname": "grafana.com",
+      "scope": "Dashboards and alerts",
+      "modules": [
+        23
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R47",
+      "title": "PgBouncer site",
+      "url": "https://www.pgbouncer.org/",
+      "hostname": "www.pgbouncer.org",
+      "scope": "PostgreSQL pooler behavior",
+      "modules": [
+        24
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R48",
+      "title": "Locust documentation",
+      "url": "https://docs.locust.io/en/stable/",
+      "hostname": "docs.locust.io",
+      "scope": "Load testing and throughput",
+      "modules": [
+        24
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R49",
+      "title": "PostgreSQL routine vacuuming",
+      "url": "https://www.postgresql.org/docs/current/routine-vacuuming.html",
+      "hostname": "www.postgresql.org",
+      "scope": "Vacuum, autovacuum and bloat",
+      "modules": [
+        24
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R50",
+      "title": "YouTube embedded players",
+      "url": "https://developers.google.com/youtube/player_parameters",
+      "hostname": "developers.google.com",
+      "scope": "Video embedding, start offset and policies",
+      "modules": [],
+      "role": "reference",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R51",
+      "title": "WCAG 2.2",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "hostname": "www.w3.org",
+      "scope": "Accessibility compliance",
+      "modules": [],
+      "role": "reference",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R52",
+      "title": "Next.js Docs",
+      "url": "https://nextjs.org/docs",
+      "hostname": "nextjs.org",
+      "scope": "Web framework reference",
+      "modules": [],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R53",
+      "title": "Tailwind CSS Docs",
+      "url": "https://tailwindcss.com/docs",
+      "hostname": "tailwindcss.com",
+      "scope": "Theme tokens and utilities",
+      "modules": [],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R54",
+      "title": "Prisma Docs",
+      "url": "https://www.prisma.io/docs",
+      "hostname": "www.prisma.io",
+      "scope": "Web app ORM option",
+      "modules": [],
+      "role": "supplement",
+      "kind": "documentation",
+      "status": "SUPPLEMENT"
+    },
+    {
+      "id": "R55",
+      "title": "PostgreSQL full manual",
+      "url": "https://www.postgresql.org/docs/current/",
+      "hostname": "www.postgresql.org",
+      "scope": "Authoritative Postgres reference",
+      "modules": [
+        9,
+        10,
+        12,
+        24
+      ],
+      "role": "reference",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R56",
+      "title": "FastAPI CORS",
+      "url": "https://fastapi.tiangolo.com/tutorial/cors/",
+      "hostname": "fastapi.tiangolo.com",
+      "scope": "CORS configuration",
+      "modules": [
+        7,
+        14
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R57",
+      "title": "FastAPI background tasks",
+      "url": "https://fastapi.tiangolo.com/tutorial/background-tasks/",
+      "hostname": "fastapi.tiangolo.com",
+      "scope": "Lightweight in-process background work",
+      "modules": [
+        18
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R58",
+      "title": "OAuth 2.0 RFC 6749",
+      "url": "https://www.rfc-editor.org/rfc/rfc6749.html",
+      "hostname": "www.rfc-editor.org",
+      "scope": "OAuth framework definitions and flow concepts",
+      "modules": [
+        13
+      ],
+      "role": "reference",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R59",
+      "title": "JSON Web Token RFC 7519",
+      "url": "https://www.rfc-editor.org/rfc/rfc7519",
+      "hostname": "www.rfc-editor.org",
+      "scope": "JWT registered claims format",
+      "modules": [
+        13
+      ],
+      "role": "reference",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R60",
+      "title": "OWASP Cheat Sheet Series",
+      "url": "https://cheatsheetseries.owasp.org/",
+      "hostname": "cheatsheetseries.owasp.org",
+      "scope": "Practical security implementation patterns",
+      "modules": [
+        14
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R61",
+      "title": "OpenAPI Specification",
+      "url": "https://spec.openapis.org/oas/latest.html",
+      "hostname": "spec.openapis.org",
+      "scope": "API contract details",
+      "modules": [
+        8
+      ],
+      "role": "reference",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R62",
+      "title": "SQLAlchemy loading relationships",
+      "url": "https://docs.sqlalchemy.org/en/20/orm/queryguide/relationships.html",
+      "hostname": "docs.sqlalchemy.org",
+      "scope": "Eager load N+1 optimization",
+      "modules": [
+        11,
+        12
+      ],
+      "role": "primary",
+      "kind": "documentation",
+      "status": "DOC_OFFICIAL"
+    },
+    {
+      "id": "R63",
+      "title": "SQLModel documentation",
+      "url": "https://sqlmodel.tiangolo.com/",
+      "hostname": "sqlmodel.tiangolo.com",
+      "scope": "Explain SQLModel used in Beyond CRUD video, not core stack",
+      "modules": [
+        11
+      ],
+      "role": "supplement",
+      "kind": "documentation",
+      "status": "SUPPLEMENT"
+    }
+  ],
+  "videos": [
+    {
+      "id": "V01",
+      "title": "Python Full Course",
+      "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0",
+      "youtubeId": "ix9cRaBkVe0",
+      "author": "Bro Code",
+      "publicationDate": "2024-08-20",
+      "used": "Weeks 1–3; beginner",
+      "status": "VIDEO_CHAPTERS_CONFIRMED.",
+      "notes": "**VIDEO_CHAPTERS_CONFIRMED.** Verified published chapter list; skip GUI, games optional.",
+      "kind": "video",
+      "chapters": [
+        {
+          "title": "Variables",
+          "time": "00:05:49",
+          "startSeconds": 349,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=349s"
+        },
+        {
+          "title": "Conditionals",
+          "time": "00:51:46",
+          "startSeconds": 3106,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=3106s"
+        },
+        {
+          "title": "While loops",
+          "time": "01:51:55",
+          "startSeconds": 6715,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=6715s"
+        },
+        {
+          "title": "For loops",
+          "time": "02:06:28",
+          "startSeconds": 7588,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=7588s"
+        },
+        {
+          "title": "Collections",
+          "time": "02:23:03",
+          "startSeconds": 8583,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=8583s"
+        },
+        {
+          "title": "Dictionaries",
+          "time": "03:03:27",
+          "startSeconds": 11007,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=11007s"
+        },
+        {
+          "title": "Functions",
+          "time": "03:52:12",
+          "startSeconds": 13932,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=13932s"
+        },
+        {
+          "title": "Comprehensions",
+          "time": "04:45:56",
+          "startSeconds": 17156,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=17156s"
+        },
+        {
+          "title": "Modules",
+          "time": "05:02:13",
+          "startSeconds": 18133,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=18133s"
+        },
+        {
+          "title": "OOP",
+          "time": "06:32:32",
+          "startSeconds": 23552,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=23552s"
+        },
+        {
+          "title": "Inheritance",
+          "time": "06:53:06",
+          "startSeconds": 24786,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=24786s"
+        },
+        {
+          "title": "Decorators",
+          "time": "08:07:33",
+          "startSeconds": 29253,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=29253s"
+        },
+        {
+          "title": "Exception handling",
+          "time": "08:14:57",
+          "startSeconds": 29697,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=29697s"
+        },
+        {
+          "title": "File writing",
+          "time": "08:27:47",
+          "startSeconds": 30467,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=30467s"
+        },
+        {
+          "title": "Requests / API data",
+          "time": "09:13:45",
+          "startSeconds": 33225,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=ix9cRaBkVe0&t=33225s"
+        }
+      ]
+    },
+    {
+      "id": "V02",
+      "title": "APIs for Beginners – How to use an API",
+      "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw",
+      "youtubeId": "WXsD0ZgxjRw",
+      "author": "Craig Dennis / freeCodeCamp",
+      "publicationDate": "2023-02-06",
+      "used": "Weeks 4–5; beginner",
+      "status": "VIDEO_CHAPTERS_CONFIRMED.",
+      "notes": "**VIDEO_CHAPTERS_CONFIRMED.** Concepts evergreen; external tool examples may change.",
+      "kind": "video",
+      "chapters": [
+        {
+          "title": "Defining API",
+          "time": "00:08:49",
+          "startSeconds": 529,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw&t=529s"
+        },
+        {
+          "title": "How web works",
+          "time": "00:18:17",
+          "startSeconds": 1097,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw&t=1097s"
+        },
+        {
+          "title": "REST constraints",
+          "time": "00:23:21",
+          "startSeconds": 1401,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw&t=1401s"
+        },
+        {
+          "title": "Exploring APIs",
+          "time": "00:29:06",
+          "startSeconds": 1746,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw&t=1746s"
+        },
+        {
+          "title": "Command line API",
+          "time": "00:45:01",
+          "startSeconds": 2701,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw&t=2701s"
+        },
+        {
+          "title": "Curl",
+          "time": "00:56:20",
+          "startSeconds": 3380,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw&t=3380s"
+        },
+        {
+          "title": "API explorer tools",
+          "time": "01:14:21",
+          "startSeconds": 4461,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw&t=4461s"
+        },
+        {
+          "title": "Writing server-side API",
+          "time": "02:37:08",
+          "startSeconds": 9428,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=WXsD0ZgxjRw&t=9428s"
+        }
+      ]
+    },
+    {
+      "id": "V03",
+      "title": "Git & GitHub Crash Course for Beginners [2026]",
+      "url": "https://www.youtube.com/watch?v=mAFoROnOfHs",
+      "youtubeId": "mAFoROnOfHs",
+      "author": "freeCodeCamp / Sumit Saha",
+      "publicationDate": "2025-12-04",
+      "used": "Weeks 5; beginner",
+      "status": "VIDEO_CHAPTERS_CONFIRMED.",
+      "notes": "**VIDEO_CHAPTERS_CONFIRMED.** Use publisher chapter list; published 2025 although title says 2026.",
+      "kind": "video",
+      "chapters": [
+        {
+          "title": "Git versus GitHub",
+          "time": "00:04:01",
+          "startSeconds": 241,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=mAFoROnOfHs&t=241s"
+        },
+        {
+          "title": "Install Git",
+          "time": "00:09:37",
+          "startSeconds": 577,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=mAFoROnOfHs&t=577s"
+        },
+        {
+          "title": "git init",
+          "time": "00:14:41",
+          "startSeconds": 881,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=mAFoROnOfHs&t=881s"
+        },
+        {
+          "title": "git status",
+          "time": "00:20:20",
+          "startSeconds": 1220,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=mAFoROnOfHs&t=1220s"
+        },
+        {
+          "title": "git add",
+          "time": "00:21:43",
+          "startSeconds": 1303,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=mAFoROnOfHs&t=1303s"
+        },
+        {
+          "title": "git commit",
+          "time": "00:30:22",
+          "startSeconds": 1822,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=mAFoROnOfHs&t=1822s"
+        },
+        {
+          "title": "Branching",
+          "time": "00:40:58",
+          "startSeconds": 2458,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=mAFoROnOfHs&t=2458s"
+        },
+        {
+          "title": "Merge conflicts",
+          "time": "00:47:43",
+          "startSeconds": 2863,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=mAFoROnOfHs&t=2863s"
+        },
+        {
+          "title": "Push",
+          "time": "00:57:18",
+          "startSeconds": 3438,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=mAFoROnOfHs&t=3438s"
+        },
+        {
+          "title": "git stash",
+          "time": "01:03:16",
+          "startSeconds": 3796,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=mAFoROnOfHs&t=3796s"
+        },
+        {
+          "title": "Pull requests",
+          "time": "01:16:48",
+          "startSeconds": 4608,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=mAFoROnOfHs&t=4608s"
+        }
+      ]
+    },
+    {
+      "id": "V04",
+      "title": "PostgreSQL Tutorial for Beginners",
+      "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk",
+      "youtubeId": "SpfIwlAYaKk",
+      "author": "Alexandru Cristian / freeCodeCamp",
+      "publicationDate": "2023-10-13",
+      "used": "Weeks 13–14; beginner",
+      "status": "VIDEO_CHAPTERS_CONFIRMED.",
+      "notes": "**VIDEO_CHAPTERS_CONFIRMED.** Useful for SELECT and aggregates; not enough for joins, indexes, transactions.",
+      "kind": "video",
+      "chapters": [
+        {
+          "title": "Installation",
+          "time": "00:02:03",
+          "startSeconds": 123,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk&t=123s"
+        },
+        {
+          "title": "SELECT",
+          "time": "00:17:12",
+          "startSeconds": 1032,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk&t=1032s"
+        },
+        {
+          "title": "SELECT DISTINCT",
+          "time": "00:31:17",
+          "startSeconds": 1877,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk&t=1877s"
+        },
+        {
+          "title": "WHERE",
+          "time": "00:54:03",
+          "startSeconds": 3243,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk&t=3243s"
+        },
+        {
+          "title": "ORDER BY",
+          "time": "01:27:56",
+          "startSeconds": 5276,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk&t=5276s"
+        },
+        {
+          "title": "LIMIT",
+          "time": "01:35:21",
+          "startSeconds": 5721,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk&t=5721s"
+        },
+        {
+          "title": "LIKE/ILIKE",
+          "time": "01:54:18",
+          "startSeconds": 6858,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk&t=6858s"
+        },
+        {
+          "title": "Aggregate functions",
+          "time": "02:14:28",
+          "startSeconds": 8068,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk&t=8068s"
+        },
+        {
+          "title": "GROUP BY",
+          "time": "02:20:02",
+          "startSeconds": 8402,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk&t=8402s"
+        },
+        {
+          "title": "HAVING",
+          "time": "02:38:22",
+          "startSeconds": 9502,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk&t=9502s"
+        }
+      ]
+    },
+    {
+      "id": "V05",
+      "title": "Python FastAPI Tutorial: Full Course",
+      "url": "https://www.youtube.com/watch?v=iukOehU5aF4",
+      "youtubeId": "iukOehU5aF4",
+      "author": "Corey Schafer",
+      "publicationDate": "2026-04-30",
+      "used": "Weeks 6–12,16–19,22,31–32; beginner→advanced",
+      "status": "VIDEO_CHAPTERS_CONFIRMED.",
+      "notes": "**VIDEO_CHAPTERS_CONFIRMED.** Primary guided FastAPI video. Covers HTML too; skip optional frontend segments.",
+      "kind": "video",
+      "chapters": [
+        {
+          "title": "Getting started",
+          "time": "00:00:00",
+          "startSeconds": 0,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=iukOehU5aF4&t=0s"
+        },
+        {
+          "title": "Path parameters/errors",
+          "time": "00:59:53",
+          "startSeconds": 3593,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=iukOehU5aF4&t=3593s"
+        },
+        {
+          "title": "Pydantic schemas",
+          "time": "01:36:09",
+          "startSeconds": 5769,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=iukOehU5aF4&t=5769s"
+        },
+        {
+          "title": "SQLAlchemy/database",
+          "time": "01:59:51",
+          "startSeconds": 7191,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=iukOehU5aF4&t=7191s"
+        },
+        {
+          "title": "CRUD update/delete",
+          "time": "03:01:54",
+          "startSeconds": 10914,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=iukOehU5aF4&t=10914s"
+        },
+        {
+          "title": "Sync vs async",
+          "time": "03:37:35",
+          "startSeconds": 13055,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=iukOehU5aF4&t=13055s"
+        },
+        {
+          "title": "Routers",
+          "time": "04:08:58",
+          "startSeconds": 14938,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=iukOehU5aF4&t=14938s"
+        },
+        {
+          "title": "JWT authentication",
+          "time": "04:56:21",
+          "startSeconds": 17781,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=iukOehU5aF4&t=17781s"
+        },
+        {
+          "title": "Authorization",
+          "time": "05:52:58",
+          "startSeconds": 21178,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=iukOehU5aF4&t=21178s"
+        },
+        {
+          "title": "File uploads",
+          "time": "06:30:32",
+          "startSeconds": 23432,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=iukOehU5aF4&t=23432s"
+        },
+        {
+          "title": "Pagination",
+          "time": "07:04:13",
+          "startSeconds": 25453,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=iukOehU5aF4&t=25453s"
+        },
+        {
+          "title": "Password reset",
+          "time": "07:40:06",
+          "startSeconds": 27606,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=iukOehU5aF4&t=27606s"
+        },
+        {
+          "title": "PostgreSQL/Alembic",
+          "time": "08:38:03",
+          "startSeconds": 31083,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=iukOehU5aF4&t=31083s"
+        },
+        {
+          "title": "Pytest/testing",
+          "time": "10:11:44",
+          "startSeconds": 36704,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=iukOehU5aF4&t=36704s"
+        },
+        {
+          "title": "VPS deployment",
+          "time": "11:33:16",
+          "startSeconds": 41596,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=iukOehU5aF4&t=41596s"
+        },
+        {
+          "title": "Docker deployment",
+          "time": "13:04:21",
+          "startSeconds": 47061,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=iukOehU5aF4&t=47061s"
+        }
+      ]
+    },
+    {
+      "id": "V06",
+      "title": "FastAPI Beyond CRUD Full Course",
+      "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc",
+      "youtubeId": "TO4aQ3ghFOc",
+      "author": "Ssali Jonathan",
+      "publicationDate": "2024-08-10",
+      "used": "Weeks 9,12,17,19–22,26; intermediate",
+      "status": "VIDEO_CHAPTERS_CONFIRMED.",
+      "notes": "**VIDEO_CHAPTERS_CONFIRMED.** Uses SQLModel and older Passlib code; map to SQLAlchemy and current pwdlib Argon2.",
+      "kind": "video",
+      "chapters": [
+        {
+          "title": "Routers",
+          "time": "01:23:37",
+          "startSeconds": 5017,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=5017s"
+        },
+        {
+          "title": "SQLModel database",
+          "time": "01:38:22",
+          "startSeconds": 5902,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=5902s"
+        },
+        {
+          "title": "Configuration",
+          "time": "01:44:13",
+          "startSeconds": 6253,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=6253s"
+        },
+        {
+          "title": "Async SQLModel",
+          "time": "01:53:38",
+          "startSeconds": 6818,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=6818s"
+        },
+        {
+          "title": "Service classes",
+          "time": "02:29:48",
+          "startSeconds": 8988,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=8988s"
+        },
+        {
+          "title": "Dependency injection",
+          "time": "02:55:53",
+          "startSeconds": 10553,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=10553s"
+        },
+        {
+          "title": "Alembic",
+          "time": "03:42:09",
+          "startSeconds": 13329,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=13329s"
+        },
+        {
+          "title": "Passlib historical example – do not copy unchanged",
+          "time": "04:18:55",
+          "startSeconds": 15535,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=15535s"
+        },
+        {
+          "title": "JWT authentication",
+          "time": "04:42:57",
+          "startSeconds": 16977,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=16977s"
+        },
+        {
+          "title": "Refresh tokens",
+          "time": "05:33:14",
+          "startSeconds": 19994,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=19994s"
+        },
+        {
+          "title": "Redis revocation",
+          "time": "05:50:04",
+          "startSeconds": 21004,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=21004s"
+        },
+        {
+          "title": "RBAC",
+          "time": "06:07:39",
+          "startSeconds": 22059,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=22059s"
+        },
+        {
+          "title": "Exception handling",
+          "time": "07:59:58",
+          "startSeconds": 28798,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=28798s"
+        },
+        {
+          "title": "Middleware",
+          "time": "08:33:25",
+          "startSeconds": 30805,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=30805s"
+        },
+        {
+          "title": "CORS",
+          "time": "09:00:21",
+          "startSeconds": 32421,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=32421s"
+        },
+        {
+          "title": "Password resets",
+          "time": "10:07:51",
+          "startSeconds": 36471,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=36471s"
+        },
+        {
+          "title": "Background tasks",
+          "time": "10:40:38",
+          "startSeconds": 38438,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=38438s"
+        },
+        {
+          "title": "Celery/Redis",
+          "time": "10:45:44",
+          "startSeconds": 38744,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=38744s"
+        },
+        {
+          "title": "Flower",
+          "time": "11:16:17",
+          "startSeconds": 40577,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=40577s"
+        },
+        {
+          "title": "Pytest",
+          "time": "11:37:10",
+          "startSeconds": 41830,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=41830s"
+        },
+        {
+          "title": "Deployment",
+          "time": "12:09:17",
+          "startSeconds": 43757,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=TO4aQ3ghFOc&t=43757s"
+        }
+      ]
+    },
+    {
+      "id": "V07",
+      "title": "Python AsyncIO – Complete Guide",
+      "url": "https://www.youtube.com/watch?v=oAkLSJNr5zY",
+      "youtubeId": "oAkLSJNr5zY",
+      "author": "Corey Schafer",
+      "publicationDate": "2025-08-20",
+      "used": "Weeks 3,25; intermediate",
+      "status": "VIDEO_NO_CHAPTER_AUDIT.",
+      "notes": "**VIDEO_NO_CHAPTER_AUDIT.** Excellent concurrency explanation; no publisher timestamps obtained.",
+      "kind": "video",
+      "chapters": []
+    },
+    {
+      "id": "V08",
+      "title": "Asyncio in Python – Full Tutorial",
+      "url": "https://www.youtube.com/watch?v=Qb9s3UiMSTA",
+      "youtubeId": "Qb9s3UiMSTA",
+      "author": "Tech With Tim",
+      "publicationDate": "2024-04-05",
+      "used": "Weeks 25; intermediate",
+      "status": "VIDEO_CHAPTERS_CONFIRMED.",
+      "notes": "**VIDEO_CHAPTERS_CONFIRMED.** Verified published chapters: event loop, coroutines, tasks, futures, synchronization.",
+      "kind": "video",
+      "chapters": [
+        {
+          "title": "When to use async",
+          "time": "00:00:48",
+          "startSeconds": 48,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=Qb9s3UiMSTA&t=48s"
+        },
+        {
+          "title": "Event loop",
+          "time": "00:02:04",
+          "startSeconds": 124,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=Qb9s3UiMSTA&t=124s"
+        },
+        {
+          "title": "Coroutines",
+          "time": "00:02:47",
+          "startSeconds": 167,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=Qb9s3UiMSTA&t=167s"
+        },
+        {
+          "title": "Tasks",
+          "time": "00:09:52",
+          "startSeconds": 592,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=Qb9s3UiMSTA&t=592s"
+        },
+        {
+          "title": "Futures",
+          "time": "00:16:50",
+          "startSeconds": 1010,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=Qb9s3UiMSTA&t=1010s"
+        },
+        {
+          "title": "Synchronization",
+          "time": "00:18:23",
+          "startSeconds": 1103,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=Qb9s3UiMSTA&t=1103s"
+        }
+      ]
+    },
+    {
+      "id": "V09",
+      "title": "Docker Tutorial for Beginners [FULL COURSE in 3 Hours]",
+      "url": "https://www.youtube.com/watch?v=3c-iBn73dDE",
+      "youtubeId": "3c-iBn73dDE",
+      "author": "TechWorld with Nana",
+      "publicationDate": "2020-10-21",
+      "used": "Weeks 31; beginner",
+      "status": "VIDEO_CHAPTERS_CONFIRMED.",
+      "notes": "**VIDEO_CHAPTERS_CONFIRMED.** Older install/CLI examples; use current Docker docs.",
+      "kind": "video",
+      "chapters": [
+        {
+          "title": "What is Docker",
+          "time": "00:01:58",
+          "startSeconds": 118,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=3c-iBn73dDE&t=118s"
+        },
+        {
+          "title": "Container basics",
+          "time": "00:10:56",
+          "startSeconds": 656,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=3c-iBn73dDE&t=656s"
+        },
+        {
+          "title": "Docker commands",
+          "time": "00:42:02",
+          "startSeconds": 2522,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=3c-iBn73dDE&t=2522s"
+        },
+        {
+          "title": "Debugging",
+          "time": "00:57:15",
+          "startSeconds": 3435,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=3c-iBn73dDE&t=3435s"
+        },
+        {
+          "title": "Compose",
+          "time": "01:29:49",
+          "startSeconds": 5389,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=3c-iBn73dDE&t=5389s"
+        },
+        {
+          "title": "Dockerfile",
+          "time": "01:42:02",
+          "startSeconds": 6122,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=3c-iBn73dDE&t=6122s"
+        },
+        {
+          "title": "Volumes",
+          "time": "02:27:26",
+          "startSeconds": 8846,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=3c-iBn73dDE&t=8846s"
+        },
+        {
+          "title": "Persistence demo",
+          "time": "02:33:03",
+          "startSeconds": 9183,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=3c-iBn73dDE&t=9183s"
+        }
+      ]
+    },
+    {
+      "id": "V10",
+      "title": "FastAPI for Beginners",
+      "url": "https://www.youtube.com/watch?v=tLKKmouUams",
+      "youtubeId": "tLKKmouUams",
+      "author": "Code With Tomi / freeCodeCamp",
+      "publicationDate": "2021-08-12",
+      "used": "Weeks 6–7; supplement",
+      "status": "LEGACY_SUPPLEMENT; VIDEO_CHAPTERS_CONFIRMED.",
+      "notes": "**LEGACY_SUPPLEMENT; VIDEO_CHAPTERS_CONFIRMED.** Original video verified with publisher chapter list; legacy content, not default source for current FastAPI.",
+      "kind": "video",
+      "chapters": [
+        {
+          "title": "First API and installation",
+          "time": "00:01:10",
+          "startSeconds": 70,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=tLKKmouUams&t=70s"
+        },
+        {
+          "title": "Path parameters",
+          "time": "00:15:35",
+          "startSeconds": 935,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=tLKKmouUams&t=935s"
+        },
+        {
+          "title": "Query parameters",
+          "time": "00:27:24",
+          "startSeconds": 1644,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=tLKKmouUams&t=1644s"
+        },
+        {
+          "title": "Request body / POST",
+          "time": "00:39:50",
+          "startSeconds": 2390,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=tLKKmouUams&t=2390s"
+        },
+        {
+          "title": "PUT method",
+          "time": "00:46:58",
+          "startSeconds": 2818,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=tLKKmouUams&t=2818s"
+        },
+        {
+          "title": "DELETE method",
+          "time": "01:00:26",
+          "startSeconds": 3626,
+          "provenance": "publisher_listed",
+          "url": "https://www.youtube.com/watch?v=tLKKmouUams&t=3626s"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 1,
+      "slug": "python-programming",
+      "title": "Python programming",
+      "weeks": "1–3",
+      "coverage": "Control flow, OOP, files, typing, async introduction.",
+      "resourceIds": [
+        "R01",
+        "R02",
+        "R03",
+        "R04"
+      ],
+      "videoIds": [
+        "V01",
+        "V07"
+      ],
+      "build": "CLI contact manager; expense tracker; API data fetcher.",
+      "passWhen": "Write and test maintainable Python components."
+    },
+    {
+      "id": 2,
+      "slug": "internet-and-http",
+      "title": "Internet and HTTP",
+      "weeks": "4",
+      "coverage": "Client/server, DNS, TCP, HTTPS, headers, cookies, statelessness.",
+      "resourceIds": [
+        "R05",
+        "R06"
+      ],
+      "videoIds": [
+        "V02"
+      ],
+      "build": "HTTP request inspector.",
+      "passWhen": "Explain full HTTP request lifecycle."
+    },
+    {
+      "id": 3,
+      "slug": "developer-tools",
+      "title": "Developer tools",
+      "weeks": "5",
+      "coverage": "Git, GitHub, curl, Postman, environment setup.",
+      "resourceIds": [
+        "R08",
+        "R09",
+        "R10"
+      ],
+      "videoIds": [
+        "V03"
+      ],
+      "build": "Git branch and PR practice.",
+      "passWhen": "Create reproducible repository and resolve merge conflict."
+    },
+    {
+      "id": 4,
+      "slug": "rest-fundamentals",
+      "title": "REST fundamentals",
+      "weeks": "5–6",
+      "coverage": "Methods, status codes, resources, idempotency, errors.",
+      "resourceIds": [
+        "R06",
+        "R10"
+      ],
+      "videoIds": [
+        "V02",
+        "V05"
+      ],
+      "build": "Task Manager CRUD API.",
+      "passWhen": "Defend endpoint choices and test error cases."
+    },
+    {
+      "id": 5,
+      "slug": "fastapi-essentials",
+      "title": "FastAPI essentials",
+      "weeks": "7",
+      "coverage": "Routes, responses, params, routers, docs.",
+      "resourceIds": [
+        "R11",
+        "R13"
+      ],
+      "videoIds": [
+        "V05"
+      ],
+      "build": "Book Library CRUD.",
+      "passWhen": "Build API from scratch and document in OpenAPI."
+    },
+    {
+      "id": 6,
+      "slug": "pydantic-validation",
+      "title": "Pydantic validation",
+      "weeks": "8",
+      "coverage": "BaseModel, validators, schema separation, serialization.",
+      "resourceIds": [
+        "R18",
+        "R19"
+      ],
+      "videoIds": [
+        "V05"
+      ],
+      "build": "Student Registration API.",
+      "passWhen": "Reject bad inputs and protect response fields."
+    },
+    {
+      "id": 7,
+      "slug": "fastapi-intermediate",
+      "title": "FastAPI intermediate",
+      "weeks": "9",
+      "coverage": "Depends, middleware, lifespan, settings, files.",
+      "resourceIds": [
+        "R12",
+        "R14",
+        "R56"
+      ],
+      "videoIds": [
+        "V05",
+        "V06"
+      ],
+      "build": "Document Management API.",
+      "passWhen": "Explain dependency lifecycle and middleware."
+    },
+    {
+      "id": 8,
+      "slug": "professional-rest-design",
+      "title": "Professional REST design",
+      "weeks": "10–12",
+      "coverage": "Pagination, filtering, versioning, ETags, OpenAPI.",
+      "resourceIds": [
+        "R06",
+        "R07",
+        "R13",
+        "R61"
+      ],
+      "videoIds": [
+        "V05",
+        "V02"
+      ],
+      "build": "Product Catalog API.",
+      "passWhen": "Deliver independent consumer-facing API contract."
+    },
+    {
+      "id": 9,
+      "slug": "sql-fundamentals",
+      "title": "SQL fundamentals",
+      "weeks": "13–14",
+      "coverage": "DDL/DML, JOINs, CTEs, windows, transactions.",
+      "resourceIds": [
+        "R20",
+        "R21"
+      ],
+      "videoIds": [
+        "V04"
+      ],
+      "build": "University and order reporting SQL.",
+      "passWhen": "Write nontrivial JOIN and aggregate queries."
+    },
+    {
+      "id": 10,
+      "slug": "postgresql-engineering",
+      "title": "PostgreSQL engineering",
+      "weeks": "15",
+      "coverage": "JSONB, normalization, indexes, MVCC, EXPLAIN.",
+      "resourceIds": [
+        "R22",
+        "R23",
+        "R24",
+        "R55"
+      ],
+      "videoIds": [],
+      "build": "Index/plan benchmark.",
+      "passWhen": "Explain before/after query plans."
+    },
+    {
+      "id": 11,
+      "slug": "fastapi-and-postgresql-integration",
+      "title": "FastAPI and PostgreSQL integration",
+      "weeks": "16",
+      "coverage": "SQLAlchemy 2 ORM, sessions, relationships, transactions.",
+      "resourceIds": [
+        "R26",
+        "R27",
+        "R28",
+        "R62",
+        "R63"
+      ],
+      "videoIds": [
+        "V05",
+        "V06"
+      ],
+      "build": "Persistent Product Catalog.",
+      "passWhen": "CRUD with transaction integrity and session lifecycle."
+    },
+    {
+      "id": 12,
+      "slug": "migrations-and-query-optimization",
+      "title": "Migrations and query optimization",
+      "weeks": "17–18",
+      "coverage": "Alembic, safe migrations, N+1, backup.",
+      "resourceIds": [
+        "R29",
+        "R24",
+        "R25",
+        "R62"
+      ],
+      "videoIds": [
+        "V05",
+        "V06"
+      ],
+      "build": "Inventory System.",
+      "passWhen": "Apply migration and prove query optimization."
+    },
+    {
+      "id": 13,
+      "slug": "authentication",
+      "title": "Authentication",
+      "weeks": "19–20",
+      "coverage": "Argon2, JWT, refresh, OAuth2, OIDC, sessions, reset.",
+      "resourceIds": [
+        "R16",
+        "R31",
+        "R32",
+        "R58",
+        "R59"
+      ],
+      "videoIds": [
+        "V05",
+        "V06"
+      ],
+      "build": "Auth API.",
+      "passWhen": "Test registration/login/rotation/expiry."
+    },
+    {
+      "id": 14,
+      "slug": "authorization-and-security",
+      "title": "Authorization and security",
+      "weeks": "21",
+      "coverage": "RBAC, BOLA, injection, CSRF, rate limiting, secrets.",
+      "resourceIds": [
+        "R30",
+        "R60",
+        "R56"
+      ],
+      "videoIds": [
+        "V05",
+        "V06"
+      ],
+      "build": "RBAC protected API.",
+      "passWhen": "Block horizontal privilege escalation."
+    },
+    {
+      "id": 15,
+      "slug": "automated-testing",
+      "title": "Automated testing",
+      "weeks": "22",
+      "coverage": "pytest, fixtures, HTTPX, isolation, mocks.",
+      "resourceIds": [
+        "R17",
+        "R33",
+        "R34"
+      ],
+      "videoIds": [
+        "V05",
+        "V06"
+      ],
+      "build": "Auth/Inventory test suite.",
+      "passWhen": "Test happy/unhappy paths plus security."
+    },
+    {
+      "id": 16,
+      "slug": "clean-architecture",
+      "title": "Clean architecture",
+      "weeks": "23–24",
+      "coverage": "Layering, service/repository, SOLID, typing, lint.",
+      "resourceIds": [
+        "R35",
+        "R36"
+      ],
+      "videoIds": [
+        "V06"
+      ],
+      "build": "Refactored backend.",
+      "passWhen": "Change business rule in isolation."
+    },
+    {
+      "id": 17,
+      "slug": "async-and-concurrency",
+      "title": "Async and concurrency",
+      "weeks": "25",
+      "coverage": "event loop, cancellation, async DB, benchmarks.",
+      "resourceIds": [
+        "R02",
+        "R28",
+        "R34"
+      ],
+      "videoIds": [
+        "V07",
+        "V08",
+        "V05"
+      ],
+      "build": "Async data aggregator.",
+      "passWhen": "Measure and explain concurrency effects."
+    },
+    {
+      "id": 18,
+      "slug": "redis-and-background-processing",
+      "title": "Redis and background processing",
+      "weeks": "26",
+      "coverage": "cache invalidation, job queues, retries, idempotency.",
+      "resourceIds": [
+        "R37",
+        "R38",
+        "R57"
+      ],
+      "videoIds": [
+        "V06"
+      ],
+      "build": "Notification workers.",
+      "passWhen": "Recover from failure without duplicate side effects."
+    },
+    {
+      "id": 19,
+      "slug": "realtime-and-integration",
+      "title": "Realtime and integration",
+      "weeks": "27",
+      "coverage": "WebSockets, SSE, webhooks, REST/gRPC tradeoffs.",
+      "resourceIds": [
+        "R15",
+        "R39"
+      ],
+      "videoIds": [],
+      "build": "Realtime notifications.",
+      "passWhen": "Prove reconnect + webhook signature verification."
+    },
+    {
+      "id": 20,
+      "slug": "system-design",
+      "title": "System design",
+      "weeks": "28–30",
+      "coverage": "scaling, CQRS intro, outbox, eventual consistency, capacity.",
+      "resourceIds": [
+        "R40",
+        "R23"
+      ],
+      "videoIds": [],
+      "build": "E-commerce design & implementation.",
+      "passWhen": "Write architecture and failure scenarios."
+    },
+    {
+      "id": 21,
+      "slug": "docker-and-infrastructure",
+      "title": "Docker and infrastructure",
+      "weeks": "31",
+      "coverage": "Dockerfile, Compose, volumes, health checks.",
+      "resourceIds": [
+        "R41",
+        "R42"
+      ],
+      "videoIds": [
+        "V09",
+        "V05"
+      ],
+      "build": "Containerized backend.",
+      "passWhen": "Reproduce full stack on clean machine."
+    },
+    {
+      "id": 22,
+      "slug": "ci-cd-deployment",
+      "title": "CI/CD deployment",
+      "weeks": "32",
+      "coverage": "GitHub Actions, secrets, HTTPS, rollout/rollback.",
+      "resourceIds": [
+        "R43",
+        "R41"
+      ],
+      "videoIds": [
+        "V05"
+      ],
+      "build": "Deployment pipeline.",
+      "passWhen": "Pipeline runs tests and repeatably deploys."
+    },
+    {
+      "id": 23,
+      "slug": "observability",
+      "title": "Observability",
+      "weeks": "33",
+      "coverage": "logs, metrics, traces, alerts, SLOs, recovery.",
+      "resourceIds": [
+        "R44",
+        "R45",
+        "R46",
+        "R25"
+      ],
+      "videoIds": [],
+      "build": "Monitoring dashboard.",
+      "passWhen": "Trace latency and demonstrate recovery."
+    },
+    {
+      "id": 24,
+      "slug": "postgresql-and-performance",
+      "title": "PostgreSQL and performance",
+      "weeks": "34–36",
+      "coverage": "EXPLAIN, VACUUM, PgBouncer, load tests, capstone.",
+      "resourceIds": [
+        "R22",
+        "R24",
+        "R47",
+        "R48",
+        "R49"
+      ],
+      "videoIds": [],
+      "build": "SaaS capstone.",
+      "passWhen": "Measure performance and deploy robust system."
+    }
+  ],
+  "weeks": [
+    {
+      "number": 1,
+      "title": "Python syntax and control flow",
+      "moduleId": 1,
+      "focus": "Types, expressions, conditions, loops, collections, functions",
+      "resourceIds": [
+        "R01",
+        "R03"
+      ],
+      "videoIds": [
+        "V01"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Install Python, editor; run scripts; explain variables/types.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Write type conversion, conditions and operators exercises.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Solve eight loop and iteration problems.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Manipulate lists, dictionaries, sets and strings.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Write reusable functions and test five cases.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: CLI Contact Manager with add/search/edit/delete.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "CLI contact manager.",
+      "checkpoint": "Uses functions and collections; handles missing contacts gracefully.",
+      "estimatedMinutes": 900,
+      "phase": 1
+    },
+    {
+      "number": 2,
+      "title": "Python modules, files and OOP",
+      "moduleId": 1,
+      "focus": "Packages, exceptions, JSON/CSV, classes and type hints",
+      "resourceIds": [
+        "R01",
+        "R03",
+        "R04"
+      ],
+      "videoIds": [
+        "V01"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Use virtualenv and install a dependency.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Read/write JSON and CSV with safe error handling.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Implement classes and object composition.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Practice inheritance, dataclasses and enums.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Add type hints, comprehensions and generators.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: JSON Expense Tracker with CSV export.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Expense tracker.",
+      "checkpoint": "Persists across runs and reports malformed files.",
+      "estimatedMinutes": 900,
+      "phase": 1
+    },
+    {
+      "number": 3,
+      "title": "Practical Python engineering",
+      "moduleId": 1,
+      "focus": "Typing, tests, logging, profiling and async introduction",
+      "resourceIds": [
+        "R01",
+        "R02",
+        "R33"
+      ],
+      "videoIds": [
+        "V01",
+        "V07"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Structure a Python package and configure logs.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Add pytest and debug a failing function.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Implement iterator/generator and a decorator.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Experiment with asyncio coroutines and await.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Retrieve JSON from a public API, validate input.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: CLI API Data Fetcher with tests.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "API data fetcher.",
+      "checkpoint": "Uses defensive exception handling and at least ten tests.",
+      "estimatedMinutes": 900,
+      "phase": 1
+    },
+    {
+      "number": 4,
+      "title": "HTTP and networking fundamentals",
+      "moduleId": 2,
+      "focus": "DNS, TLS, request-response, cookies and headers",
+      "resourceIds": [
+        "R05",
+        "R06"
+      ],
+      "videoIds": [
+        "V02"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Diagram client-server and DNS lookup.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Inspect TCP, ports, HTTPS and TLS.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Read HTTP headers and JSON bodies in DevTools.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Trace cookies, sessions, status and proxies.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Send curl requests and classify status codes.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: HTTP request inspector and cheat sheet.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "HTTP inspector.",
+      "checkpoint": "Explains request/response lifecycle and common status codes.",
+      "estimatedMinutes": 900,
+      "phase": 1
+    },
+    {
+      "number": 5,
+      "title": "Git, API tooling and REST design",
+      "moduleId": 3,
+      "focus": "Version control, Postman, endpoint naming and method semantics",
+      "resourceIds": [
+        "R08",
+        "R09",
+        "R10",
+        "R06"
+      ],
+      "videoIds": [
+        "V03",
+        "V02"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Initialize Git repo and make clean commits.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Clone, branch, merge, resolve a conflict.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Run API requests in Postman and curl.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Design resources, methods and error responses.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Create versioned API spec and Postman collection.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Task API contract with ten requests.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Task API specification.",
+      "checkpoint": "Complete README, Postman collection and endpoint schema.",
+      "estimatedMinutes": 900,
+      "phase": 1
+    },
+    {
+      "number": 6,
+      "title": "First working REST API",
+      "moduleId": 4,
+      "focus": "Basic FastAPI CRUD with no database",
+      "resourceIds": [
+        "R11",
+        "R13",
+        "R17"
+      ],
+      "videoIds": [
+        "V05"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Run a FastAPI app and view /docs.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Implement create and list endpoints.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Implement get/update/delete task routes.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Validate bodies, path values and HTTP errors.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Test success and error cases manually/automatically.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: In-memory Task Manager API.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Task Manager API.",
+      "checkpoint": "Independent CRUD implementation; correct 201/204/404 behavior.",
+      "estimatedMinutes": 900,
+      "phase": 1
+    },
+    {
+      "number": 7,
+      "title": "FastAPI core",
+      "moduleId": 5,
+      "focus": "ASGI, routes, query/path validation, APIRouter and docs",
+      "resourceIds": [
+        "R11",
+        "R13"
+      ],
+      "videoIds": [
+        "V05"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Understand ASGI vs HTTP and run server.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Create path and query parameter routes.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Define request/response models and status codes.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Split routes with APIRouter.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Inspect Swagger UI, OpenAPI and error responses.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Book Library API.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Book API.",
+      "checkpoint": "CRUD endpoints plus OpenAPI response examples.",
+      "estimatedMinutes": 900,
+      "phase": 2
+    },
+    {
+      "number": 8,
+      "title": "Pydantic for reliable APIs",
+      "moduleId": 6,
+      "focus": "Typed schemas, nested validation and controlled responses",
+      "resourceIds": [
+        "R18",
+        "R19"
+      ],
+      "videoIds": [
+        "V05"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Create models with required/optional/default fields.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Use Field constraints and strict values.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Create nested objects and custom validators.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Serialize, exclude secrets and use model config.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Separate Create/Update/Response schemas; test validation.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Student Registration API.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Student API.",
+      "checkpoint": "Invalid data rejected, sensitive fields never returned.",
+      "estimatedMinutes": 900,
+      "phase": 2
+    },
+    {
+      "number": 9,
+      "title": "FastAPI dependencies and middleware",
+      "moduleId": 7,
+      "focus": "Depends, lifespan, CORS, settings, logging",
+      "resourceIds": [
+        "R12",
+        "R14",
+        "R56"
+      ],
+      "videoIds": [
+        "V05",
+        "V06"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Build reusable Depends dependencies.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Implement yield cleanup dependency.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Create logging middleware and CORS policy.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Handle custom exceptions and lifespan events.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Build upload endpoint and typed settings.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Document Management API.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Document API.",
+      "checkpoint": "Trace middleware order and dependency cleanup.",
+      "estimatedMinutes": 900,
+      "phase": 2
+    },
+    {
+      "number": 10,
+      "title": "REST API design for real clients",
+      "moduleId": 8,
+      "focus": "Pagination, contracts, errors and idempotency",
+      "resourceIds": [
+        "R06",
+        "R07",
+        "R61",
+        "R13"
+      ],
+      "videoIds": [
+        "V05",
+        "V02"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Design resources and URI standards.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Add sorting, filtering and pagination.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Standardize errors and document versions.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Experiment with ETag, idempotency keys.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Write OpenAPI examples and contract tests.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Product Catalog API v1.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Product Catalog API.",
+      "checkpoint": "Consistent API design and deterministic pagination.",
+      "estimatedMinutes": 900,
+      "phase": 2
+    },
+    {
+      "number": 11,
+      "title": "FastAPI multi-module integration",
+      "moduleId": 8,
+      "focus": "Composition, pagination, refactoring, test seams",
+      "resourceIds": [
+        "R11",
+        "R12",
+        "R17"
+      ],
+      "videoIds": [
+        "V05"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Split project into routers, schema and configuration.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Implement product/category endpoints.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Add reusable search/filter functions.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Centralize handlers and dependency boundaries.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Add basic unit/API tests and API docs.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Refactor Product Catalog to modular app.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Modular catalog API.",
+      "checkpoint": "At least 15 tested endpoints and readable structure.",
+      "estimatedMinutes": 900,
+      "phase": 2
+    },
+    {
+      "number": 12,
+      "title": "FastAPI level assessment",
+      "moduleId": 8,
+      "focus": "Independent project build with validation and docs",
+      "resourceIds": [
+        "R11",
+        "R18",
+        "R17"
+      ],
+      "videoIds": [
+        "V05"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Review weak spots in routes and Pydantic.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Fix intentionally broken endpoints.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Implement CRUD for an unfamiliar entity.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Add pagination, error handling and middleware.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Write tests and short API consumer guide.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Independent Product Management assessment.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "FastAPI practical exam.",
+      "checkpoint": "No tutorial copying, tests demonstrate important errors.",
+      "estimatedMinutes": 900,
+      "phase": 2
+    },
+    {
+      "number": 13,
+      "title": "SQL fundamentals",
+      "moduleId": 9,
+      "focus": "PostgreSQL setup and CRUD queries",
+      "resourceIds": [
+        "R20",
+        "R21"
+      ],
+      "videoIds": [
+        "V04"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Install PostgreSQL and create a role/database.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Create tables and perform DDL/DML.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Use filters, sorting, limit and NULL semantics.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Apply aggregations, GROUP BY and HAVING.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Add primary/foreign keys and constraints.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: University SQL database + 20 queries.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "University DB.",
+      "checkpoint": "Data integrity constraints and 20 working queries.",
+      "estimatedMinutes": 900,
+      "phase": 3
+    },
+    {
+      "number": 14,
+      "title": "Advanced SQL and relationships",
+      "moduleId": 9,
+      "focus": "JOINs, CTEs, windows, isolation introduction",
+      "resourceIds": [
+        "R20",
+        "R21",
+        "R23"
+      ],
+      "videoIds": [
+        "V04"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Write inner/left/full joins.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Use nested queries and correlated subqueries.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Write CTEs and window analytics.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Normalize schema and add views.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Create multi-statement transactions.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Order-reporting SQL lab.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "SQL reporting lab.",
+      "checkpoint": "15 analytical queries including ranking and JOINs.",
+      "estimatedMinutes": 900,
+      "phase": 3
+    },
+    {
+      "number": 15,
+      "title": "PostgreSQL query plans and transactions",
+      "moduleId": 10,
+      "focus": "Indexes, JSONB, MVCC and EXPLAIN",
+      "resourceIds": [
+        "R22",
+        "R23",
+        "R24"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Explore roles, schemas, UUID and JSONB.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Create B-tree, GIN and partial indexes.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Compare EXPLAIN ANALYZE before/after.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Investigate MVCC and transaction isolation.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Simulate locks/deadlock safely in local DB.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Indexed query benchmark report.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Query benchmark.",
+      "checkpoint": "Reports actual query plan and controlled benchmark setup.",
+      "estimatedMinutes": 900,
+      "phase": 3
+    },
+    {
+      "number": 16,
+      "title": "SQLAlchemy 2.x and FastAPI",
+      "moduleId": 11,
+      "focus": "Models, sessions, relationships and transactions",
+      "resourceIds": [
+        "R26",
+        "R27",
+        "R62"
+      ],
+      "videoIds": [
+        "V05",
+        "V06"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Create engine and SQLAlchemy 2.x ORM models.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Define session dependency and read records.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Implement create/update/delete with rollback.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Model one-to-many/many-to-many relationships.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Detect N+1 and try eager loading.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: PostgreSQL-backed Product Catalog.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Persistent product API.",
+      "checkpoint": "Safe session lifecycle and constraints on persistent data.",
+      "estimatedMinutes": 900,
+      "phase": 3
+    },
+    {
+      "number": 17,
+      "title": "Alembic and database optimization",
+      "moduleId": 12,
+      "focus": "Schema migrations, N+1, pools and backups",
+      "resourceIds": [
+        "R29",
+        "R24",
+        "R25",
+        "R28"
+      ],
+      "videoIds": [
+        "V05",
+        "V06"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Create Alembic environment and initial revision.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Generate/review/apply schema migrations.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Practice backfills and rollback strategy.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Inspect connection pool and eager loading.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Compare sync/async SQLAlchemy and backup.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Inventory API with tracked migrations.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Inventory API migrations.",
+      "checkpoint": "Clean database can be recreated via migrations.",
+      "estimatedMinutes": 900,
+      "phase": 3
+    },
+    {
+      "number": 18,
+      "title": "Database final project",
+      "moduleId": 12,
+      "focus": "Transactions, relationships, reporting and integrity",
+      "resourceIds": [
+        "R26",
+        "R29",
+        "R22"
+      ],
+      "videoIds": [
+        "V05"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Model products, stock, suppliers and warehouses.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Implement atomic stock movements.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Add relational search and reports.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Add indexes and query plan checks.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Test rollback, uniqueness and edge cases.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Complete Inventory Management Backend.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Inventory Backend.",
+      "checkpoint": "ERD and integration tests for stock integrity.",
+      "estimatedMinutes": 900,
+      "phase": 3
+    },
+    {
+      "number": 19,
+      "title": "Authentication, tokens and password security",
+      "moduleId": 13,
+      "focus": "Passwords, JWT, secure login and refresh",
+      "resourceIds": [
+        "R16",
+        "R59",
+        "R31"
+      ],
+      "videoIds": [
+        "V05",
+        "V06"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Compare authentication and authorization; Argon2.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Implement registration with unique emails.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Issue signed JWT access tokens safely.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Create refresh rotation/revocation model.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Protect routes and test expiry/error cases.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Authentication Service v1.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Authentication Service.",
+      "checkpoint": "Does not store plaintext passwords or accept invalid JWTs.",
+      "estimatedMinutes": 900,
+      "phase": 4
+    },
+    {
+      "number": 20,
+      "title": "OAuth2, OIDC and account recovery",
+      "moduleId": 13,
+      "focus": "External login, PKCE, session cookies and reset",
+      "resourceIds": [
+        "R31",
+        "R32",
+        "R58",
+        "R16"
+      ],
+      "videoIds": [
+        "V05",
+        "V06"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Draw OAuth roles and authorization flows.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Study OIDC and identity tokens.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Set up Authorization Code + PKCE test provider.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Compare browser cookies and CSRF defenses.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Build verification/reset and optional MFA outline.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Auth Service v2.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Authentication Service v2.",
+      "checkpoint": "Explains OAuth vs OIDC, handles state and token lifecycle.",
+      "estimatedMinutes": 900,
+      "phase": 4
+    },
+    {
+      "number": 21,
+      "title": "Authorization and OWASP API security",
+      "moduleId": 14,
+      "focus": "RBAC, ownership checks and threat modeling",
+      "resourceIds": [
+        "R30",
+        "R60",
+        "R56"
+      ],
+      "videoIds": [
+        "V06",
+        "V05"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Create roles and permissions model.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Enforce object ownership on every resource.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Review OWASP BOLA and injection attacks.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Configure CORS, CSRF and rate limits.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Write negative tests for privilege escalation.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Multi-role secure API.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Secure resource API.",
+      "checkpoint": "Cross-user ID manipulation cannot disclose/alter data.",
+      "estimatedMinutes": 900,
+      "phase": 4
+    },
+    {
+      "number": 22,
+      "title": "Automated test engineering",
+      "moduleId": 15,
+      "focus": "Pytest, TestClient, fixtures and database isolation",
+      "resourceIds": [
+        "R17",
+        "R33",
+        "R34"
+      ],
+      "videoIds": [
+        "V05",
+        "V06"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Create pytest fixtures and parametrized tests.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Test FastAPI endpoints with TestClient.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Make isolated disposable test database.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Use HTTPX async tests and mocks.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Add security, error and regression cases.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: API test suite.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Automated test suite.",
+      "checkpoint": "Tests all critical authorization flows and database boundaries.",
+      "estimatedMinutes": 900,
+      "phase": 4
+    },
+    {
+      "number": 23,
+      "title": "Clean architecture",
+      "moduleId": 16,
+      "focus": "Separating transport, domain and persistence",
+      "resourceIds": [
+        "R35",
+        "R36"
+      ],
+      "videoIds": [
+        "V06"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Identify coupling and SOLID code smells.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Create router/service/repository layers.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Use DTOs and domain entities.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Add exception boundaries and transaction ownership.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Apply Ruff, typing and code review checklist.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Refactored Inventory architecture.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Refactored Inventory API.",
+      "checkpoint": "Business-rule change does not require HTTP layer edits.",
+      "estimatedMinutes": 900,
+      "phase": 4
+    },
+    {
+      "number": 24,
+      "title": "Security + architecture assessment",
+      "moduleId": 16,
+      "focus": "Refactoring, verification and review",
+      "resourceIds": [
+        "R16",
+        "R30",
+        "R33",
+        "R35"
+      ],
+      "videoIds": [
+        "V05",
+        "V06"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Review tokens, permissions and secrets.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Improve test isolation and negative tests.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Add audit logging for sensitive actions.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Write architecture decision records.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Run full test and security checks.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Secure User/Role Management Backend.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Secure User Backend.",
+      "checkpoint": "Strong permission tests and explanatory architecture README.",
+      "estimatedMinutes": 900,
+      "phase": 4
+    },
+    {
+      "number": 25,
+      "title": "Async backend performance",
+      "moduleId": 17,
+      "focus": "AsyncIO, concurrency, blocking I/O and async ORM",
+      "resourceIds": [
+        "R02",
+        "R28",
+        "R34"
+      ],
+      "videoIds": [
+        "V07",
+        "V08",
+        "V05"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Visualize event loop and coroutines.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Experiment with asyncio tasks and gather.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Implement async HTTPX requests.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Use async SQLAlchemy session safely.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Benchmark I/O concurrency and diagnose blocking.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Concurrent Data Aggregation API.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Async aggregator.",
+      "checkpoint": "Measures impact on I/O; no shared unsafe AsyncSession.",
+      "estimatedMinutes": 900,
+      "phase": 5
+    },
+    {
+      "number": 26,
+      "title": "Redis and worker reliability",
+      "moduleId": 18,
+      "focus": "Caching, queues, retries and idempotent jobs",
+      "resourceIds": [
+        "R37",
+        "R38",
+        "R57"
+      ],
+      "videoIds": [
+        "V06"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Explore Redis types and TTLs.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Implement cache-aside with invalidation.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Compare FastAPI BackgroundTasks with Celery.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Add worker retry/backoff and failure paths.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Design idempotency and dead-letter handling.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Notification Service with queue.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Notification queue.",
+      "checkpoint": "Retries do not duplicate business effects.",
+      "estimatedMinutes": 900,
+      "phase": 5
+    },
+    {
+      "number": 27,
+      "title": "Real-time APIs and webhooks",
+      "moduleId": 19,
+      "focus": "WebSockets, SSE and signature validation",
+      "resourceIds": [
+        "R15",
+        "R39"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Build authenticated WebSocket endpoint.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Handle disconnect/reconnect and multiple clients.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Implement SSE notifications.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Verify signed webhook and timestamp tolerance.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Compare REST/SSE/WebSocket/gRPC tradeoffs.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Realtime Notification API.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Realtime notifications.",
+      "checkpoint": "Authenticated fanout and webhook replay defense.",
+      "estimatedMinutes": 900,
+      "phase": 5
+    },
+    {
+      "number": 28,
+      "title": "System design foundations",
+      "moduleId": 20,
+      "focus": "Scaling, cache, queues, consistency and failures",
+      "resourceIds": [
+        "R40",
+        "R23"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Compare monolith and microservices.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Sketch load balancing and stateless scaling.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Design event-based integration with queues.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Study outbox, eventual consistency and sagas.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Write capacity assumptions and failure scenarios.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Marketplace architecture design.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Marketplace system design.",
+      "checkpoint": "Architecture diagram, assumptions, failure & recovery table.",
+      "estimatedMinutes": 900,
+      "phase": 5
+    },
+    {
+      "number": 29,
+      "title": "Transactional e-commerce integration",
+      "moduleId": 20,
+      "focus": "Orders, stock, cache, job processing and payments",
+      "resourceIds": [
+        "R23",
+        "R37",
+        "R38",
+        "R40"
+      ],
+      "videoIds": [
+        "V06"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Model cart/order/payment resources.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Build order endpoints and valid state transitions.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Implement atomic inventory reservation.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Cache read-heavy product data and use queues.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Validate signed payment test webhooks/idempotency.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Integrated E-commerce API.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "E-commerce API.",
+      "checkpoint": "Repeated callbacks never duplicate fulfillment.",
+      "estimatedMinutes": 900,
+      "phase": 5
+    },
+    {
+      "number": 30,
+      "title": "Distributed systems assessment",
+      "moduleId": 20,
+      "focus": "Benchmarking, reliability and tradeoffs",
+      "resourceIds": [
+        "R40",
+        "R24",
+        "R48"
+      ],
+      "videoIds": [
+        "V05",
+        "V06"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Profile slow sync vs async endpoints.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Compare cache-hit vs cache-miss performance.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Inject job queue failure and recovery.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Test concurrent stock reservations.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Document consistency and scalability decisions.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: E-commerce assessment release.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "E-commerce release.",
+      "checkpoint": "Recorded benchmarks, tests and failure handling.",
+      "estimatedMinutes": 900,
+      "phase": 5
+    },
+    {
+      "number": 31,
+      "title": "Docker and repeatability",
+      "moduleId": 21,
+      "focus": "Images, Compose, networking, volumes, health checks",
+      "resourceIds": [
+        "R41",
+        "R42"
+      ],
+      "videoIds": [
+        "V09",
+        "V05"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Understand processes, images and containers.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Write minimal multi-stage Dockerfile.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Connect API, Postgres, Redis with Compose.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Configure persistence and internal networking.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Create health checks and harden images.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Containerized E-commerce Stack.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Containerized backend.",
+      "checkpoint": "Clean machine runs documented compose startup.",
+      "estimatedMinutes": 900,
+      "phase": 6
+    },
+    {
+      "number": 32,
+      "title": "CI/CD, deployment and rollback",
+      "moduleId": 22,
+      "focus": "GitHub Actions, secrets, HTTPS and release safety",
+      "resourceIds": [
+        "R43",
+        "R41"
+      ],
+      "videoIds": [
+        "V05"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Write CI workflow for lint and tests.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Build/test/push container image.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Configure staging and secrets safely.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Deploy via reverse proxy with HTTPS.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Practice rollback and migration sequencing.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Automated cloud deployment.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "CI/CD deployment.",
+      "checkpoint": "All tests run before deployment; documented rollback.",
+      "estimatedMinutes": 900,
+      "phase": 6
+    },
+    {
+      "number": 33,
+      "title": "Observability and operations",
+      "moduleId": 23,
+      "focus": "Logs, metrics, traces, SLOs and backups",
+      "resourceIds": [
+        "R44",
+        "R45",
+        "R46",
+        "R25"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Add JSON logs and request correlation.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Expose application/worker metrics.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Instrument traces with OpenTelemetry.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Add alerts and health/readiness endpoints.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Define SLO, exercise DB restore and incident response.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Observability dashboard.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Observability system.",
+      "checkpoint": "Can trace a slow request and recover from failure.",
+      "estimatedMinutes": 900,
+      "phase": 6
+    },
+    {
+      "number": 34,
+      "title": "PostgreSQL production optimization",
+      "moduleId": 24,
+      "focus": "Vacuum, PgBouncer, EXPLAIN, load tests",
+      "resourceIds": [
+        "R22",
+        "R24",
+        "R47",
+        "R48",
+        "R49"
+      ],
+      "videoIds": [],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Inspect planner statistics and query profiles.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Study autovacuum, bloat and index maintenance.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Test PgBouncer and pool sizing.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Explore partitioning/read replicas conceptually.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Run Locust with latency/throughput metrics.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Performance tuning report.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "DB performance report.",
+      "checkpoint": "Shows p50/p95, throughput, query plans and reproducible test.",
+      "estimatedMinutes": 900,
+      "phase": 6
+    },
+    {
+      "number": 35,
+      "title": "Capstone build sprint",
+      "moduleId": 24,
+      "focus": "Multi-tenant SaaS backend complete features",
+      "resourceIds": [
+        "R16",
+        "R30",
+        "R26",
+        "R43"
+      ],
+      "videoIds": [
+        "V05",
+        "V06"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Design ERD, tenants and auth model.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Implement tenant isolation, roles and users.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Implement audited CRUD, sorting and pagination.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Integrate caching, workers and notifications.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Write end-to-end tests and migration checks.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: SaaS feature-complete staging build.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "SaaS staging backend.",
+      "checkpoint": "No cross-tenant data leaks, end-to-end tests pass.",
+      "estimatedMinutes": 900,
+      "phase": 6
+    },
+    {
+      "number": 36,
+      "title": "Final production capstone",
+      "moduleId": 24,
+      "focus": "Production deployment, incident simulation and portfolio",
+      "resourceIds": [
+        "R43",
+        "R44",
+        "R24",
+        "R25",
+        "R48"
+      ],
+      "videoIds": [
+        "V05",
+        "V09"
+      ],
+      "days": [
+        {
+          "day": "Monday",
+          "durationMinutes": 120,
+          "outline": "Finalize API contracts and permissions.",
+          "status": "outline"
+        },
+        {
+          "day": "Tuesday",
+          "durationMinutes": 120,
+          "outline": "Deploy with Docker and CI/CD.",
+          "status": "outline"
+        },
+        {
+          "day": "Wednesday",
+          "durationMinutes": 120,
+          "outline": "Connect metrics, tracing and alerts.",
+          "status": "outline"
+        },
+        {
+          "day": "Thursday",
+          "durationMinutes": 120,
+          "outline": "Load-test and remove measured bottlenecks.",
+          "status": "outline"
+        },
+        {
+          "day": "Friday",
+          "durationMinutes": 120,
+          "outline": "Run backup restore and rollback exercise.",
+          "status": "outline"
+        },
+        {
+          "day": "Saturday",
+          "durationMinutes": 300,
+          "outline": "BUILD: Live SaaS capstone demonstration.",
+          "status": "outline"
+        }
+      ],
+      "artefact": "Production SaaS capstone.",
+      "checkpoint": "Secure, observable, tested, reproducible, documented.",
+      "estimatedMinutes": 900,
+      "phase": 6
+    }
+  ],
+  "phases": [
+    {
+      "id": 1,
+      "title": "Python foundations",
+      "range": "01–06",
+      "weeksStart": 1,
+      "weeksEnd": 6
+    },
+    {
+      "id": 2,
+      "title": "APIs and FastAPI",
+      "range": "07–12",
+      "weeksStart": 7,
+      "weeksEnd": 12
+    },
+    {
+      "id": 3,
+      "title": "Data and persistence",
+      "range": "13–18",
+      "weeksStart": 13,
+      "weeksEnd": 18
+    },
+    {
+      "id": 4,
+      "title": "Security and quality",
+      "range": "19–24",
+      "weeksStart": 19,
+      "weeksEnd": 24
+    },
+    {
+      "id": 5,
+      "title": "Scale and architecture",
+      "range": "25–30",
+      "weeksStart": 25,
+      "weeksEnd": 30
+    },
+    {
+      "id": 6,
+      "title": "Production engineering",
+      "range": "31–36",
+      "weeksStart": 31,
+      "weeksEnd": 36
+    }
+  ],
+  "projects": [
+    {
+      "id": "P01",
+      "title": "CLI contact + expense management",
+      "weeks": "1–2",
+      "criteria": "Files, collections, functions, exceptions"
+    },
+    {
+      "id": "P02",
+      "title": "Task Manager REST API",
+      "weeks": "5–6",
+      "criteria": "HTTP CRUD, request validation, errors"
+    },
+    {
+      "id": "P03",
+      "title": "Book and Student APIs",
+      "weeks": "7–8",
+      "criteria": "Routers, Pydantic schemas, docs"
+    },
+    {
+      "id": "P04",
+      "title": "Product Catalog",
+      "weeks": "10–12, 16",
+      "criteria": "Filtering, pagination, SQLAlchemy persistence"
+    },
+    {
+      "id": "P05",
+      "title": "PostgreSQL Inventory",
+      "weeks": "17–18",
+      "criteria": "Relationships, atomic stock, Alembic"
+    },
+    {
+      "id": "P06",
+      "title": "Secure Identity API",
+      "weeks": "19–24",
+      "criteria": "Argon2, JWT, OAuth concepts, RBAC, tests"
+    },
+    {
+      "id": "P07",
+      "title": "Realtime Notification Worker",
+      "weeks": "26–27",
+      "criteria": "Redis, Celery, websockets/SSE, webhook security"
+    },
+    {
+      "id": "P08",
+      "title": "E-commerce API",
+      "weeks": "28–30",
+      "criteria": "Transactions, idempotency, failures, caching"
+    },
+    {
+      "id": "P09",
+      "title": "Multi-tenant SaaS capstone",
+      "weeks": "35–36",
+      "criteria": "Isolation, CI/CD, metrics, tests, rollback, restore"
+    }
+  ]
+}
