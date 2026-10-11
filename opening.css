@@ -10,3 +10,6 @@
 .opening-rule{animation-delay:2s}.opening-tagline{animation-delay:2.1s}.opening-caption{animation-delay:2.25s}
 .opening-orbit{animation:opening-orbit-turn 1.5s cubic-bezier(.22,1,.36,1) both,opening-shell-away .55s .95s ease forwards}
 @keyframes opening-shell-away{to{opacity:0;box-shadow:none}}
+
+.opening-wordmark{column-gap:.24em}
+.opening-cairn .opening-letters{animation-delay:1.85s}
