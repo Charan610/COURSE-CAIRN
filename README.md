@@ -59,3 +59,15 @@ TEST_DATABASE_URL=postgresql://localhost:5432/coursecairn_test npm test
 Tests cover source integrity, schedule/resource/timestamp invariants, account ownership, CSRF, recovery, stale writes, export and independent course storage. Integration tests create and clean up their own test accounts. Without TEST_DATABASE_URL, database tests are explicitly skipped.
 
 Rollback DSA by reverting its frontend/catalog addition. Preserve its existing `course_states` rows and keep Backend IDs unchanged. No DSA migration or data backfill is needed because the existing schema already has a course discriminator. Removing the catalog entry hides DSA but must not delete its records.
+
+## Visual and Pattern Sheets
+
+The course sidebar places **Visual** directly below **Resource library**. The DSA catalog publishes 50 original bounded algorithm labs, grouped across the 26 categories in the reference VisuAlgo catalog plus curriculum extensions. These are declared operations, not a claim to reproduce every variant on VisuAlgo. Exact vertex-cover, Steiner-tree and traveling-salesperson demonstrations intentionally cap input sizes. The NP-completeness lab demonstrates the vertex-cover/independent-set complement reduction.
+
+- Arrays and seven sorting methods; bit operations, linked lists, heaps, hashing, BST/AVL, union-find, Fenwick and segment trees.
+- Recursion, BFS/DFS, topological ordering, SCCs, MSTs, shortest paths, cycle finding, suffix structures, geometry, flow, matching and bounded exact search.
+- DP, KMP, tries, backtracking and Kadane extensions. Language guides are labelled as guides; only binary-search and insertion-sort panels currently include actual C++/Java/Python fragments.
+- Pattern Sheets contain 37 existing canonical problems and 48 original weekly exercises, with original guidance, expandable topics and patterns, filters, bookmarks, attempt evidence and revision collections. 35 LeetCode publisher difficulty labels were retrieved from the official API on 11 October 2026. Other unreviewed publisher labels remain Unknown. No copied RisingBrain collection or its problem totals are represented as native content.
+- Sessions, trace cursors, notes, predictions and practice bookmarks use the existing authenticated DSA course state; attempts use existing DSA history. Backend curriculum and records remain isolated. Account JSON export includes these fields.
+
+Input limits and trace limits are enforced in both browser and server validation. Diagram colors are accompanied by symbols, labels or stroke patterns. Large diagrams scroll within the canvas. Playback does not execute submitted code or grant coding mastery.
