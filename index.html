@@ -19,23 +19,23 @@
       <div class="side-label">YOUR WORKSPACE</div>
       <nav class="nav-list" aria-label="Workspace">
         <a href="#/courses" data-nav="courses"><span>▦</span> My courses</a>
-        <a href="#/profile" data-nav="profile"><span>◎</span> My profile</a>
+        <a href="#/profile" data-nav="profile"><span>◎</span> Profile & progress</a>
       </nav>
       <div class="side-label course-label">INSIDE THIS COURSE</div>
-      <div class="sidebar-course" id="sidebar-course">01 / Backend Mastery</div>
+      <div class="sidebar-course" id="sidebar-course">01 / Backend Mastery</div><a class="sidebar-resume" id="sidebar-resume" href="#/dashboard"><span>Continue learning</span><b>↗</b></a>
       <nav class="nav-list" aria-label="Selected course">
-        <a href="#/dashboard" data-nav="dashboard"><span>◫</span> Overview</a>
-        <a href="#/roadmap" data-nav="roadmap"><span>⌁</span> Curriculum</a>
-        <a href="#/resources" data-nav="resources"><span>↗</span> Resource library</a>
-        <a href="#/visual" data-nav="visual"><span>◇</span> Visual</a>
-        <a href="#/projects" data-nav="projects"><span>▤</span> Projects</a>
-        <a href="#/notes" data-nav="notes"><span>✎</span> My notebook</a>
+        <a href="#/dashboard" data-nav="dashboard"><span>◫</span><div>Today’s overview<small>Your plan, progress & journal</small></div></a>
+        <a href="#/roadmap" data-nav="roadmap"><span>⌁</span><div>Curriculum<small>Follow the weekly learning path</small></div></a>
+        <a href="#/resources" data-nav="resources"><span>↗</span><div>Resource library<small>Find topic-matched docs & videos</small></div></a>
+        <a href="#/visual" data-nav="visual"><span>◇</span><div>Visual lab<small>Explore concepts step by step</small></div></a>
+        <div class="nav-section-label">PRACTICE & KEEP</div><a href="#/practice" data-nav="practice" data-dsa-only hidden><span>⌘</span><div>Problem practice<small>Solve problems & record attempts</small></div></a><a href="#/interviews" data-nav="interviews" data-dsa-only hidden><span>↗</span><div>Interview prep<small>Your placement preparation plan</small></div></a><a href="#/projects" data-nav="projects"><span>▤</span><div>Projects<small>Build your portfolio & save evidence</small></div></a>
+        <a href="#/notes" data-nav="notes"><span>✎</span><div>Notes & bookmarks<small>Your saved ideas, links & revisions</small></div></a>
       </nav>
       <div class="sidebar-mantra"><span>SMALL STEPS. REAL SKILLS.</span><p>Your next chapter<br>starts with showing up.</p><i aria-hidden="true">↗</i></div>
       <div class="sidebar-bottom"><div class="guest-pill"><i></i> Guest progress · saved on this device</div><button id="export-data" class="side-action">↧ &nbsp; Export my data</button><button id="reset-data" class="side-action">↺ &nbsp; Reset progress</button></div>
     </aside>
-    <div class="app-main">
-      <header class="topbar"><button id="menu-toggle" class="icon-button mobile-menu" aria-label="Open navigation">☰</button><div class="breadcrumbs" id="breadcrumbs">CourseCairn <span>/</span> Courses</div><div class="top-actions"><select id="course-select" aria-label="Select course" class="course-select"></select><span class="date-label" id="today-date"></span><span class="save-status" id="save-status" role="status">Connecting…</span><a class="avatar" id="profile-avatar" href="#/profile" aria-label="Open learner profile">L</a></div></header>
+    <button class="nav-backdrop" id="nav-backdrop" aria-label="Close navigation" tabindex="-1" hidden></button><div class="app-main">
+      <header class="topbar"><button id="menu-toggle" class="icon-button mobile-menu" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false">☰</button><div class="breadcrumbs" id="breadcrumbs">CourseCairn <span>/</span> Courses</div><div class="top-actions"><select id="course-select" aria-label="Select course" class="course-select"></select><span class="date-label" id="today-date"></span><span class="save-status" id="save-status" role="status">Connecting…</span><a class="avatar" id="profile-avatar" href="#/profile" aria-label="Open learner profile">L</a></div></header>
       <main id="main" tabindex="-1"><div class="loading">Opening your learning studio…</div></main>
       <footer class="site-footer"><span>COURSECAIRN · LEARNING STUDIO</span><span>Made for steady progress · Your private learning account</span></footer>
     </div>
