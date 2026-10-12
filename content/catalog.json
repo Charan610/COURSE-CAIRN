@@ -24,6 +24,18 @@
       "weeks": 48,
       "modules": 48,
       "hours": 720
+    },
+    {
+      "id": "system-design",
+      "number": "03",
+      "title": "System Design",
+      "category": "HLD + LLD + Real-world architecture",
+      "description": "A sequenced path through 196 topics, 20 modules and 6 phases. Three foundation lessons available; more lessons coming soon.",
+      "curriculum": "system-design.json",
+      "status": "available",
+      "modules": 20,
+      "topics": 196,
+      "phases": 6
     }
   ],
   "plannedCourses": []

@@ -1,0 +1,4311 @@
+{
+  "schemaVersion": 1,
+  "course": {
+    "id": "system-design",
+    "slug": "system-design",
+    "title": "System Design",
+    "subtitle": "HLD + LLD + Real-World Architecture",
+    "topicCount": 196,
+    "moduleCount": 20,
+    "phaseCount": 6,
+    "releaseDescription": "Seed release: all 196 topics registered; three foundation lessons published."
+  },
+  "phases": [
+    {
+      "id": "SD-P01",
+      "number": 1,
+      "title": "Foundations",
+      "description": "New learners: systems vocabulary, networking, APIs, scalability",
+      "moduleIds": [
+        "SD-M01",
+        "SD-M02",
+        "SD-M03",
+        "SD-M04"
+      ]
+    },
+    {
+      "id": "SD-P02",
+      "number": 2,
+      "title": "Core HLD",
+      "description": "Storage, caching, distributed systems, messaging, patterns and reliability",
+      "moduleIds": [
+        "SD-M05",
+        "SD-M06",
+        "SD-M07",
+        "SD-M08",
+        "SD-M09",
+        "SD-M10"
+      ]
+    },
+    {
+      "id": "SD-P03",
+      "number": 3,
+      "title": "Low-Level Design",
+      "description": "OOP, design patterns, and implementation exercises",
+      "moduleIds": [
+        "SD-M11",
+        "SD-M12",
+        "SD-M13"
+      ]
+    },
+    {
+      "id": "SD-P04",
+      "number": 4,
+      "title": "Real-World HLD Case Studies",
+      "description": "Classic and large-scale design problems with explicit trade-offs",
+      "moduleIds": [
+        "SD-M14",
+        "SD-M15",
+        "SD-M16"
+      ]
+    },
+    {
+      "id": "SD-P05",
+      "number": 5,
+      "title": "Production & Advanced Architecture",
+      "description": "Cloud, advanced systems and build-and-deploy labs",
+      "moduleIds": [
+        "SD-M17",
+        "SD-M18",
+        "SD-M19"
+      ]
+    },
+    {
+      "id": "SD-P06",
+      "number": 6,
+      "title": "Interview Mastery",
+      "description": "Communication, mock interviews and final assessments",
+      "moduleIds": [
+        "SD-M20"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "SD-M01",
+      "courseId": "system-design",
+      "phaseId": "SD-P01",
+      "order": 1,
+      "title": "Introduction to System Design",
+      "topicIds": [
+        "SD-001",
+        "SD-002",
+        "SD-003",
+        "SD-004",
+        "SD-005",
+        "SD-006",
+        "SD-007"
+      ]
+    },
+    {
+      "id": "SD-M02",
+      "courseId": "system-design",
+      "phaseId": "SD-P01",
+      "order": 2,
+      "title": "Computer Networking Essentials",
+      "topicIds": [
+        "SD-008",
+        "SD-009",
+        "SD-010",
+        "SD-011",
+        "SD-012",
+        "SD-013",
+        "SD-014",
+        "SD-015"
+      ]
+    },
+    {
+      "id": "SD-M03",
+      "courseId": "system-design",
+      "phaseId": "SD-P01",
+      "order": 3,
+      "title": "Backend & API Architecture",
+      "topicIds": [
+        "SD-016",
+        "SD-017",
+        "SD-018",
+        "SD-019",
+        "SD-020",
+        "SD-021",
+        "SD-022",
+        "SD-023"
+      ]
+    },
+    {
+      "id": "SD-M04",
+      "courseId": "system-design",
+      "phaseId": "SD-P01",
+      "order": 4,
+      "title": "Scalability Fundamentals",
+      "topicIds": [
+        "SD-024",
+        "SD-025",
+        "SD-026",
+        "SD-027",
+        "SD-028",
+        "SD-029",
+        "SD-030",
+        "SD-031"
+      ]
+    },
+    {
+      "id": "SD-M05",
+      "courseId": "system-design",
+      "phaseId": "SD-P02",
+      "order": 5,
+      "title": "Databases in System Design",
+      "topicIds": [
+        "SD-032",
+        "SD-033",
+        "SD-034",
+        "SD-035",
+        "SD-036",
+        "SD-037",
+        "SD-038",
+        "SD-039",
+        "SD-040"
+      ]
+    },
+    {
+      "id": "SD-M06",
+      "courseId": "system-design",
+      "phaseId": "SD-P02",
+      "order": 6,
+      "title": "Caching Systems",
+      "topicIds": [
+        "SD-041",
+        "SD-042",
+        "SD-043",
+        "SD-044",
+        "SD-045",
+        "SD-046",
+        "SD-047",
+        "SD-048"
+      ]
+    },
+    {
+      "id": "SD-M07",
+      "courseId": "system-design",
+      "phaseId": "SD-P02",
+      "order": 7,
+      "title": "Distributed Systems Fundamentals",
+      "topicIds": [
+        "SD-049",
+        "SD-050",
+        "SD-051",
+        "SD-052",
+        "SD-053",
+        "SD-054",
+        "SD-055",
+        "SD-056",
+        "SD-057",
+        "SD-058"
+      ]
+    },
+    {
+      "id": "SD-M08",
+      "courseId": "system-design",
+      "phaseId": "SD-P02",
+      "order": 8,
+      "title": "Message Queues & Streaming",
+      "topicIds": [
+        "SD-059",
+        "SD-060",
+        "SD-061",
+        "SD-062",
+        "SD-063",
+        "SD-064",
+        "SD-065",
+        "SD-066",
+        "SD-067"
+      ]
+    },
+    {
+      "id": "SD-M09",
+      "courseId": "system-design",
+      "phaseId": "SD-P02",
+      "order": 9,
+      "title": "High-Level Architecture Patterns",
+      "topicIds": [
+        "SD-068",
+        "SD-069",
+        "SD-070",
+        "SD-071",
+        "SD-072",
+        "SD-073",
+        "SD-074",
+        "SD-075",
+        "SD-076",
+        "SD-077"
+      ]
+    },
+    {
+      "id": "SD-M10",
+      "courseId": "system-design",
+      "phaseId": "SD-P02",
+      "order": 10,
+      "title": "Reliability, Security & Observability",
+      "topicIds": [
+        "SD-078",
+        "SD-079",
+        "SD-080",
+        "SD-081",
+        "SD-082",
+        "SD-083",
+        "SD-084",
+        "SD-085",
+        "SD-086",
+        "SD-087"
+      ]
+    },
+    {
+      "id": "SD-M11",
+      "courseId": "system-design",
+      "phaseId": "SD-P03",
+      "order": 11,
+      "title": "Object-Oriented Design Essentials",
+      "topicIds": [
+        "SD-088",
+        "SD-089",
+        "SD-090",
+        "SD-091",
+        "SD-092",
+        "SD-093",
+        "SD-094",
+        "SD-095"
+      ]
+    },
+    {
+      "id": "SD-M12",
+      "courseId": "system-design",
+      "phaseId": "SD-P03",
+      "order": 12,
+      "title": "Design Patterns",
+      "topicIds": [
+        "SD-096",
+        "SD-097",
+        "SD-098",
+        "SD-099",
+        "SD-100",
+        "SD-101",
+        "SD-102",
+        "SD-103",
+        "SD-104"
+      ]
+    },
+    {
+      "id": "SD-M13",
+      "courseId": "system-design",
+      "phaseId": "SD-P03",
+      "order": 13,
+      "title": "LLD Practice Problems",
+      "topicIds": [
+        "SD-105",
+        "SD-106",
+        "SD-107",
+        "SD-108",
+        "SD-109",
+        "SD-110",
+        "SD-111",
+        "SD-112",
+        "SD-113",
+        "SD-114",
+        "SD-115",
+        "SD-116"
+      ]
+    },
+    {
+      "id": "SD-M14",
+      "courseId": "system-design",
+      "phaseId": "SD-P04",
+      "order": 14,
+      "title": "Classic HLD Design Problems",
+      "topicIds": [
+        "SD-117",
+        "SD-118",
+        "SD-119",
+        "SD-120",
+        "SD-121",
+        "SD-122",
+        "SD-123",
+        "SD-124",
+        "SD-125",
+        "SD-126",
+        "SD-127",
+        "SD-128"
+      ]
+    },
+    {
+      "id": "SD-M15",
+      "courseId": "system-design",
+      "phaseId": "SD-P04",
+      "order": 15,
+      "title": "Large-Scale Consumer Systems",
+      "topicIds": [
+        "SD-129",
+        "SD-130",
+        "SD-131",
+        "SD-132",
+        "SD-133",
+        "SD-134",
+        "SD-135",
+        "SD-136",
+        "SD-137",
+        "SD-138",
+        "SD-139",
+        "SD-140"
+      ]
+    },
+    {
+      "id": "SD-M16",
+      "courseId": "system-design",
+      "phaseId": "SD-P04",
+      "order": 16,
+      "title": "Specialized Large-Scale Architectures",
+      "topicIds": [
+        "SD-141",
+        "SD-142",
+        "SD-143",
+        "SD-144",
+        "SD-145",
+        "SD-146",
+        "SD-147",
+        "SD-148",
+        "SD-149",
+        "SD-150",
+        "SD-151",
+        "SD-152"
+      ]
+    },
+    {
+      "id": "SD-M17",
+      "courseId": "system-design",
+      "phaseId": "SD-P05",
+      "order": 17,
+      "title": "Cloud & Infrastructure Design",
+      "topicIds": [
+        "SD-153",
+        "SD-154",
+        "SD-155",
+        "SD-156",
+        "SD-157",
+        "SD-158",
+        "SD-159",
+        "SD-160",
+        "SD-161",
+        "SD-162"
+      ]
+    },
+    {
+      "id": "SD-M18",
+      "courseId": "system-design",
+      "phaseId": "SD-P05",
+      "order": 18,
+      "title": "Advanced Engineering & Modern Architecture",
+      "topicIds": [
+        "SD-163",
+        "SD-164",
+        "SD-165",
+        "SD-166",
+        "SD-167",
+        "SD-168",
+        "SD-169",
+        "SD-170",
+        "SD-171",
+        "SD-172",
+        "SD-173",
+        "SD-174"
+      ]
+    },
+    {
+      "id": "SD-M19",
+      "courseId": "system-design",
+      "phaseId": "SD-P05",
+      "order": 19,
+      "title": "Hands-On Projects & Architecture Labs",
+      "topicIds": [
+        "SD-175",
+        "SD-176",
+        "SD-177",
+        "SD-178",
+        "SD-179",
+        "SD-180",
+        "SD-181",
+        "SD-182",
+        "SD-183",
+        "SD-184"
+      ]
+    },
+    {
+      "id": "SD-M20",
+      "courseId": "system-design",
+      "phaseId": "SD-P06",
+      "order": 20,
+      "title": "Interview Preparation & Company Challenges",
+      "topicIds": [
+        "SD-185",
+        "SD-186",
+        "SD-187",
+        "SD-188",
+        "SD-189",
+        "SD-190",
+        "SD-191",
+        "SD-192",
+        "SD-193",
+        "SD-194",
+        "SD-195",
+        "SD-196"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "SD-001",
+      "topicNumber": 1,
+      "courseId": "system-design",
+      "moduleId": "SD-M01",
+      "phaseId": "SD-P01",
+      "title": "What is System Design?",
+      "slug": "sd-001-what-is-system-design",
+      "status": "published",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [
+        "Turn a product idea into components and responsibilities.",
+        "Trace a request and identify a failure boundary.",
+        "Explain one architecture trade-off."
+      ],
+      "resourceIds": [
+        "SD-R01",
+        "SD-R02"
+      ],
+      "visualizerIds": [],
+      "practiceIds": [],
+      "estimatedMinutes": 25,
+      "revisedAt": "2026-10-12",
+      "lesson": {
+        "sections": [
+          {
+            "title": "Design starts with a user need",
+            "text": "System design is the process of choosing how software components cooperate to meet a concrete need under explicit constraints. Start with what a user must accomplish, the data that must survive, and the conditions the system must tolerate. A list of fashionable tools is not a design."
+          },
+          {
+            "title": "Example: a shared reading list",
+            "text": "Assume a small team saves article URLs and reads the same list. The browser sends an authenticated request to an API. The API checks membership, validates the URL, and writes an item to a database. A background worker may fetch a page title after the write. The synchronous path should succeed even if that optional title fetch is slow."
+          },
+          {
+            "title": "Define boundaries",
+            "text": "The client owns interaction, the API owns permission checks and business rules, and the database owns durable storage constraints. A request crosses boundaries where latency or failure can occur. A database timeout is different from a rejected permission check: communicate the outcome clearly and avoid telling the user a write succeeded before it is durable."
+          },
+          {
+            "title": "Choose the smallest defensible baseline",
+            "text": "For this example, one deployable API and a relational database are a reasonable starting point. More services introduce deployment, coordination and observability work. If title enrichment becomes expensive, a separate worker isolates it, but introduces queue operations and delayed results. State the conditions that would justify the change."
+          },
+          {
+            "title": "Failure exercise",
+            "text": "If a save times out after the database commits, a retry can duplicate the item. Propose a unique constraint or idempotency key and explain which duplicate the rule prevents. Consider the cost of rejecting two intentional saves of the same URL."
+          }
+        ],
+        "diagram": [
+          "Browser",
+          "API: validate + authorize",
+          "Database: save item"
+        ],
+        "diagramCaption": "Request path for a hypothetical reading-list application. Optional enrichment can run after the durable write.",
+        "example": "POST /lists/42/items\nAuthorization: <existing session>\n{ \"url\": \"https://example.com/article\" }\n\n201 Created only after the item is stored.\nA retry must use an explicit duplicate policy.",
+        "exercise": "Draw the reading-list architecture. Add the membership check, one timeout, and a safe retry policy. Explain why you chose synchronous or asynchronous title enrichment.",
+        "takeaways": [
+          "Start with requirements and constraints.",
+          "Assign data and behavior to clear owners.",
+          "Explain failure behavior before adding scale."
+        ],
+        "quiz": {
+          "question": "Which decision belongs in the baseline design?",
+          "options": [
+            "Choose five services before estimating demand.",
+            "Specify what happens if a write commits but its response is lost.",
+            "Assume retries are always safe."
+          ],
+          "answer": 1,
+          "explanation": "The response can be lost after a durable write. The design needs an explicit retry and duplicate policy."
+        }
+      }
+    },
+    {
+      "id": "SD-002",
+      "topicNumber": 2,
+      "courseId": "system-design",
+      "moduleId": "SD-M01",
+      "phaseId": "SD-P01",
+      "title": "HLD vs LLD",
+      "slug": "sd-002-hld-vs-lld",
+      "status": "published",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [
+        "SD-001"
+      ],
+      "objectives": [
+        "Distinguish system boundaries from class boundaries.",
+        "Connect an HLD decision to an LLD contract.",
+        "Evaluate how a contract behaves under concurrent requests."
+      ],
+      "resourceIds": [
+        "SD-R01",
+        "SD-R02"
+      ],
+      "visualizerIds": [],
+      "practiceIds": [],
+      "estimatedMinutes": 25,
+      "revisedAt": "2026-10-12",
+      "lesson": {
+        "sections": [
+          {
+            "title": "Two views of the same system",
+            "text": "High-level design (HLD) describes services, data stores, communication paths, deployment boundaries and system-wide trade-offs. Low-level design (LLD) describes the internal responsibilities, interfaces, data structures and invariants that make a component correct. The boundary is a useful working distinction rather than a universal standard."
+          },
+          {
+            "title": "HLD example: reserving seats",
+            "text": "A hypothetical booking system has a client, booking API and inventory database. The HLD explains which component owns seat availability, how users authenticate, and how the system responds when a dependency fails. A queue can handle email after a confirmed booking; it must not become a substitute for an atomic reservation decision."
+          },
+          {
+            "title": "LLD example: the reservation contract",
+            "text": "Inside the booking component, ReservationService coordinates a repository and a clock. The repository exposes tryReserve(seatId, userId, expiresAt), with an atomic guarantee that at most one unexpired reservation owns a seat. A separate payment operation has its own retry policy. Interfaces express these promises; class diagrams alone do not enforce them."
+          },
+          {
+            "title": "Where the views meet",
+            "text": "An HLD choice to run multiple booking instances means an in-memory lock in one process cannot prevent a second instance from reserving the same seat. The LLD must use a shared atomic operation, transaction or appropriate concurrency control. Test two callers competing for the same seat and specify the losing result."
+          },
+          {
+            "title": "Trade-offs and change",
+            "text": "A single booking component can keep related rules together. Splitting inventory and booking creates distributed failure cases that require a carefully designed protocol. Decompose when independent scaling, ownership or deployment benefits justify that added coordination."
+          }
+        ],
+        "diagram": [
+          "Client",
+          "Booking API",
+          "Inventory database"
+        ],
+        "diagramCaption": "HLD shows the network boundaries. LLD defines the atomic repository contract within the booking API.",
+        "example": "interface ReservationRepository {\n  // Atomic: one active owner per seat.\n  tryReserve(seatId, userId, expiresAt):\n    Reserved | AlreadyReserved\n}\n\nReservationService(repository, clock)\n// Inject a fake clock and repository for local tests.",
+        "exercise": "Sketch the HLD and interfaces for seat reservation. Write three test cases: two concurrent callers, an expired hold, and a repeated request. Explain which layer enforces each invariant.",
+        "takeaways": [
+          "HLD explains communication and ownership.",
+          "LLD makes contracts and invariants concrete.",
+          "Concurrency assumptions must agree across both views."
+        ],
+        "quiz": {
+          "question": "Two API instances reserve the same seat. What is sufficient?",
+          "options": [
+            "A mutex in each instance.",
+            "A shared atomic reservation rule in the inventory owner.",
+            "A larger client timeout."
+          ],
+          "answer": 1,
+          "explanation": "Separate process locks do not coordinate with each other. The seat owner needs a shared atomic rule."
+        }
+      }
+    },
+    {
+      "id": "SD-003",
+      "topicNumber": 3,
+      "courseId": "system-design",
+      "moduleId": "SD-M01",
+      "phaseId": "SD-P01",
+      "title": "Functional and non-functional requirements",
+      "slug": "sd-003-functional-and-non-functional-requirements",
+      "status": "published",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [
+        "SD-001",
+        "SD-002"
+      ],
+      "objectives": [
+        "Separate required behavior from quality targets.",
+        "Write measurable latency and availability objectives.",
+        "Identify assumptions and exclusions before designing."
+      ],
+      "resourceIds": [
+        "SD-R01",
+        "SD-R03"
+      ],
+      "visualizerIds": [],
+      "practiceIds": [],
+      "estimatedMinutes": 30,
+      "revisedAt": "2026-10-12",
+      "lesson": {
+        "sections": [
+          {
+            "title": "Behavior and qualities",
+            "text": "Functional requirements describe what a system does: create a list, add an item, or reject an unauthorized request. Non-functional requirements describe measurable qualities or constraints: latency, availability, durability, privacy, operational cost or deployment limitations. Both affect architecture; security requirements often contain behavior as well as quality constraints."
+          },
+          {
+            "title": "Make the scope testable",
+            "text": "For a hypothetical reading-list service, include creating lists, adding URLs and viewing lists shared with a user. Exclude public discovery and automated article summarization from the first design. State whether two items with the same URL are allowed. These choices prevent the system from silently growing beyond the problem."
+          },
+          {
+            "title": "Turn adjectives into measurements",
+            "text": "Fast is ambiguous. An illustrative target could be: 95% of successful list-read requests complete within 300 ms, measured at the API edge over a rolling seven-day window for lists with at most 100 items. This is an assumed design target, not a measured result. Define the request population, percentile, observation point and window."
+          },
+          {
+            "title": "Availability and durability differ",
+            "text": "A service can be reachable while losing data, or preserve data while temporarily rejecting requests. An illustrative availability objective might be 99.9% successful eligible requests over 30 days. Define which requests are eligible and how errors count. Separately state what a confirmed write promises and the backup or recovery expectations."
+          },
+          {
+            "title": "Estimate before choosing capacity",
+            "text": "Assume 10,000 daily active users, each making 20 reads per day. That is 200,000 reads/day, or about 2.31 reads/second averaged across 86,400 seconds. A hypothetical 10\u00d7 peak is about 23.1 reads/second. Average and peak estimates are planning assumptions; validate them with measurements. A read count alone does not establish storage, write load or response size."
+          },
+          {
+            "title": "Trade-offs and review",
+            "text": "A stricter latency target may require indexes or caching, but cached shared-list data can become stale after permission changes. A tighter durability target may increase write latency and infrastructure cost. Record the decision, the acceptable failure behavior and a metric that would cause you to revisit it."
+          }
+        ],
+        "diagram": [
+          "User requirement",
+          "Measurable objective",
+          "Architecture + measurement"
+        ],
+        "diagramCaption": "Trace each design decision to a requirement and a way to evaluate it.",
+        "example": "Assumptions:\n10,000 users/day \u00d7 20 reads/user = 200,000 reads/day\n200,000 / 86,400 \u2248 2.31 reads/second (average)\n10 \u00d7 average \u2248 23.1 reads/second (assumed peak)\n\nThese are estimates, not production measurements.",
+        "exercise": "Write three functional requirements and three measurable quality targets for the reading-list service. Add a load estimate, two exclusions and one trade-off. Distinguish assumptions from observed data.",
+        "takeaways": [
+          "Scope behavior before selecting components.",
+          "Specify units, percentiles and measurement windows.",
+          "Separate service availability from data durability."
+        ],
+        "quiz": {
+          "question": "Which is a measurable quality target?",
+          "options": [
+            "The app should feel very fast.",
+            "Use a cache everywhere.",
+            "95% of eligible reads finish within 300 ms at the API edge over seven days."
+          ],
+          "answer": 2,
+          "explanation": "The target states a population, percentile, unit, observation point and window."
+        }
+      }
+    },
+    {
+      "id": "SD-004",
+      "topicNumber": 4,
+      "courseId": "system-design",
+      "moduleId": "SD-M01",
+      "phaseId": "SD-P01",
+      "title": "Scalability, reliability and availability",
+      "slug": "sd-004-scalability-reliability-and-availability",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-005",
+      "topicNumber": 5,
+      "courseId": "system-design",
+      "moduleId": "SD-M01",
+      "phaseId": "SD-P01",
+      "title": "Latency, throughput and performance",
+      "slug": "sd-005-latency-throughput-and-performance",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-006",
+      "topicNumber": 6,
+      "courseId": "system-design",
+      "moduleId": "SD-M01",
+      "phaseId": "SD-P01",
+      "title": "Capacity estimation and back-of-envelope calculations",
+      "slug": "sd-006-capacity-estimation-and-back-of-envelope-calculations",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-007",
+      "topicNumber": 7,
+      "courseId": "system-design",
+      "moduleId": "SD-M01",
+      "phaseId": "SD-P01",
+      "title": "System design trade-offs",
+      "slug": "sd-007-system-design-trade-offs",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-008",
+      "topicNumber": 8,
+      "courseId": "system-design",
+      "moduleId": "SD-M02",
+      "phaseId": "SD-P01",
+      "title": "How the internet works",
+      "slug": "sd-008-how-the-internet-works",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-009",
+      "topicNumber": 9,
+      "courseId": "system-design",
+      "moduleId": "SD-M02",
+      "phaseId": "SD-P01",
+      "title": "OSI and TCP/IP models",
+      "slug": "sd-009-osi-and-tcp-ip-models",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-010",
+      "topicNumber": 10,
+      "courseId": "system-design",
+      "moduleId": "SD-M02",
+      "phaseId": "SD-P01",
+      "title": "IP, TCP, UDP and QUIC basics",
+      "slug": "sd-010-ip-tcp-udp-and-quic-basics",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-011",
+      "topicNumber": 11,
+      "courseId": "system-design",
+      "moduleId": "SD-M02",
+      "phaseId": "SD-P01",
+      "title": "HTTP/HTTPS and HTTP/2 vs HTTP/3",
+      "slug": "sd-011-http-https-and-http-2-vs-http-3",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-012",
+      "topicNumber": 12,
+      "courseId": "system-design",
+      "moduleId": "SD-M02",
+      "phaseId": "SD-P01",
+      "title": "DNS resolution",
+      "slug": "sd-012-dns-resolution",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-013",
+      "topicNumber": 13,
+      "courseId": "system-design",
+      "moduleId": "SD-M02",
+      "phaseId": "SD-P01",
+      "title": "TLS/SSL and secure communication",
+      "slug": "sd-013-tls-ssl-and-secure-communication",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-014",
+      "topicNumber": 14,
+      "courseId": "system-design",
+      "moduleId": "SD-M02",
+      "phaseId": "SD-P01",
+      "title": "WebSockets, SSE and long polling",
+      "slug": "sd-014-websockets-sse-and-long-polling",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-015",
+      "topicNumber": 15,
+      "courseId": "system-design",
+      "moduleId": "SD-M02",
+      "phaseId": "SD-P01",
+      "title": "Proxies, reverse proxies and NAT",
+      "slug": "sd-015-proxies-reverse-proxies-and-nat",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-016",
+      "topicNumber": 16,
+      "courseId": "system-design",
+      "moduleId": "SD-M03",
+      "phaseId": "SD-P01",
+      "title": "Client-server architecture",
+      "slug": "sd-016-client-server-architecture",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-017",
+      "topicNumber": 17,
+      "courseId": "system-design",
+      "moduleId": "SD-M03",
+      "phaseId": "SD-P01",
+      "title": "REST, GraphQL and gRPC",
+      "slug": "sd-017-rest-graphql-and-grpc",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-018",
+      "topicNumber": 18,
+      "courseId": "system-design",
+      "moduleId": "SD-M03",
+      "phaseId": "SD-P01",
+      "title": "Stateless vs stateful services",
+      "slug": "sd-018-stateless-vs-stateful-services",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-019",
+      "topicNumber": 19,
+      "courseId": "system-design",
+      "moduleId": "SD-M03",
+      "phaseId": "SD-P01",
+      "title": "API gateways",
+      "slug": "sd-019-api-gateways",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-020",
+      "topicNumber": 20,
+      "courseId": "system-design",
+      "moduleId": "SD-M03",
+      "phaseId": "SD-P01",
+      "title": "Authentication vs authorization",
+      "slug": "sd-020-authentication-vs-authorization",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-021",
+      "topicNumber": 21,
+      "courseId": "system-design",
+      "moduleId": "SD-M03",
+      "phaseId": "SD-P01",
+      "title": "Pagination, filtering and rate limiting",
+      "slug": "sd-021-pagination-filtering-and-rate-limiting",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-022",
+      "topicNumber": 22,
+      "courseId": "system-design",
+      "moduleId": "SD-M03",
+      "phaseId": "SD-P01",
+      "title": "Idempotency and API versioning",
+      "slug": "sd-022-idempotency-and-api-versioning",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-023",
+      "topicNumber": 23,
+      "courseId": "system-design",
+      "moduleId": "SD-M03",
+      "phaseId": "SD-P01",
+      "title": "Webhooks and asynchronous APIs",
+      "slug": "sd-023-webhooks-and-asynchronous-apis",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-024",
+      "topicNumber": 24,
+      "courseId": "system-design",
+      "moduleId": "SD-M04",
+      "phaseId": "SD-P01",
+      "title": "Vertical and horizontal scaling",
+      "slug": "sd-024-vertical-and-horizontal-scaling",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-025",
+      "topicNumber": 25,
+      "courseId": "system-design",
+      "moduleId": "SD-M04",
+      "phaseId": "SD-P01",
+      "title": "Load balancing algorithms",
+      "slug": "sd-025-load-balancing-algorithms",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-026",
+      "topicNumber": 26,
+      "courseId": "system-design",
+      "moduleId": "SD-M04",
+      "phaseId": "SD-P01",
+      "title": "Caching fundamentals",
+      "slug": "sd-026-caching-fundamentals",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-027",
+      "topicNumber": 27,
+      "courseId": "system-design",
+      "moduleId": "SD-M04",
+      "phaseId": "SD-P01",
+      "title": "CDNs and edge computing",
+      "slug": "sd-027-cdns-and-edge-computing",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-028",
+      "topicNumber": 28,
+      "courseId": "system-design",
+      "moduleId": "SD-M04",
+      "phaseId": "SD-P01",
+      "title": "Auto-scaling",
+      "slug": "sd-028-auto-scaling",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-029",
+      "topicNumber": 29,
+      "courseId": "system-design",
+      "moduleId": "SD-M04",
+      "phaseId": "SD-P01",
+      "title": "Database replication basics",
+      "slug": "sd-029-database-replication-basics",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-030",
+      "topicNumber": 30,
+      "courseId": "system-design",
+      "moduleId": "SD-M04",
+      "phaseId": "SD-P01",
+      "title": "Database sharding basics",
+      "slug": "sd-030-database-sharding-basics",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-031",
+      "topicNumber": 31,
+      "courseId": "system-design",
+      "moduleId": "SD-M04",
+      "phaseId": "SD-P01",
+      "title": "Bottleneck identification and performance testing",
+      "slug": "sd-031-bottleneck-identification-and-performance-testing",
+      "status": "coming-soon",
+      "tags": [
+        "foundation",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-032",
+      "topicNumber": 32,
+      "courseId": "system-design",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "title": "SQL vs NoSQL",
+      "slug": "sd-032-sql-vs-nosql",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-033",
+      "topicNumber": 33,
+      "courseId": "system-design",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "title": "Data modeling and normalization",
+      "slug": "sd-033-data-modeling-and-normalization",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-034",
+      "topicNumber": 34,
+      "courseId": "system-design",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "title": "Indexes and query optimization",
+      "slug": "sd-034-indexes-and-query-optimization",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-035",
+      "topicNumber": 35,
+      "courseId": "system-design",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "title": "ACID transactions",
+      "slug": "sd-035-acid-transactions",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-036",
+      "topicNumber": 36,
+      "courseId": "system-design",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "title": "Isolation levels and MVCC",
+      "slug": "sd-036-isolation-levels-and-mvcc",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-037",
+      "topicNumber": 37,
+      "courseId": "system-design",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "title": "Primary-replica replication",
+      "slug": "sd-037-primary-replica-replication",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-038",
+      "topicNumber": 38,
+      "courseId": "system-design",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "title": "Partitioning and sharding strategies",
+      "slug": "sd-038-partitioning-and-sharding-strategies",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-039",
+      "topicNumber": 39,
+      "courseId": "system-design",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "title": "Distributed SQL, key-value, document and graph databases",
+      "slug": "sd-039-distributed-sql-key-value-document-and-graph-databases",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-040",
+      "topicNumber": 40,
+      "courseId": "system-design",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "title": "CQRS and event sourcing",
+      "slug": "sd-040-cqrs-and-event-sourcing",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-041",
+      "topicNumber": 41,
+      "courseId": "system-design",
+      "moduleId": "SD-M06",
+      "phaseId": "SD-P02",
+      "title": "Cache-aside, read-through and write-through",
+      "slug": "sd-041-cache-aside-read-through-and-write-through",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-042",
+      "topicNumber": 42,
+      "courseId": "system-design",
+      "moduleId": "SD-M06",
+      "phaseId": "SD-P02",
+      "title": "Write-back and write-around",
+      "slug": "sd-042-write-back-and-write-around",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-043",
+      "topicNumber": 43,
+      "courseId": "system-design",
+      "moduleId": "SD-M06",
+      "phaseId": "SD-P02",
+      "title": "Redis and Memcached",
+      "slug": "sd-043-redis-and-memcached",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-044",
+      "topicNumber": 44,
+      "courseId": "system-design",
+      "moduleId": "SD-M06",
+      "phaseId": "SD-P02",
+      "title": "TTL, eviction and invalidation",
+      "slug": "sd-044-ttl-eviction-and-invalidation",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-045",
+      "topicNumber": 45,
+      "courseId": "system-design",
+      "moduleId": "SD-M06",
+      "phaseId": "SD-P02",
+      "title": "Cache stampede, hot keys and consistency",
+      "slug": "sd-045-cache-stampede-hot-keys-and-consistency",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-046",
+      "topicNumber": 46,
+      "courseId": "system-design",
+      "moduleId": "SD-M06",
+      "phaseId": "SD-P02",
+      "title": "Distributed caching",
+      "slug": "sd-046-distributed-caching",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-047",
+      "topicNumber": 47,
+      "courseId": "system-design",
+      "moduleId": "SD-M06",
+      "phaseId": "SD-P02",
+      "title": "Multi-level caching",
+      "slug": "sd-047-multi-level-caching",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-048",
+      "topicNumber": 48,
+      "courseId": "system-design",
+      "moduleId": "SD-M06",
+      "phaseId": "SD-P02",
+      "title": "Redis practical implementation",
+      "slug": "sd-048-redis-practical-implementation",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-049",
+      "topicNumber": 49,
+      "courseId": "system-design",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "title": "Distributed system architecture",
+      "slug": "sd-049-distributed-system-architecture",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-050",
+      "topicNumber": 50,
+      "courseId": "system-design",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "title": "CAP theorem and its limitations",
+      "slug": "sd-050-cap-theorem-and-its-limitations",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-051",
+      "topicNumber": 51,
+      "courseId": "system-design",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "title": "PACELC",
+      "slug": "sd-051-pacelc",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-052",
+      "topicNumber": 52,
+      "courseId": "system-design",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "title": "Strong, eventual and causal consistency",
+      "slug": "sd-052-strong-eventual-and-causal-consistency",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-053",
+      "topicNumber": 53,
+      "courseId": "system-design",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "title": "Quorums and consensus",
+      "slug": "sd-053-quorums-and-consensus",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-054",
+      "topicNumber": 54,
+      "courseId": "system-design",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "title": "Leader election",
+      "slug": "sd-054-leader-election",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-055",
+      "topicNumber": 55,
+      "courseId": "system-design",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "title": "Raft fundamentals",
+      "slug": "sd-055-raft-fundamentals",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-056",
+      "topicNumber": 56,
+      "courseId": "system-design",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "title": "Distributed locks and leases",
+      "slug": "sd-056-distributed-locks-and-leases",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-057",
+      "topicNumber": 57,
+      "courseId": "system-design",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "title": "Clock synchronization and ordering",
+      "slug": "sd-057-clock-synchronization-and-ordering",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-058",
+      "topicNumber": 58,
+      "courseId": "system-design",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "title": "Distributed transactions, sagas and outbox pattern",
+      "slug": "sd-058-distributed-transactions-sagas-and-outbox-pattern",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-059",
+      "topicNumber": 59,
+      "courseId": "system-design",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "title": "Synchronous vs asynchronous processing",
+      "slug": "sd-059-synchronous-vs-asynchronous-processing",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-060",
+      "topicNumber": 60,
+      "courseId": "system-design",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "title": "Kafka, RabbitMQ and cloud queues",
+      "slug": "sd-060-kafka-rabbitmq-and-cloud-queues",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-061",
+      "topicNumber": 61,
+      "courseId": "system-design",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "title": "Queues vs pub/sub vs event streams",
+      "slug": "sd-061-queues-vs-pub-sub-vs-event-streams",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-062",
+      "topicNumber": 62,
+      "courseId": "system-design",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "title": "Consumer groups and partitioning",
+      "slug": "sd-062-consumer-groups-and-partitioning",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-063",
+      "topicNumber": 63,
+      "courseId": "system-design",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "title": "Ordering and delivery guarantees",
+      "slug": "sd-063-ordering-and-delivery-guarantees",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-064",
+      "topicNumber": 64,
+      "courseId": "system-design",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "title": "Retries, backoff and dead-letter queues",
+      "slug": "sd-064-retries-backoff-and-dead-letter-queues",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-065",
+      "topicNumber": 65,
+      "courseId": "system-design",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "title": "At-least-once vs at-most-once processing",
+      "slug": "sd-065-at-least-once-vs-at-most-once-processing",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-066",
+      "topicNumber": 66,
+      "courseId": "system-design",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "title": "Event-driven architecture",
+      "slug": "sd-066-event-driven-architecture",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-067",
+      "topicNumber": 67,
+      "courseId": "system-design",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "title": "Stream processing fundamentals",
+      "slug": "sd-067-stream-processing-fundamentals",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-068",
+      "topicNumber": 68,
+      "courseId": "system-design",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "title": "Monolith vs modular monolith",
+      "slug": "sd-068-monolith-vs-modular-monolith",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-069",
+      "topicNumber": 69,
+      "courseId": "system-design",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "title": "Microservices architecture",
+      "slug": "sd-069-microservices-architecture",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-070",
+      "topicNumber": 70,
+      "courseId": "system-design",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "title": "Service discovery",
+      "slug": "sd-070-service-discovery",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-071",
+      "topicNumber": 71,
+      "courseId": "system-design",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "title": "API gateways and service mesh",
+      "slug": "sd-071-api-gateways-and-service-mesh",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-072",
+      "topicNumber": 72,
+      "courseId": "system-design",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "title": "Event-driven architecture",
+      "slug": "sd-072-event-driven-architecture",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-073",
+      "topicNumber": 73,
+      "courseId": "system-design",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "title": "Serverless architecture",
+      "slug": "sd-073-serverless-architecture",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-074",
+      "topicNumber": 74,
+      "courseId": "system-design",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "title": "Hexagonal and clean architecture",
+      "slug": "sd-074-hexagonal-and-clean-architecture",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-075",
+      "topicNumber": 75,
+      "courseId": "system-design",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "title": "CQRS and saga patterns",
+      "slug": "sd-075-cqrs-and-saga-patterns",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-076",
+      "topicNumber": 76,
+      "courseId": "system-design",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "title": "Multi-tenancy",
+      "slug": "sd-076-multi-tenancy",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-077",
+      "topicNumber": 77,
+      "courseId": "system-design",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "title": "Modular boundaries and service decomposition",
+      "slug": "sd-077-modular-boundaries-and-service-decomposition",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-078",
+      "topicNumber": 78,
+      "courseId": "system-design",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "title": "Redundancy and failover",
+      "slug": "sd-078-redundancy-and-failover",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-079",
+      "topicNumber": 79,
+      "courseId": "system-design",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "title": "SLI, SLO and SLA",
+      "slug": "sd-079-sli-slo-and-sla",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-080",
+      "topicNumber": 80,
+      "courseId": "system-design",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "title": "Circuit breakers, bulkheads and timeouts",
+      "slug": "sd-080-circuit-breakers-bulkheads-and-timeouts",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-081",
+      "topicNumber": 81,
+      "courseId": "system-design",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "title": "Rate limiting and backpressure",
+      "slug": "sd-081-rate-limiting-and-backpressure",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-082",
+      "topicNumber": 82,
+      "courseId": "system-design",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "title": "Disaster recovery: RPO and RTO",
+      "slug": "sd-082-disaster-recovery-rpo-and-rto",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-083",
+      "topicNumber": 83,
+      "courseId": "system-design",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "title": "OAuth 2.0, OIDC and JWT",
+      "slug": "sd-083-oauth-2-0-oidc-and-jwt",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-084",
+      "topicNumber": 84,
+      "courseId": "system-design",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "title": "Secrets management and encryption",
+      "slug": "sd-084-secrets-management-and-encryption",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-085",
+      "topicNumber": 85,
+      "courseId": "system-design",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "title": "Threat modeling and OWASP basics",
+      "slug": "sd-085-threat-modeling-and-owasp-basics",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-086",
+      "topicNumber": 86,
+      "courseId": "system-design",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "title": "Logs, metrics and distributed tracing",
+      "slug": "sd-086-logs-metrics-and-distributed-tracing",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-087",
+      "topicNumber": 87,
+      "courseId": "system-design",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "title": "Incident management and chaos testing",
+      "slug": "sd-087-incident-management-and-chaos-testing",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-088",
+      "topicNumber": 88,
+      "courseId": "system-design",
+      "moduleId": "SD-M11",
+      "phaseId": "SD-P03",
+      "title": "OOP principles",
+      "slug": "sd-088-oop-principles",
+      "status": "coming-soon",
+      "tags": [
+        "lld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-089",
+      "topicNumber": 89,
+      "courseId": "system-design",
+      "moduleId": "SD-M11",
+      "phaseId": "SD-P03",
+      "title": "SOLID principles",
+      "slug": "sd-089-solid-principles",
+      "status": "coming-soon",
+      "tags": [
+        "lld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-090",
+      "topicNumber": 90,
+      "courseId": "system-design",
+      "moduleId": "SD-M11",
+      "phaseId": "SD-P03",
+      "title": "Composition vs inheritance",
+      "slug": "sd-090-composition-vs-inheritance",
+      "status": "coming-soon",
+      "tags": [
+        "lld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-091",
+      "topicNumber": 91,
+      "courseId": "system-design",
+      "moduleId": "SD-M11",
+      "phaseId": "SD-P03",
+      "title": "UML class and sequence diagrams",
+      "slug": "sd-091-uml-class-and-sequence-diagrams",
+      "status": "coming-soon",
+      "tags": [
+        "lld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-092",
+      "topicNumber": 92,
+      "courseId": "system-design",
+      "moduleId": "SD-M11",
+      "phaseId": "SD-P03",
+      "title": "Encapsulation and abstraction",
+      "slug": "sd-092-encapsulation-and-abstraction",
+      "status": "coming-soon",
+      "tags": [
+        "lld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-093",
+      "topicNumber": 93,
+      "courseId": "system-design",
+      "moduleId": "SD-M11",
+      "phaseId": "SD-P03",
+      "title": "Interfaces and dependency inversion",
+      "slug": "sd-093-interfaces-and-dependency-inversion",
+      "status": "coming-soon",
+      "tags": [
+        "lld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-094",
+      "topicNumber": 94,
+      "courseId": "system-design",
+      "moduleId": "SD-M11",
+      "phaseId": "SD-P03",
+      "title": "Cohesion and coupling",
+      "slug": "sd-094-cohesion-and-coupling",
+      "status": "coming-soon",
+      "tags": [
+        "lld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-095",
+      "topicNumber": 95,
+      "courseId": "system-design",
+      "moduleId": "SD-M11",
+      "phaseId": "SD-P03",
+      "title": "Clean code and refactoring",
+      "slug": "sd-095-clean-code-and-refactoring",
+      "status": "coming-soon",
+      "tags": [
+        "lld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-096",
+      "topicNumber": 96,
+      "courseId": "system-design",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "title": "Singleton, Factory and Abstract Factory",
+      "slug": "sd-096-singleton-factory-and-abstract-factory",
+      "status": "coming-soon",
+      "tags": [
+        "lld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-097",
+      "topicNumber": 97,
+      "courseId": "system-design",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "title": "Builder and Prototype",
+      "slug": "sd-097-builder-and-prototype",
+      "status": "coming-soon",
+      "tags": [
+        "lld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-098",
+      "topicNumber": 98,
+      "courseId": "system-design",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "title": "Adapter, Decorator and Facade",
+      "slug": "sd-098-adapter-decorator-and-facade",
+      "status": "coming-soon",
+      "tags": [
+        "lld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-099",
+      "topicNumber": 99,
+      "courseId": "system-design",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "title": "Proxy and Composite",
+      "slug": "sd-099-proxy-and-composite",
+      "status": "coming-soon",
+      "tags": [
+        "lld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-100",
+      "topicNumber": 100,
+      "courseId": "system-design",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "title": "Observer and Strategy",
+      "slug": "sd-100-observer-and-strategy",
+      "status": "coming-soon",
+      "tags": [
+        "lld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-101",
+      "topicNumber": 101,
+      "courseId": "system-design",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "title": "Command and State",
+      "slug": "sd-101-command-and-state",
+      "status": "coming-soon",
+      "tags": [
+        "lld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-102",
+      "topicNumber": 102,
+      "courseId": "system-design",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "title": "Chain of Responsibility",
+      "slug": "sd-102-chain-of-responsibility",
+      "status": "coming-soon",
+      "tags": [
+        "lld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-103",
+      "topicNumber": 103,
+      "courseId": "system-design",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "title": "Repository and dependency injection patterns",
+      "slug": "sd-103-repository-and-dependency-injection-patterns",
+      "status": "coming-soon",
+      "tags": [
+        "lld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-104",
+      "topicNumber": 104,
+      "courseId": "system-design",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "title": "Pattern selection trade-offs",
+      "slug": "sd-104-pattern-selection-trade-offs",
+      "status": "coming-soon",
+      "tags": [
+        "lld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-105",
+      "topicNumber": 105,
+      "courseId": "system-design",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "title": "Parking Lot",
+      "slug": "sd-105-parking-lot",
+      "status": "coming-soon",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-106",
+      "topicNumber": 106,
+      "courseId": "system-design",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "title": "Elevator System",
+      "slug": "sd-106-elevator-system",
+      "status": "coming-soon",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-107",
+      "topicNumber": 107,
+      "courseId": "system-design",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "title": "Library Management System",
+      "slug": "sd-107-library-management-system",
+      "status": "coming-soon",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-108",
+      "topicNumber": 108,
+      "courseId": "system-design",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "title": "Movie Ticket Booking",
+      "slug": "sd-108-movie-ticket-booking",
+      "status": "coming-soon",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-109",
+      "topicNumber": 109,
+      "courseId": "system-design",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "title": "Splitwise",
+      "slug": "sd-109-splitwise",
+      "status": "coming-soon",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-110",
+      "topicNumber": 110,
+      "courseId": "system-design",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "title": "ATM",
+      "slug": "sd-110-atm",
+      "status": "coming-soon",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-111",
+      "topicNumber": 111,
+      "courseId": "system-design",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "title": "Vending Machine",
+      "slug": "sd-111-vending-machine",
+      "status": "coming-soon",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-112",
+      "topicNumber": 112,
+      "courseId": "system-design",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "title": "Chess and Tic-Tac-Toe",
+      "slug": "sd-112-chess-and-tic-tac-toe",
+      "status": "coming-soon",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-113",
+      "topicNumber": 113,
+      "courseId": "system-design",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "title": "Logging Framework",
+      "slug": "sd-113-logging-framework",
+      "status": "coming-soon",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-114",
+      "topicNumber": 114,
+      "courseId": "system-design",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "title": "Rate Limiter",
+      "slug": "sd-114-rate-limiter",
+      "status": "coming-soon",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-115",
+      "topicNumber": 115,
+      "courseId": "system-design",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "title": "Notification Service",
+      "slug": "sd-115-notification-service",
+      "status": "coming-soon",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-116",
+      "topicNumber": 116,
+      "courseId": "system-design",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "title": "LRU Cache and Task Scheduler",
+      "slug": "sd-116-lru-cache-and-task-scheduler",
+      "status": "coming-soon",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-117",
+      "topicNumber": 117,
+      "courseId": "system-design",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "title": "URL Shortener",
+      "slug": "sd-117-url-shortener",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-118",
+      "topicNumber": 118,
+      "courseId": "system-design",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "title": "Pastebin",
+      "slug": "sd-118-pastebin",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-119",
+      "topicNumber": 119,
+      "courseId": "system-design",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "title": "File Upload Service",
+      "slug": "sd-119-file-upload-service",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-120",
+      "topicNumber": 120,
+      "courseId": "system-design",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "title": "Notification System",
+      "slug": "sd-120-notification-system",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-121",
+      "topicNumber": 121,
+      "courseId": "system-design",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "title": "Distributed Cache",
+      "slug": "sd-121-distributed-cache",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-122",
+      "topicNumber": 122,
+      "courseId": "system-design",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "title": "API Rate Limiter",
+      "slug": "sd-122-api-rate-limiter",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-123",
+      "topicNumber": 123,
+      "courseId": "system-design",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "title": "Web Crawler",
+      "slug": "sd-123-web-crawler",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-124",
+      "topicNumber": 124,
+      "courseId": "system-design",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "title": "Search Autocomplete",
+      "slug": "sd-124-search-autocomplete",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-125",
+      "topicNumber": 125,
+      "courseId": "system-design",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "title": "Distributed Job Scheduler",
+      "slug": "sd-125-distributed-job-scheduler",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-126",
+      "topicNumber": 126,
+      "courseId": "system-design",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "title": "Unique ID Generator",
+      "slug": "sd-126-unique-id-generator",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-127",
+      "topicNumber": 127,
+      "courseId": "system-design",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "title": "Metrics and Logging System",
+      "slug": "sd-127-metrics-and-logging-system",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-128",
+      "topicNumber": 128,
+      "courseId": "system-design",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "title": "Feature Flag Service",
+      "slug": "sd-128-feature-flag-service",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-129",
+      "topicNumber": 129,
+      "courseId": "system-design",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "title": "WhatsApp / Real-Time Chat",
+      "slug": "sd-129-whatsapp-real-time-chat",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-130",
+      "topicNumber": 130,
+      "courseId": "system-design",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "title": "Instagram / Social Feed",
+      "slug": "sd-130-instagram-social-feed",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-131",
+      "topicNumber": 131,
+      "courseId": "system-design",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "title": "YouTube / Video Streaming",
+      "slug": "sd-131-youtube-video-streaming",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-132",
+      "topicNumber": 132,
+      "courseId": "system-design",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "title": "Netflix / OTT Platform",
+      "slug": "sd-132-netflix-ott-platform",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-133",
+      "topicNumber": 133,
+      "courseId": "system-design",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "title": "Spotify / Music Streaming",
+      "slug": "sd-133-spotify-music-streaming",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-134",
+      "topicNumber": 134,
+      "courseId": "system-design",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "title": "X / Twitter Feed",
+      "slug": "sd-134-x-twitter-feed",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-135",
+      "topicNumber": 135,
+      "courseId": "system-design",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "title": "Uber / Ride Hailing",
+      "slug": "sd-135-uber-ride-hailing",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-136",
+      "topicNumber": 136,
+      "courseId": "system-design",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "title": "Google Maps / Location Services",
+      "slug": "sd-136-google-maps-location-services",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-137",
+      "topicNumber": 137,
+      "courseId": "system-design",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "title": "Amazon / E-Commerce",
+      "slug": "sd-137-amazon-e-commerce",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-138",
+      "topicNumber": 138,
+      "courseId": "system-design",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "title": "Google Drive / Cloud Storage",
+      "slug": "sd-138-google-drive-cloud-storage",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-139",
+      "topicNumber": 139,
+      "courseId": "system-design",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "title": "Zoom / Video Conferencing",
+      "slug": "sd-139-zoom-video-conferencing",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-140",
+      "topicNumber": 140,
+      "courseId": "system-design",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "title": "Ticket Booking System",
+      "slug": "sd-140-ticket-booking-system",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-141",
+      "topicNumber": 141,
+      "courseId": "system-design",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "title": "Payment Gateway and Digital Wallet",
+      "slug": "sd-141-payment-gateway-and-digital-wallet",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-142",
+      "topicNumber": 142,
+      "courseId": "system-design",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "title": "Stock Trading Platform",
+      "slug": "sd-142-stock-trading-platform",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-143",
+      "topicNumber": 143,
+      "courseId": "system-design",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "title": "Fraud Detection Pipeline",
+      "slug": "sd-143-fraud-detection-pipeline",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-144",
+      "topicNumber": 144,
+      "courseId": "system-design",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "title": "Ad Serving System",
+      "slug": "sd-144-ad-serving-system",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-145",
+      "topicNumber": 145,
+      "courseId": "system-design",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "title": "Recommendation Engine",
+      "slug": "sd-145-recommendation-engine",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-146",
+      "topicNumber": 146,
+      "courseId": "system-design",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "title": "Search Engine",
+      "slug": "sd-146-search-engine",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-147",
+      "topicNumber": 147,
+      "courseId": "system-design",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "title": "Real-Time Multiplayer Game",
+      "slug": "sd-147-real-time-multiplayer-game",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-148",
+      "topicNumber": 148,
+      "courseId": "system-design",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "title": "IoT Telemetry Platform",
+      "slug": "sd-148-iot-telemetry-platform",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-149",
+      "topicNumber": 149,
+      "courseId": "system-design",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "title": "Collaborative Document Editor",
+      "slug": "sd-149-collaborative-document-editor",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-150",
+      "topicNumber": 150,
+      "courseId": "system-design",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "title": "Live Streaming and Chat",
+      "slug": "sd-150-live-streaming-and-chat",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-151",
+      "topicNumber": 151,
+      "courseId": "system-design",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "title": "Analytics and Data Pipeline",
+      "slug": "sd-151-analytics-and-data-pipeline",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-152",
+      "topicNumber": 152,
+      "courseId": "system-design",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "title": "Multi-tenant SaaS Platform",
+      "slug": "sd-152-multi-tenant-saas-platform",
+      "status": "coming-soon",
+      "tags": [
+        "hld",
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-153",
+      "topicNumber": 153,
+      "courseId": "system-design",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "title": "AWS, Azure and GCP fundamentals",
+      "slug": "sd-153-aws-azure-and-gcp-fundamentals",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-154",
+      "topicNumber": 154,
+      "courseId": "system-design",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "title": "Containers and Docker",
+      "slug": "sd-154-containers-and-docker",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-155",
+      "topicNumber": 155,
+      "courseId": "system-design",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "title": "Kubernetes architecture",
+      "slug": "sd-155-kubernetes-architecture",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-156",
+      "topicNumber": 156,
+      "courseId": "system-design",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "title": "Infrastructure as Code",
+      "slug": "sd-156-infrastructure-as-code",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-157",
+      "topicNumber": 157,
+      "courseId": "system-design",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "title": "CI/CD and deployment strategies",
+      "slug": "sd-157-ci-cd-and-deployment-strategies",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-158",
+      "topicNumber": 158,
+      "courseId": "system-design",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "title": "Blue-green and canary deployment",
+      "slug": "sd-158-blue-green-and-canary-deployment",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-159",
+      "topicNumber": 159,
+      "courseId": "system-design",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "title": "Multi-region architectures",
+      "slug": "sd-159-multi-region-architectures",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-160",
+      "topicNumber": 160,
+      "courseId": "system-design",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "title": "Cloud networking and storage",
+      "slug": "sd-160-cloud-networking-and-storage",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-161",
+      "topicNumber": 161,
+      "courseId": "system-design",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "title": "Cost estimation and FinOps",
+      "slug": "sd-161-cost-estimation-and-finops",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-162",
+      "topicNumber": 162,
+      "courseId": "system-design",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "title": "Well-Architected review principles",
+      "slug": "sd-162-well-architected-review-principles",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-163",
+      "topicNumber": 163,
+      "courseId": "system-design",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "title": "Data-intensive system design",
+      "slug": "sd-163-data-intensive-system-design",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-164",
+      "topicNumber": 164,
+      "courseId": "system-design",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "title": "Distributed SQL and globally distributed databases",
+      "slug": "sd-164-distributed-sql-and-globally-distributed-databases",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-165",
+      "topicNumber": 165,
+      "courseId": "system-design",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "title": "Change Data Capture",
+      "slug": "sd-165-change-data-capture",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-166",
+      "topicNumber": 166,
+      "courseId": "system-design",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "title": "Real-time analytics",
+      "slug": "sd-166-real-time-analytics",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-167",
+      "topicNumber": 167,
+      "courseId": "system-design",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "title": "Consistency under network partitions",
+      "slug": "sd-167-consistency-under-network-partitions",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-168",
+      "topicNumber": 168,
+      "courseId": "system-design",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "title": "Zero-downtime schema migration",
+      "slug": "sd-168-zero-downtime-schema-migration",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-169",
+      "topicNumber": 169,
+      "courseId": "system-design",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "title": "Geospatial indexing",
+      "slug": "sd-169-geospatial-indexing",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-170",
+      "topicNumber": 170,
+      "courseId": "system-design",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "title": "High-scale fanout architectures",
+      "slug": "sd-170-high-scale-fanout-architectures",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-171",
+      "topicNumber": 171,
+      "courseId": "system-design",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "title": "LLM applications and RAG architecture",
+      "slug": "sd-171-llm-applications-and-rag-architecture",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-172",
+      "topicNumber": 172,
+      "courseId": "system-design",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "title": "Vector databases and hybrid search",
+      "slug": "sd-172-vector-databases-and-hybrid-search",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-173",
+      "topicNumber": 173,
+      "courseId": "system-design",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "title": "AI inference serving and queues",
+      "slug": "sd-173-ai-inference-serving-and-queues",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-174",
+      "topicNumber": 174,
+      "courseId": "system-design",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "title": "Privacy, compliance and data residency",
+      "slug": "sd-174-privacy-compliance-and-data-residency",
+      "status": "coming-soon",
+      "tags": [
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-175",
+      "topicNumber": 175,
+      "courseId": "system-design",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "title": "Build URL Shortener + Redis cache",
+      "slug": "sd-175-build-url-shortener-redis-cache",
+      "status": "coming-soon",
+      "tags": [
+        "project",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-176",
+      "topicNumber": 176,
+      "courseId": "system-design",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "title": "Build scalable chat with WebSockets",
+      "slug": "sd-176-build-scalable-chat-with-websockets",
+      "status": "coming-soon",
+      "tags": [
+        "project",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-177",
+      "topicNumber": 177,
+      "courseId": "system-design",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "title": "Build Kafka notification pipeline",
+      "slug": "sd-177-build-kafka-notification-pipeline",
+      "status": "coming-soon",
+      "tags": [
+        "project",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-178",
+      "topicNumber": 178,
+      "courseId": "system-design",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "title": "Build e-commerce architecture",
+      "slug": "sd-178-build-e-commerce-architecture",
+      "status": "coming-soon",
+      "tags": [
+        "project",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-179",
+      "topicNumber": 179,
+      "courseId": "system-design",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "title": "Build a payment workflow with idempotency",
+      "slug": "sd-179-build-a-payment-workflow-with-idempotency",
+      "status": "coming-soon",
+      "tags": [
+        "project",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-180",
+      "topicNumber": 180,
+      "courseId": "system-design",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "title": "Implement database replication/sharding demos",
+      "slug": "sd-180-implement-database-replication-sharding-demos",
+      "status": "coming-soon",
+      "tags": [
+        "project",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-181",
+      "topicNumber": 181,
+      "courseId": "system-design",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "title": "Load-test and profile APIs",
+      "slug": "sd-181-load-test-and-profile-apis",
+      "status": "coming-soon",
+      "tags": [
+        "project",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-182",
+      "topicNumber": 182,
+      "courseId": "system-design",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "title": "Build observability dashboards",
+      "slug": "sd-182-build-observability-dashboards",
+      "status": "coming-soon",
+      "tags": [
+        "project",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-183",
+      "topicNumber": 183,
+      "courseId": "system-design",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "title": "Simulate service failures and recovery",
+      "slug": "sd-183-simulate-service-failures-and-recovery",
+      "status": "coming-soon",
+      "tags": [
+        "project",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-184",
+      "topicNumber": 184,
+      "courseId": "system-design",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "title": "Deploy a multi-service application",
+      "slug": "sd-184-deploy-a-multi-service-application",
+      "status": "coming-soon",
+      "tags": [
+        "project",
+        "hld"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-185",
+      "topicNumber": 185,
+      "courseId": "system-design",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "title": "System design interview framework",
+      "slug": "sd-185-system-design-interview-framework",
+      "status": "coming-soon",
+      "tags": [
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-186",
+      "topicNumber": 186,
+      "courseId": "system-design",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "title": "Requirement gathering and scope control",
+      "slug": "sd-186-requirement-gathering-and-scope-control",
+      "status": "coming-soon",
+      "tags": [
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-187",
+      "topicNumber": 187,
+      "courseId": "system-design",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "title": "Capacity estimation practice",
+      "slug": "sd-187-capacity-estimation-practice",
+      "status": "coming-soon",
+      "tags": [
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-188",
+      "topicNumber": 188,
+      "courseId": "system-design",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "title": "API and data model design",
+      "slug": "sd-188-api-and-data-model-design",
+      "status": "coming-soon",
+      "tags": [
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-189",
+      "topicNumber": 189,
+      "courseId": "system-design",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "title": "Architecture diagram walkthroughs",
+      "slug": "sd-189-architecture-diagram-walkthroughs",
+      "status": "coming-soon",
+      "tags": [
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-190",
+      "topicNumber": 190,
+      "courseId": "system-design",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "title": "Bottleneck and failure analysis",
+      "slug": "sd-190-bottleneck-and-failure-analysis",
+      "status": "coming-soon",
+      "tags": [
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-191",
+      "topicNumber": 191,
+      "courseId": "system-design",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "title": "Trade-off communication",
+      "slug": "sd-191-trade-off-communication",
+      "status": "coming-soon",
+      "tags": [
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-192",
+      "topicNumber": 192,
+      "courseId": "system-design",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "title": "HLD timed mock interviews",
+      "slug": "sd-192-hld-timed-mock-interviews",
+      "status": "coming-soon",
+      "tags": [
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-193",
+      "topicNumber": 193,
+      "courseId": "system-design",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "title": "LLD coding rounds",
+      "slug": "sd-193-lld-coding-rounds",
+      "status": "coming-soon",
+      "tags": [
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-194",
+      "topicNumber": 194,
+      "courseId": "system-design",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "title": "Google, Amazon, Microsoft, Meta, Uber-style case studies",
+      "slug": "sd-194-google-amazon-microsoft-meta-uber-style-case-studies",
+      "status": "coming-soon",
+      "tags": [
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-195",
+      "topicNumber": 195,
+      "courseId": "system-design",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "title": "Design review rubrics",
+      "slug": "sd-195-design-review-rubrics",
+      "status": "coming-soon",
+      "tags": [
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    },
+    {
+      "id": "SD-196",
+      "topicNumber": 196,
+      "courseId": "system-design",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "title": "Final capstone interviews",
+      "slug": "sd-196-final-capstone-interviews",
+      "status": "coming-soon",
+      "tags": [
+        "interview"
+      ],
+      "prerequisiteTopicIds": [],
+      "objectives": [],
+      "resourceIds": [],
+      "visualizerIds": [],
+      "practiceIds": []
+    }
+  ],
+  "trackId": "system-design-v1",
+  "weeks": [],
+  "resources": [
+    {
+      "id": "SD-R01",
+      "title": "AWS Well-Architected Framework",
+      "provider": "Amazon Web Services",
+      "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+      "topicIds": [
+        "SD-001",
+        "SD-002",
+        "SD-003"
+      ],
+      "verifiedAt": "2026-10-12",
+      "kind": "docs"
+    },
+    {
+      "id": "SD-R02",
+      "title": "Application design principles",
+      "provider": "Microsoft Learn",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/design-principles/",
+      "topicIds": [
+        "SD-001",
+        "SD-002"
+      ],
+      "verifiedAt": "2026-10-12",
+      "kind": "docs"
+    },
+    {
+      "id": "SD-R03",
+      "title": "Service Level Objectives",
+      "provider": "Google SRE \u00b7 Jones, Wilkes, Murphy & Smith",
+      "url": "https://sre.google/sre-book/service-level-objectives/",
+      "topicIds": [
+        "SD-003"
+      ],
+      "verifiedAt": "2026-10-12",
+      "kind": "article"
+    }
+  ],
+  "videos": [],
+  "projects": []
+}

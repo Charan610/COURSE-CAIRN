@@ -1,0 +1,2709 @@
+{
+  "phases": [
+    {
+      "id": "SD-P01",
+      "number": 1,
+      "title": "Foundations",
+      "description": "New learners: systems vocabulary, networking, APIs, scalability",
+      "moduleIds": [
+        "SD-M01",
+        "SD-M02",
+        "SD-M03",
+        "SD-M04"
+      ]
+    },
+    {
+      "id": "SD-P02",
+      "number": 2,
+      "title": "Core HLD",
+      "description": "Storage, caching, distributed systems, messaging, patterns and reliability",
+      "moduleIds": [
+        "SD-M05",
+        "SD-M06",
+        "SD-M07",
+        "SD-M08",
+        "SD-M09",
+        "SD-M10"
+      ]
+    },
+    {
+      "id": "SD-P03",
+      "number": 3,
+      "title": "Low-Level Design",
+      "description": "OOP, design patterns, and implementation exercises",
+      "moduleIds": [
+        "SD-M11",
+        "SD-M12",
+        "SD-M13"
+      ]
+    },
+    {
+      "id": "SD-P04",
+      "number": 4,
+      "title": "Real-World HLD Case Studies",
+      "description": "Classic and large-scale design problems with explicit trade-offs",
+      "moduleIds": [
+        "SD-M14",
+        "SD-M15",
+        "SD-M16"
+      ]
+    },
+    {
+      "id": "SD-P05",
+      "number": 5,
+      "title": "Production & Advanced Architecture",
+      "description": "Cloud, advanced systems and build-and-deploy labs",
+      "moduleIds": [
+        "SD-M17",
+        "SD-M18",
+        "SD-M19"
+      ]
+    },
+    {
+      "id": "SD-P06",
+      "number": 6,
+      "title": "Interview Mastery",
+      "description": "Communication, mock interviews and final assessments",
+      "moduleIds": [
+        "SD-M20"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "SD-M01",
+      "courseId": "system-design",
+      "phaseId": "SD-P01",
+      "order": 1,
+      "title": "Introduction to System Design",
+      "topicIds": [
+        "SD-001",
+        "SD-002",
+        "SD-003",
+        "SD-004",
+        "SD-005",
+        "SD-006",
+        "SD-007"
+      ]
+    },
+    {
+      "id": "SD-M02",
+      "courseId": "system-design",
+      "phaseId": "SD-P01",
+      "order": 2,
+      "title": "Computer Networking Essentials",
+      "topicIds": [
+        "SD-008",
+        "SD-009",
+        "SD-010",
+        "SD-011",
+        "SD-012",
+        "SD-013",
+        "SD-014",
+        "SD-015"
+      ]
+    },
+    {
+      "id": "SD-M03",
+      "courseId": "system-design",
+      "phaseId": "SD-P01",
+      "order": 3,
+      "title": "Backend & API Architecture",
+      "topicIds": [
+        "SD-016",
+        "SD-017",
+        "SD-018",
+        "SD-019",
+        "SD-020",
+        "SD-021",
+        "SD-022",
+        "SD-023"
+      ]
+    },
+    {
+      "id": "SD-M04",
+      "courseId": "system-design",
+      "phaseId": "SD-P01",
+      "order": 4,
+      "title": "Scalability Fundamentals",
+      "topicIds": [
+        "SD-024",
+        "SD-025",
+        "SD-026",
+        "SD-027",
+        "SD-028",
+        "SD-029",
+        "SD-030",
+        "SD-031"
+      ]
+    },
+    {
+      "id": "SD-M05",
+      "courseId": "system-design",
+      "phaseId": "SD-P02",
+      "order": 5,
+      "title": "Databases in System Design",
+      "topicIds": [
+        "SD-032",
+        "SD-033",
+        "SD-034",
+        "SD-035",
+        "SD-036",
+        "SD-037",
+        "SD-038",
+        "SD-039",
+        "SD-040"
+      ]
+    },
+    {
+      "id": "SD-M06",
+      "courseId": "system-design",
+      "phaseId": "SD-P02",
+      "order": 6,
+      "title": "Caching Systems",
+      "topicIds": [
+        "SD-041",
+        "SD-042",
+        "SD-043",
+        "SD-044",
+        "SD-045",
+        "SD-046",
+        "SD-047",
+        "SD-048"
+      ]
+    },
+    {
+      "id": "SD-M07",
+      "courseId": "system-design",
+      "phaseId": "SD-P02",
+      "order": 7,
+      "title": "Distributed Systems Fundamentals",
+      "topicIds": [
+        "SD-049",
+        "SD-050",
+        "SD-051",
+        "SD-052",
+        "SD-053",
+        "SD-054",
+        "SD-055",
+        "SD-056",
+        "SD-057",
+        "SD-058"
+      ]
+    },
+    {
+      "id": "SD-M08",
+      "courseId": "system-design",
+      "phaseId": "SD-P02",
+      "order": 8,
+      "title": "Message Queues & Streaming",
+      "topicIds": [
+        "SD-059",
+        "SD-060",
+        "SD-061",
+        "SD-062",
+        "SD-063",
+        "SD-064",
+        "SD-065",
+        "SD-066",
+        "SD-067"
+      ]
+    },
+    {
+      "id": "SD-M09",
+      "courseId": "system-design",
+      "phaseId": "SD-P02",
+      "order": 9,
+      "title": "High-Level Architecture Patterns",
+      "topicIds": [
+        "SD-068",
+        "SD-069",
+        "SD-070",
+        "SD-071",
+        "SD-072",
+        "SD-073",
+        "SD-074",
+        "SD-075",
+        "SD-076",
+        "SD-077"
+      ]
+    },
+    {
+      "id": "SD-M10",
+      "courseId": "system-design",
+      "phaseId": "SD-P02",
+      "order": 10,
+      "title": "Reliability, Security & Observability",
+      "topicIds": [
+        "SD-078",
+        "SD-079",
+        "SD-080",
+        "SD-081",
+        "SD-082",
+        "SD-083",
+        "SD-084",
+        "SD-085",
+        "SD-086",
+        "SD-087"
+      ]
+    },
+    {
+      "id": "SD-M11",
+      "courseId": "system-design",
+      "phaseId": "SD-P03",
+      "order": 11,
+      "title": "Object-Oriented Design Essentials",
+      "topicIds": [
+        "SD-088",
+        "SD-089",
+        "SD-090",
+        "SD-091",
+        "SD-092",
+        "SD-093",
+        "SD-094",
+        "SD-095"
+      ]
+    },
+    {
+      "id": "SD-M12",
+      "courseId": "system-design",
+      "phaseId": "SD-P03",
+      "order": 12,
+      "title": "Design Patterns",
+      "topicIds": [
+        "SD-096",
+        "SD-097",
+        "SD-098",
+        "SD-099",
+        "SD-100",
+        "SD-101",
+        "SD-102",
+        "SD-103",
+        "SD-104"
+      ]
+    },
+    {
+      "id": "SD-M13",
+      "courseId": "system-design",
+      "phaseId": "SD-P03",
+      "order": 13,
+      "title": "LLD Practice Problems",
+      "topicIds": [
+        "SD-105",
+        "SD-106",
+        "SD-107",
+        "SD-108",
+        "SD-109",
+        "SD-110",
+        "SD-111",
+        "SD-112",
+        "SD-113",
+        "SD-114",
+        "SD-115",
+        "SD-116"
+      ]
+    },
+    {
+      "id": "SD-M14",
+      "courseId": "system-design",
+      "phaseId": "SD-P04",
+      "order": 14,
+      "title": "Classic HLD Design Problems",
+      "topicIds": [
+        "SD-117",
+        "SD-118",
+        "SD-119",
+        "SD-120",
+        "SD-121",
+        "SD-122",
+        "SD-123",
+        "SD-124",
+        "SD-125",
+        "SD-126",
+        "SD-127",
+        "SD-128"
+      ]
+    },
+    {
+      "id": "SD-M15",
+      "courseId": "system-design",
+      "phaseId": "SD-P04",
+      "order": 15,
+      "title": "Large-Scale Consumer Systems",
+      "topicIds": [
+        "SD-129",
+        "SD-130",
+        "SD-131",
+        "SD-132",
+        "SD-133",
+        "SD-134",
+        "SD-135",
+        "SD-136",
+        "SD-137",
+        "SD-138",
+        "SD-139",
+        "SD-140"
+      ]
+    },
+    {
+      "id": "SD-M16",
+      "courseId": "system-design",
+      "phaseId": "SD-P04",
+      "order": 16,
+      "title": "Specialized Large-Scale Architectures",
+      "topicIds": [
+        "SD-141",
+        "SD-142",
+        "SD-143",
+        "SD-144",
+        "SD-145",
+        "SD-146",
+        "SD-147",
+        "SD-148",
+        "SD-149",
+        "SD-150",
+        "SD-151",
+        "SD-152"
+      ]
+    },
+    {
+      "id": "SD-M17",
+      "courseId": "system-design",
+      "phaseId": "SD-P05",
+      "order": 17,
+      "title": "Cloud & Infrastructure Design",
+      "topicIds": [
+        "SD-153",
+        "SD-154",
+        "SD-155",
+        "SD-156",
+        "SD-157",
+        "SD-158",
+        "SD-159",
+        "SD-160",
+        "SD-161",
+        "SD-162"
+      ]
+    },
+    {
+      "id": "SD-M18",
+      "courseId": "system-design",
+      "phaseId": "SD-P05",
+      "order": 18,
+      "title": "Advanced Engineering & Modern Architecture",
+      "topicIds": [
+        "SD-163",
+        "SD-164",
+        "SD-165",
+        "SD-166",
+        "SD-167",
+        "SD-168",
+        "SD-169",
+        "SD-170",
+        "SD-171",
+        "SD-172",
+        "SD-173",
+        "SD-174"
+      ]
+    },
+    {
+      "id": "SD-M19",
+      "courseId": "system-design",
+      "phaseId": "SD-P05",
+      "order": 19,
+      "title": "Hands-On Projects & Architecture Labs",
+      "topicIds": [
+        "SD-175",
+        "SD-176",
+        "SD-177",
+        "SD-178",
+        "SD-179",
+        "SD-180",
+        "SD-181",
+        "SD-182",
+        "SD-183",
+        "SD-184"
+      ]
+    },
+    {
+      "id": "SD-M20",
+      "courseId": "system-design",
+      "phaseId": "SD-P06",
+      "order": 20,
+      "title": "Interview Preparation & Company Challenges",
+      "topicIds": [
+        "SD-185",
+        "SD-186",
+        "SD-187",
+        "SD-188",
+        "SD-189",
+        "SD-190",
+        "SD-191",
+        "SD-192",
+        "SD-193",
+        "SD-194",
+        "SD-195",
+        "SD-196"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "SD-001",
+      "topicNumber": 1,
+      "title": "What is System Design?",
+      "moduleId": "SD-M01",
+      "phaseId": "SD-P01",
+      "slug": "sd-001-what-is-system-design",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-002",
+      "topicNumber": 2,
+      "title": "HLD vs LLD",
+      "moduleId": "SD-M01",
+      "phaseId": "SD-P01",
+      "slug": "sd-002-hld-vs-lld",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-003",
+      "topicNumber": 3,
+      "title": "Functional and non-functional requirements",
+      "moduleId": "SD-M01",
+      "phaseId": "SD-P01",
+      "slug": "sd-003-functional-and-non-functional-requirements",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-004",
+      "topicNumber": 4,
+      "title": "Scalability, reliability and availability",
+      "moduleId": "SD-M01",
+      "phaseId": "SD-P01",
+      "slug": "sd-004-scalability-reliability-and-availability",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-005",
+      "topicNumber": 5,
+      "title": "Latency, throughput and performance",
+      "moduleId": "SD-M01",
+      "phaseId": "SD-P01",
+      "slug": "sd-005-latency-throughput-and-performance",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-006",
+      "topicNumber": 6,
+      "title": "Capacity estimation and back-of-envelope calculations",
+      "moduleId": "SD-M01",
+      "phaseId": "SD-P01",
+      "slug": "sd-006-capacity-estimation-and-back-of-envelope-calculations",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-007",
+      "topicNumber": 7,
+      "title": "System design trade-offs",
+      "moduleId": "SD-M01",
+      "phaseId": "SD-P01",
+      "slug": "sd-007-system-design-trade-offs",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-008",
+      "topicNumber": 8,
+      "title": "How the internet works",
+      "moduleId": "SD-M02",
+      "phaseId": "SD-P01",
+      "slug": "sd-008-how-the-internet-works",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-009",
+      "topicNumber": 9,
+      "title": "OSI and TCP/IP models",
+      "moduleId": "SD-M02",
+      "phaseId": "SD-P01",
+      "slug": "sd-009-osi-and-tcp-ip-models",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-010",
+      "topicNumber": 10,
+      "title": "IP, TCP, UDP and QUIC basics",
+      "moduleId": "SD-M02",
+      "phaseId": "SD-P01",
+      "slug": "sd-010-ip-tcp-udp-and-quic-basics",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-011",
+      "topicNumber": 11,
+      "title": "HTTP/HTTPS and HTTP/2 vs HTTP/3",
+      "moduleId": "SD-M02",
+      "phaseId": "SD-P01",
+      "slug": "sd-011-http-https-and-http-2-vs-http-3",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-012",
+      "topicNumber": 12,
+      "title": "DNS resolution",
+      "moduleId": "SD-M02",
+      "phaseId": "SD-P01",
+      "slug": "sd-012-dns-resolution",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-013",
+      "topicNumber": 13,
+      "title": "TLS/SSL and secure communication",
+      "moduleId": "SD-M02",
+      "phaseId": "SD-P01",
+      "slug": "sd-013-tls-ssl-and-secure-communication",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-014",
+      "topicNumber": 14,
+      "title": "WebSockets, SSE and long polling",
+      "moduleId": "SD-M02",
+      "phaseId": "SD-P01",
+      "slug": "sd-014-websockets-sse-and-long-polling",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-015",
+      "topicNumber": 15,
+      "title": "Proxies, reverse proxies and NAT",
+      "moduleId": "SD-M02",
+      "phaseId": "SD-P01",
+      "slug": "sd-015-proxies-reverse-proxies-and-nat",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-016",
+      "topicNumber": 16,
+      "title": "Client-server architecture",
+      "moduleId": "SD-M03",
+      "phaseId": "SD-P01",
+      "slug": "sd-016-client-server-architecture",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-017",
+      "topicNumber": 17,
+      "title": "REST, GraphQL and gRPC",
+      "moduleId": "SD-M03",
+      "phaseId": "SD-P01",
+      "slug": "sd-017-rest-graphql-and-grpc",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-018",
+      "topicNumber": 18,
+      "title": "Stateless vs stateful services",
+      "moduleId": "SD-M03",
+      "phaseId": "SD-P01",
+      "slug": "sd-018-stateless-vs-stateful-services",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-019",
+      "topicNumber": 19,
+      "title": "API gateways",
+      "moduleId": "SD-M03",
+      "phaseId": "SD-P01",
+      "slug": "sd-019-api-gateways",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-020",
+      "topicNumber": 20,
+      "title": "Authentication vs authorization",
+      "moduleId": "SD-M03",
+      "phaseId": "SD-P01",
+      "slug": "sd-020-authentication-vs-authorization",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-021",
+      "topicNumber": 21,
+      "title": "Pagination, filtering and rate limiting",
+      "moduleId": "SD-M03",
+      "phaseId": "SD-P01",
+      "slug": "sd-021-pagination-filtering-and-rate-limiting",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-022",
+      "topicNumber": 22,
+      "title": "Idempotency and API versioning",
+      "moduleId": "SD-M03",
+      "phaseId": "SD-P01",
+      "slug": "sd-022-idempotency-and-api-versioning",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-023",
+      "topicNumber": 23,
+      "title": "Webhooks and asynchronous APIs",
+      "moduleId": "SD-M03",
+      "phaseId": "SD-P01",
+      "slug": "sd-023-webhooks-and-asynchronous-apis",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-024",
+      "topicNumber": 24,
+      "title": "Vertical and horizontal scaling",
+      "moduleId": "SD-M04",
+      "phaseId": "SD-P01",
+      "slug": "sd-024-vertical-and-horizontal-scaling",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-025",
+      "topicNumber": 25,
+      "title": "Load balancing algorithms",
+      "moduleId": "SD-M04",
+      "phaseId": "SD-P01",
+      "slug": "sd-025-load-balancing-algorithms",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-026",
+      "topicNumber": 26,
+      "title": "Caching fundamentals",
+      "moduleId": "SD-M04",
+      "phaseId": "SD-P01",
+      "slug": "sd-026-caching-fundamentals",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-027",
+      "topicNumber": 27,
+      "title": "CDNs and edge computing",
+      "moduleId": "SD-M04",
+      "phaseId": "SD-P01",
+      "slug": "sd-027-cdns-and-edge-computing",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-028",
+      "topicNumber": 28,
+      "title": "Auto-scaling",
+      "moduleId": "SD-M04",
+      "phaseId": "SD-P01",
+      "slug": "sd-028-auto-scaling",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-029",
+      "topicNumber": 29,
+      "title": "Database replication basics",
+      "moduleId": "SD-M04",
+      "phaseId": "SD-P01",
+      "slug": "sd-029-database-replication-basics",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-030",
+      "topicNumber": 30,
+      "title": "Database sharding basics",
+      "moduleId": "SD-M04",
+      "phaseId": "SD-P01",
+      "slug": "sd-030-database-sharding-basics",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-031",
+      "topicNumber": 31,
+      "title": "Bottleneck identification and performance testing",
+      "moduleId": "SD-M04",
+      "phaseId": "SD-P01",
+      "slug": "sd-031-bottleneck-identification-and-performance-testing",
+      "tags": [
+        "foundation",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-032",
+      "topicNumber": 32,
+      "title": "SQL vs NoSQL",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "slug": "sd-032-sql-vs-nosql",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-033",
+      "topicNumber": 33,
+      "title": "Data modeling and normalization",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "slug": "sd-033-data-modeling-and-normalization",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-034",
+      "topicNumber": 34,
+      "title": "Indexes and query optimization",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "slug": "sd-034-indexes-and-query-optimization",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-035",
+      "topicNumber": 35,
+      "title": "ACID transactions",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "slug": "sd-035-acid-transactions",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-036",
+      "topicNumber": 36,
+      "title": "Isolation levels and MVCC",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "slug": "sd-036-isolation-levels-and-mvcc",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-037",
+      "topicNumber": 37,
+      "title": "Primary-replica replication",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "slug": "sd-037-primary-replica-replication",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-038",
+      "topicNumber": 38,
+      "title": "Partitioning and sharding strategies",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "slug": "sd-038-partitioning-and-sharding-strategies",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-039",
+      "topicNumber": 39,
+      "title": "Distributed SQL, key-value, document and graph databases",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "slug": "sd-039-distributed-sql-key-value-document-and-graph-databases",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-040",
+      "topicNumber": 40,
+      "title": "CQRS and event sourcing",
+      "moduleId": "SD-M05",
+      "phaseId": "SD-P02",
+      "slug": "sd-040-cqrs-and-event-sourcing",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-041",
+      "topicNumber": 41,
+      "title": "Cache-aside, read-through and write-through",
+      "moduleId": "SD-M06",
+      "phaseId": "SD-P02",
+      "slug": "sd-041-cache-aside-read-through-and-write-through",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-042",
+      "topicNumber": 42,
+      "title": "Write-back and write-around",
+      "moduleId": "SD-M06",
+      "phaseId": "SD-P02",
+      "slug": "sd-042-write-back-and-write-around",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-043",
+      "topicNumber": 43,
+      "title": "Redis and Memcached",
+      "moduleId": "SD-M06",
+      "phaseId": "SD-P02",
+      "slug": "sd-043-redis-and-memcached",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-044",
+      "topicNumber": 44,
+      "title": "TTL, eviction and invalidation",
+      "moduleId": "SD-M06",
+      "phaseId": "SD-P02",
+      "slug": "sd-044-ttl-eviction-and-invalidation",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-045",
+      "topicNumber": 45,
+      "title": "Cache stampede, hot keys and consistency",
+      "moduleId": "SD-M06",
+      "phaseId": "SD-P02",
+      "slug": "sd-045-cache-stampede-hot-keys-and-consistency",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-046",
+      "topicNumber": 46,
+      "title": "Distributed caching",
+      "moduleId": "SD-M06",
+      "phaseId": "SD-P02",
+      "slug": "sd-046-distributed-caching",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-047",
+      "topicNumber": 47,
+      "title": "Multi-level caching",
+      "moduleId": "SD-M06",
+      "phaseId": "SD-P02",
+      "slug": "sd-047-multi-level-caching",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-048",
+      "topicNumber": 48,
+      "title": "Redis practical implementation",
+      "moduleId": "SD-M06",
+      "phaseId": "SD-P02",
+      "slug": "sd-048-redis-practical-implementation",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-049",
+      "topicNumber": 49,
+      "title": "Distributed system architecture",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "slug": "sd-049-distributed-system-architecture",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-050",
+      "topicNumber": 50,
+      "title": "CAP theorem and its limitations",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "slug": "sd-050-cap-theorem-and-its-limitations",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-051",
+      "topicNumber": 51,
+      "title": "PACELC",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "slug": "sd-051-pacelc",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-052",
+      "topicNumber": 52,
+      "title": "Strong, eventual and causal consistency",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "slug": "sd-052-strong-eventual-and-causal-consistency",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-053",
+      "topicNumber": 53,
+      "title": "Quorums and consensus",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "slug": "sd-053-quorums-and-consensus",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-054",
+      "topicNumber": 54,
+      "title": "Leader election",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "slug": "sd-054-leader-election",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-055",
+      "topicNumber": 55,
+      "title": "Raft fundamentals",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "slug": "sd-055-raft-fundamentals",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-056",
+      "topicNumber": 56,
+      "title": "Distributed locks and leases",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "slug": "sd-056-distributed-locks-and-leases",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-057",
+      "topicNumber": 57,
+      "title": "Clock synchronization and ordering",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "slug": "sd-057-clock-synchronization-and-ordering",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-058",
+      "topicNumber": 58,
+      "title": "Distributed transactions, sagas and outbox pattern",
+      "moduleId": "SD-M07",
+      "phaseId": "SD-P02",
+      "slug": "sd-058-distributed-transactions-sagas-and-outbox-pattern",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-059",
+      "topicNumber": 59,
+      "title": "Synchronous vs asynchronous processing",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "slug": "sd-059-synchronous-vs-asynchronous-processing",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-060",
+      "topicNumber": 60,
+      "title": "Kafka, RabbitMQ and cloud queues",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "slug": "sd-060-kafka-rabbitmq-and-cloud-queues",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-061",
+      "topicNumber": 61,
+      "title": "Queues vs pub/sub vs event streams",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "slug": "sd-061-queues-vs-pub-sub-vs-event-streams",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-062",
+      "topicNumber": 62,
+      "title": "Consumer groups and partitioning",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "slug": "sd-062-consumer-groups-and-partitioning",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-063",
+      "topicNumber": 63,
+      "title": "Ordering and delivery guarantees",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "slug": "sd-063-ordering-and-delivery-guarantees",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-064",
+      "topicNumber": 64,
+      "title": "Retries, backoff and dead-letter queues",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "slug": "sd-064-retries-backoff-and-dead-letter-queues",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-065",
+      "topicNumber": 65,
+      "title": "At-least-once vs at-most-once processing",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "slug": "sd-065-at-least-once-vs-at-most-once-processing",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-066",
+      "topicNumber": 66,
+      "title": "Event-driven architecture",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "slug": "sd-066-event-driven-architecture",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-067",
+      "topicNumber": 67,
+      "title": "Stream processing fundamentals",
+      "moduleId": "SD-M08",
+      "phaseId": "SD-P02",
+      "slug": "sd-067-stream-processing-fundamentals",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-068",
+      "topicNumber": 68,
+      "title": "Monolith vs modular monolith",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "slug": "sd-068-monolith-vs-modular-monolith",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-069",
+      "topicNumber": 69,
+      "title": "Microservices architecture",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "slug": "sd-069-microservices-architecture",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-070",
+      "topicNumber": 70,
+      "title": "Service discovery",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "slug": "sd-070-service-discovery",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-071",
+      "topicNumber": 71,
+      "title": "API gateways and service mesh",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "slug": "sd-071-api-gateways-and-service-mesh",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-072",
+      "topicNumber": 72,
+      "title": "Event-driven architecture",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "slug": "sd-072-event-driven-architecture",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-073",
+      "topicNumber": 73,
+      "title": "Serverless architecture",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "slug": "sd-073-serverless-architecture",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-074",
+      "topicNumber": 74,
+      "title": "Hexagonal and clean architecture",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "slug": "sd-074-hexagonal-and-clean-architecture",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-075",
+      "topicNumber": 75,
+      "title": "CQRS and saga patterns",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "slug": "sd-075-cqrs-and-saga-patterns",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-076",
+      "topicNumber": 76,
+      "title": "Multi-tenancy",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "slug": "sd-076-multi-tenancy",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-077",
+      "topicNumber": 77,
+      "title": "Modular boundaries and service decomposition",
+      "moduleId": "SD-M09",
+      "phaseId": "SD-P02",
+      "slug": "sd-077-modular-boundaries-and-service-decomposition",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-078",
+      "topicNumber": 78,
+      "title": "Redundancy and failover",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "slug": "sd-078-redundancy-and-failover",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-079",
+      "topicNumber": 79,
+      "title": "SLI, SLO and SLA",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "slug": "sd-079-sli-slo-and-sla",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-080",
+      "topicNumber": 80,
+      "title": "Circuit breakers, bulkheads and timeouts",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "slug": "sd-080-circuit-breakers-bulkheads-and-timeouts",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-081",
+      "topicNumber": 81,
+      "title": "Rate limiting and backpressure",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "slug": "sd-081-rate-limiting-and-backpressure",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-082",
+      "topicNumber": 82,
+      "title": "Disaster recovery: RPO and RTO",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "slug": "sd-082-disaster-recovery-rpo-and-rto",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-083",
+      "topicNumber": 83,
+      "title": "OAuth 2.0, OIDC and JWT",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "slug": "sd-083-oauth-2-0-oidc-and-jwt",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-084",
+      "topicNumber": 84,
+      "title": "Secrets management and encryption",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "slug": "sd-084-secrets-management-and-encryption",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-085",
+      "topicNumber": 85,
+      "title": "Threat modeling and OWASP basics",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "slug": "sd-085-threat-modeling-and-owasp-basics",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-086",
+      "topicNumber": 86,
+      "title": "Logs, metrics and distributed tracing",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "slug": "sd-086-logs-metrics-and-distributed-tracing",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-087",
+      "topicNumber": 87,
+      "title": "Incident management and chaos testing",
+      "moduleId": "SD-M10",
+      "phaseId": "SD-P02",
+      "slug": "sd-087-incident-management-and-chaos-testing",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-088",
+      "topicNumber": 88,
+      "title": "OOP principles",
+      "moduleId": "SD-M11",
+      "phaseId": "SD-P03",
+      "slug": "sd-088-oop-principles",
+      "tags": [
+        "lld"
+      ]
+    },
+    {
+      "id": "SD-089",
+      "topicNumber": 89,
+      "title": "SOLID principles",
+      "moduleId": "SD-M11",
+      "phaseId": "SD-P03",
+      "slug": "sd-089-solid-principles",
+      "tags": [
+        "lld"
+      ]
+    },
+    {
+      "id": "SD-090",
+      "topicNumber": 90,
+      "title": "Composition vs inheritance",
+      "moduleId": "SD-M11",
+      "phaseId": "SD-P03",
+      "slug": "sd-090-composition-vs-inheritance",
+      "tags": [
+        "lld"
+      ]
+    },
+    {
+      "id": "SD-091",
+      "topicNumber": 91,
+      "title": "UML class and sequence diagrams",
+      "moduleId": "SD-M11",
+      "phaseId": "SD-P03",
+      "slug": "sd-091-uml-class-and-sequence-diagrams",
+      "tags": [
+        "lld"
+      ]
+    },
+    {
+      "id": "SD-092",
+      "topicNumber": 92,
+      "title": "Encapsulation and abstraction",
+      "moduleId": "SD-M11",
+      "phaseId": "SD-P03",
+      "slug": "sd-092-encapsulation-and-abstraction",
+      "tags": [
+        "lld"
+      ]
+    },
+    {
+      "id": "SD-093",
+      "topicNumber": 93,
+      "title": "Interfaces and dependency inversion",
+      "moduleId": "SD-M11",
+      "phaseId": "SD-P03",
+      "slug": "sd-093-interfaces-and-dependency-inversion",
+      "tags": [
+        "lld"
+      ]
+    },
+    {
+      "id": "SD-094",
+      "topicNumber": 94,
+      "title": "Cohesion and coupling",
+      "moduleId": "SD-M11",
+      "phaseId": "SD-P03",
+      "slug": "sd-094-cohesion-and-coupling",
+      "tags": [
+        "lld"
+      ]
+    },
+    {
+      "id": "SD-095",
+      "topicNumber": 95,
+      "title": "Clean code and refactoring",
+      "moduleId": "SD-M11",
+      "phaseId": "SD-P03",
+      "slug": "sd-095-clean-code-and-refactoring",
+      "tags": [
+        "lld"
+      ]
+    },
+    {
+      "id": "SD-096",
+      "topicNumber": 96,
+      "title": "Singleton, Factory and Abstract Factory",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "slug": "sd-096-singleton-factory-and-abstract-factory",
+      "tags": [
+        "lld"
+      ]
+    },
+    {
+      "id": "SD-097",
+      "topicNumber": 97,
+      "title": "Builder and Prototype",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "slug": "sd-097-builder-and-prototype",
+      "tags": [
+        "lld"
+      ]
+    },
+    {
+      "id": "SD-098",
+      "topicNumber": 98,
+      "title": "Adapter, Decorator and Facade",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "slug": "sd-098-adapter-decorator-and-facade",
+      "tags": [
+        "lld"
+      ]
+    },
+    {
+      "id": "SD-099",
+      "topicNumber": 99,
+      "title": "Proxy and Composite",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "slug": "sd-099-proxy-and-composite",
+      "tags": [
+        "lld"
+      ]
+    },
+    {
+      "id": "SD-100",
+      "topicNumber": 100,
+      "title": "Observer and Strategy",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "slug": "sd-100-observer-and-strategy",
+      "tags": [
+        "lld"
+      ]
+    },
+    {
+      "id": "SD-101",
+      "topicNumber": 101,
+      "title": "Command and State",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "slug": "sd-101-command-and-state",
+      "tags": [
+        "lld"
+      ]
+    },
+    {
+      "id": "SD-102",
+      "topicNumber": 102,
+      "title": "Chain of Responsibility",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "slug": "sd-102-chain-of-responsibility",
+      "tags": [
+        "lld"
+      ]
+    },
+    {
+      "id": "SD-103",
+      "topicNumber": 103,
+      "title": "Repository and dependency injection patterns",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "slug": "sd-103-repository-and-dependency-injection-patterns",
+      "tags": [
+        "lld"
+      ]
+    },
+    {
+      "id": "SD-104",
+      "topicNumber": 104,
+      "title": "Pattern selection trade-offs",
+      "moduleId": "SD-M12",
+      "phaseId": "SD-P03",
+      "slug": "sd-104-pattern-selection-trade-offs",
+      "tags": [
+        "lld"
+      ]
+    },
+    {
+      "id": "SD-105",
+      "topicNumber": 105,
+      "title": "Parking Lot",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "slug": "sd-105-parking-lot",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-106",
+      "topicNumber": 106,
+      "title": "Elevator System",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "slug": "sd-106-elevator-system",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-107",
+      "topicNumber": 107,
+      "title": "Library Management System",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "slug": "sd-107-library-management-system",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-108",
+      "topicNumber": 108,
+      "title": "Movie Ticket Booking",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "slug": "sd-108-movie-ticket-booking",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-109",
+      "topicNumber": 109,
+      "title": "Splitwise",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "slug": "sd-109-splitwise",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-110",
+      "topicNumber": 110,
+      "title": "ATM",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "slug": "sd-110-atm",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-111",
+      "topicNumber": 111,
+      "title": "Vending Machine",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "slug": "sd-111-vending-machine",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-112",
+      "topicNumber": 112,
+      "title": "Chess and Tic-Tac-Toe",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "slug": "sd-112-chess-and-tic-tac-toe",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-113",
+      "topicNumber": 113,
+      "title": "Logging Framework",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "slug": "sd-113-logging-framework",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-114",
+      "topicNumber": 114,
+      "title": "Rate Limiter",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "slug": "sd-114-rate-limiter",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-115",
+      "topicNumber": 115,
+      "title": "Notification Service",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "slug": "sd-115-notification-service",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-116",
+      "topicNumber": 116,
+      "title": "LRU Cache and Task Scheduler",
+      "moduleId": "SD-M13",
+      "phaseId": "SD-P03",
+      "slug": "sd-116-lru-cache-and-task-scheduler",
+      "tags": [
+        "lld",
+        "project",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-117",
+      "topicNumber": 117,
+      "title": "URL Shortener",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "slug": "sd-117-url-shortener",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-118",
+      "topicNumber": 118,
+      "title": "Pastebin",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "slug": "sd-118-pastebin",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-119",
+      "topicNumber": 119,
+      "title": "File Upload Service",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "slug": "sd-119-file-upload-service",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-120",
+      "topicNumber": 120,
+      "title": "Notification System",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "slug": "sd-120-notification-system",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-121",
+      "topicNumber": 121,
+      "title": "Distributed Cache",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "slug": "sd-121-distributed-cache",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-122",
+      "topicNumber": 122,
+      "title": "API Rate Limiter",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "slug": "sd-122-api-rate-limiter",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-123",
+      "topicNumber": 123,
+      "title": "Web Crawler",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "slug": "sd-123-web-crawler",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-124",
+      "topicNumber": 124,
+      "title": "Search Autocomplete",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "slug": "sd-124-search-autocomplete",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-125",
+      "topicNumber": 125,
+      "title": "Distributed Job Scheduler",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "slug": "sd-125-distributed-job-scheduler",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-126",
+      "topicNumber": 126,
+      "title": "Unique ID Generator",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "slug": "sd-126-unique-id-generator",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-127",
+      "topicNumber": 127,
+      "title": "Metrics and Logging System",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "slug": "sd-127-metrics-and-logging-system",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-128",
+      "topicNumber": 128,
+      "title": "Feature Flag Service",
+      "moduleId": "SD-M14",
+      "phaseId": "SD-P04",
+      "slug": "sd-128-feature-flag-service",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-129",
+      "topicNumber": 129,
+      "title": "WhatsApp / Real-Time Chat",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "slug": "sd-129-whatsapp-real-time-chat",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-130",
+      "topicNumber": 130,
+      "title": "Instagram / Social Feed",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "slug": "sd-130-instagram-social-feed",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-131",
+      "topicNumber": 131,
+      "title": "YouTube / Video Streaming",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "slug": "sd-131-youtube-video-streaming",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-132",
+      "topicNumber": 132,
+      "title": "Netflix / OTT Platform",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "slug": "sd-132-netflix-ott-platform",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-133",
+      "topicNumber": 133,
+      "title": "Spotify / Music Streaming",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "slug": "sd-133-spotify-music-streaming",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-134",
+      "topicNumber": 134,
+      "title": "X / Twitter Feed",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "slug": "sd-134-x-twitter-feed",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-135",
+      "topicNumber": 135,
+      "title": "Uber / Ride Hailing",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "slug": "sd-135-uber-ride-hailing",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-136",
+      "topicNumber": 136,
+      "title": "Google Maps / Location Services",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "slug": "sd-136-google-maps-location-services",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-137",
+      "topicNumber": 137,
+      "title": "Amazon / E-Commerce",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "slug": "sd-137-amazon-e-commerce",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-138",
+      "topicNumber": 138,
+      "title": "Google Drive / Cloud Storage",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "slug": "sd-138-google-drive-cloud-storage",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-139",
+      "topicNumber": 139,
+      "title": "Zoom / Video Conferencing",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "slug": "sd-139-zoom-video-conferencing",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-140",
+      "topicNumber": 140,
+      "title": "Ticket Booking System",
+      "moduleId": "SD-M15",
+      "phaseId": "SD-P04",
+      "slug": "sd-140-ticket-booking-system",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-141",
+      "topicNumber": 141,
+      "title": "Payment Gateway and Digital Wallet",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "slug": "sd-141-payment-gateway-and-digital-wallet",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-142",
+      "topicNumber": 142,
+      "title": "Stock Trading Platform",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "slug": "sd-142-stock-trading-platform",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-143",
+      "topicNumber": 143,
+      "title": "Fraud Detection Pipeline",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "slug": "sd-143-fraud-detection-pipeline",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-144",
+      "topicNumber": 144,
+      "title": "Ad Serving System",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "slug": "sd-144-ad-serving-system",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-145",
+      "topicNumber": 145,
+      "title": "Recommendation Engine",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "slug": "sd-145-recommendation-engine",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-146",
+      "topicNumber": 146,
+      "title": "Search Engine",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "slug": "sd-146-search-engine",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-147",
+      "topicNumber": 147,
+      "title": "Real-Time Multiplayer Game",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "slug": "sd-147-real-time-multiplayer-game",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-148",
+      "topicNumber": 148,
+      "title": "IoT Telemetry Platform",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "slug": "sd-148-iot-telemetry-platform",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-149",
+      "topicNumber": 149,
+      "title": "Collaborative Document Editor",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "slug": "sd-149-collaborative-document-editor",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-150",
+      "topicNumber": 150,
+      "title": "Live Streaming and Chat",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "slug": "sd-150-live-streaming-and-chat",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-151",
+      "topicNumber": 151,
+      "title": "Analytics and Data Pipeline",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "slug": "sd-151-analytics-and-data-pipeline",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-152",
+      "topicNumber": 152,
+      "title": "Multi-tenant SaaS Platform",
+      "moduleId": "SD-M16",
+      "phaseId": "SD-P04",
+      "slug": "sd-152-multi-tenant-saas-platform",
+      "tags": [
+        "hld",
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-153",
+      "topicNumber": 153,
+      "title": "AWS, Azure and GCP fundamentals",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "slug": "sd-153-aws-azure-and-gcp-fundamentals",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-154",
+      "topicNumber": 154,
+      "title": "Containers and Docker",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "slug": "sd-154-containers-and-docker",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-155",
+      "topicNumber": 155,
+      "title": "Kubernetes architecture",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "slug": "sd-155-kubernetes-architecture",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-156",
+      "topicNumber": 156,
+      "title": "Infrastructure as Code",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "slug": "sd-156-infrastructure-as-code",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-157",
+      "topicNumber": 157,
+      "title": "CI/CD and deployment strategies",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "slug": "sd-157-ci-cd-and-deployment-strategies",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-158",
+      "topicNumber": 158,
+      "title": "Blue-green and canary deployment",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "slug": "sd-158-blue-green-and-canary-deployment",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-159",
+      "topicNumber": 159,
+      "title": "Multi-region architectures",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "slug": "sd-159-multi-region-architectures",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-160",
+      "topicNumber": 160,
+      "title": "Cloud networking and storage",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "slug": "sd-160-cloud-networking-and-storage",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-161",
+      "topicNumber": 161,
+      "title": "Cost estimation and FinOps",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "slug": "sd-161-cost-estimation-and-finops",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-162",
+      "topicNumber": 162,
+      "title": "Well-Architected review principles",
+      "moduleId": "SD-M17",
+      "phaseId": "SD-P05",
+      "slug": "sd-162-well-architected-review-principles",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-163",
+      "topicNumber": 163,
+      "title": "Data-intensive system design",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "slug": "sd-163-data-intensive-system-design",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-164",
+      "topicNumber": 164,
+      "title": "Distributed SQL and globally distributed databases",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "slug": "sd-164-distributed-sql-and-globally-distributed-databases",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-165",
+      "topicNumber": 165,
+      "title": "Change Data Capture",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "slug": "sd-165-change-data-capture",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-166",
+      "topicNumber": 166,
+      "title": "Real-time analytics",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "slug": "sd-166-real-time-analytics",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-167",
+      "topicNumber": 167,
+      "title": "Consistency under network partitions",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "slug": "sd-167-consistency-under-network-partitions",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-168",
+      "topicNumber": 168,
+      "title": "Zero-downtime schema migration",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "slug": "sd-168-zero-downtime-schema-migration",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-169",
+      "topicNumber": 169,
+      "title": "Geospatial indexing",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "slug": "sd-169-geospatial-indexing",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-170",
+      "topicNumber": 170,
+      "title": "High-scale fanout architectures",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "slug": "sd-170-high-scale-fanout-architectures",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-171",
+      "topicNumber": 171,
+      "title": "LLM applications and RAG architecture",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "slug": "sd-171-llm-applications-and-rag-architecture",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-172",
+      "topicNumber": 172,
+      "title": "Vector databases and hybrid search",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "slug": "sd-172-vector-databases-and-hybrid-search",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-173",
+      "topicNumber": 173,
+      "title": "AI inference serving and queues",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "slug": "sd-173-ai-inference-serving-and-queues",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-174",
+      "topicNumber": 174,
+      "title": "Privacy, compliance and data residency",
+      "moduleId": "SD-M18",
+      "phaseId": "SD-P05",
+      "slug": "sd-174-privacy-compliance-and-data-residency",
+      "tags": [
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-175",
+      "topicNumber": 175,
+      "title": "Build URL Shortener + Redis cache",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "slug": "sd-175-build-url-shortener-redis-cache",
+      "tags": [
+        "project",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-176",
+      "topicNumber": 176,
+      "title": "Build scalable chat with WebSockets",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "slug": "sd-176-build-scalable-chat-with-websockets",
+      "tags": [
+        "project",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-177",
+      "topicNumber": 177,
+      "title": "Build Kafka notification pipeline",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "slug": "sd-177-build-kafka-notification-pipeline",
+      "tags": [
+        "project",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-178",
+      "topicNumber": 178,
+      "title": "Build e-commerce architecture",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "slug": "sd-178-build-e-commerce-architecture",
+      "tags": [
+        "project",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-179",
+      "topicNumber": 179,
+      "title": "Build a payment workflow with idempotency",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "slug": "sd-179-build-a-payment-workflow-with-idempotency",
+      "tags": [
+        "project",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-180",
+      "topicNumber": 180,
+      "title": "Implement database replication/sharding demos",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "slug": "sd-180-implement-database-replication-sharding-demos",
+      "tags": [
+        "project",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-181",
+      "topicNumber": 181,
+      "title": "Load-test and profile APIs",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "slug": "sd-181-load-test-and-profile-apis",
+      "tags": [
+        "project",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-182",
+      "topicNumber": 182,
+      "title": "Build observability dashboards",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "slug": "sd-182-build-observability-dashboards",
+      "tags": [
+        "project",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-183",
+      "topicNumber": 183,
+      "title": "Simulate service failures and recovery",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "slug": "sd-183-simulate-service-failures-and-recovery",
+      "tags": [
+        "project",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-184",
+      "topicNumber": 184,
+      "title": "Deploy a multi-service application",
+      "moduleId": "SD-M19",
+      "phaseId": "SD-P05",
+      "slug": "sd-184-deploy-a-multi-service-application",
+      "tags": [
+        "project",
+        "hld"
+      ]
+    },
+    {
+      "id": "SD-185",
+      "topicNumber": 185,
+      "title": "System design interview framework",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "slug": "sd-185-system-design-interview-framework",
+      "tags": [
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-186",
+      "topicNumber": 186,
+      "title": "Requirement gathering and scope control",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "slug": "sd-186-requirement-gathering-and-scope-control",
+      "tags": [
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-187",
+      "topicNumber": 187,
+      "title": "Capacity estimation practice",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "slug": "sd-187-capacity-estimation-practice",
+      "tags": [
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-188",
+      "topicNumber": 188,
+      "title": "API and data model design",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "slug": "sd-188-api-and-data-model-design",
+      "tags": [
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-189",
+      "topicNumber": 189,
+      "title": "Architecture diagram walkthroughs",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "slug": "sd-189-architecture-diagram-walkthroughs",
+      "tags": [
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-190",
+      "topicNumber": 190,
+      "title": "Bottleneck and failure analysis",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "slug": "sd-190-bottleneck-and-failure-analysis",
+      "tags": [
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-191",
+      "topicNumber": 191,
+      "title": "Trade-off communication",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "slug": "sd-191-trade-off-communication",
+      "tags": [
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-192",
+      "topicNumber": 192,
+      "title": "HLD timed mock interviews",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "slug": "sd-192-hld-timed-mock-interviews",
+      "tags": [
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-193",
+      "topicNumber": 193,
+      "title": "LLD coding rounds",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "slug": "sd-193-lld-coding-rounds",
+      "tags": [
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-194",
+      "topicNumber": 194,
+      "title": "Google, Amazon, Microsoft, Meta, Uber-style case studies",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "slug": "sd-194-google-amazon-microsoft-meta-uber-style-case-studies",
+      "tags": [
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-195",
+      "topicNumber": 195,
+      "title": "Design review rubrics",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "slug": "sd-195-design-review-rubrics",
+      "tags": [
+        "interview"
+      ]
+    },
+    {
+      "id": "SD-196",
+      "topicNumber": 196,
+      "title": "Final capstone interviews",
+      "moduleId": "SD-M20",
+      "phaseId": "SD-P06",
+      "slug": "sd-196-final-capstone-interviews",
+      "tags": [
+        "interview"
+      ]
+    }
+  ]
+}
