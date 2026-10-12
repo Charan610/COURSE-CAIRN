@@ -45,7 +45,7 @@ The standard Vercel build already copies the new client assets and manifest. Its
 
 To hide the track, remove its entry from `content/catalog.json` and redeploy; preserve its content file and all database records. Existing saved records remain retrievable in account exports; course editing resumes when the catalog entry is restored. Do not delete any `course_states` records. For a complete application rollback, redeploy the previous known-good commit; System Design records remain in PostgreSQL for a subsequent re-enable.
 
-Vercel deployment access was unavailable during this work: both the connected plugin and linked CLI previously rejected authorization. GitHub publication and successful local checks do not by themselves prove a production deployment. Confirm a successful Vercel deployment before announcing the track as live.
+Direct Vercel plugin/CLI access had previously rejected authorization. The GitHub integration successfully deployed implementation commit `aa5cbf3` to Production on 2026-10-12; the Vercel dashboard reported Ready. The public production catalog and manifest were retrieved successfully and contain all three courses and the exact 196-topic registry with three published lessons. Production URL: https://course-cairn.vercel.app/#/system-design/dashboard .
 
 ## Remaining course authoring
 
