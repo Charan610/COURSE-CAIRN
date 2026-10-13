@@ -4,12 +4,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#f8f5ee" />
-  <meta name="description" content="A source-transparent, project-led field guide to backend engineering." />
+  <meta name="description" content="Your personal learning workspace for Backend Development, DSA and System Design." />
   <title>CourseCairn — Learning Studio</title>
   <link rel="stylesheet" href="styles.css?v=20261011-accounts-1" />
   <link rel="stylesheet" href="studio.css?v=20261011-accounts-1" />
   <link rel="stylesheet" href="visual.css" />
   <link rel="stylesheet" href="opening.css" /><link rel="stylesheet" href="system-design.css" />
+  <link rel="stylesheet" href="workspace.css" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -28,14 +29,14 @@
         <a href="#/roadmap" data-nav="roadmap"><span>⌁</span><div>Curriculum<small>Follow the weekly learning path</small></div></a>
         <a href="#/resources" data-nav="resources"><span>↗</span><div>Resource library<small>Find topic-matched docs & videos</small></div></a>
         <a href="#/visual" data-nav="visual"><span>◇</span><div>Visual lab<small>Explore concepts step by step</small></div></a>
-        <div class="nav-section-label">PRACTICE & KEEP</div><a href="#/system-design/progress" data-nav="progress" data-sd-only hidden><span>◴</span><div>Course progress<small>Completed topics & released lessons</small></div></a><a href="#/practice" data-nav="practice" data-dsa-only hidden><span>⌘</span><div>Problem practice<small>Solve problems & record attempts</small></div></a><a href="#/interviews" data-nav="interviews" data-dsa-only hidden><span>↗</span><div>Interview prep<small>Your placement preparation plan</small></div></a><a href="#/projects" data-nav="projects"><span>▤</span><div>Projects<small>Build your portfolio & save evidence</small></div></a>
+        <div class="nav-section-label">PRACTICE & KEEP</div><a href="#/system-design/progress" data-nav="progress"><span>◴</span><div>Course progress<small>Your learning journey & checkpoints</small></div></a><a href="#/practice" data-nav="practice" data-dsa-only hidden><span>⌘</span><div>Problem practice<small>Solve problems & record attempts</small></div></a><a href="#/interviews" data-nav="interviews" data-dsa-only hidden><span>↗</span><div>Interview prep<small>Your placement preparation plan</small></div></a><a href="#/projects" data-nav="projects"><span>▤</span><div>Projects<small>Build your portfolio & save evidence</small></div></a>
         <a href="#/notes" data-nav="notes"><span>✎</span><div>Notes & bookmarks<small>Your saved ideas, links & revisions</small></div></a>
       </nav>
       <div class="sidebar-mantra"><span>SMALL STEPS. REAL SKILLS.</span><p>Your next chapter<br>starts with showing up.</p><i aria-hidden="true">↗</i></div>
       <div class="sidebar-bottom"><div class="guest-pill"><i></i> Guest progress · saved on this device</div><button id="export-data" class="side-action">↧ &nbsp; Export my data</button><button id="reset-data" class="side-action">↺ &nbsp; Reset progress</button></div>
     </aside>
     <button class="nav-backdrop" id="nav-backdrop" aria-label="Close navigation" tabindex="-1" hidden></button><div class="app-main">
-      <header class="topbar"><button id="menu-toggle" class="icon-button mobile-menu" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false">☰</button><div class="breadcrumbs" id="breadcrumbs">CourseCairn <span>/</span> Courses</div><div class="top-actions"><select id="course-select" aria-label="Select course" class="course-select"></select><span class="date-label" id="today-date"></span><span class="save-status" id="save-status" role="status">Connecting…</span><a class="avatar" id="profile-avatar" href="#/profile" aria-label="Open learner profile">L</a></div></header>
+      <header class="topbar"><button id="menu-toggle" class="icon-button mobile-menu" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false">☰</button><div class="breadcrumbs" id="breadcrumbs">CourseCairn <span>/</span> Courses</div><div class="top-actions"><button id="workspace-search" class="workspace-search-button" aria-label="Search courses and content"><span aria-hidden="true">⌕</span><span class="search-word">Search</span><kbd>⌘ K</kbd></button><select id="course-select" aria-label="Select course" class="course-select"></select><span class="date-label" id="today-date"></span><span class="save-status" id="save-status" role="status">Connecting…</span><a class="avatar" id="profile-avatar" href="#/profile" aria-label="Open learner profile">L</a></div></header>
       <main id="main" tabindex="-1"><div class="loading">Opening your learning studio…</div></main>
       <footer class="site-footer"><div class="footer-identity"><span>COURSECAIRN · LEARNING STUDIO</span><span>Made for steady progress · Your private learning account</span></div><div class="feedback-contact"><span>Found incorrect information or have a suggestion?</span><a href="https://www.instagram.com/charan__3_/" target="_blank" rel="noopener noreferrer">Contact @charan__3_ on Instagram <span aria-hidden="true">↗</span></a></div></footer>
     </div>
@@ -51,6 +52,7 @@
   <script src="visual-renderer.js" defer></script>
   <script src="visual.js" defer></script>
   <script src="system-design-models.js" defer></script><script src="system-design.js" defer></script>
+  <script src="workspace.js" defer></script>
   <script src="app.js?v=20261011-accounts-1" defer></script>
 </body>
 </html>
