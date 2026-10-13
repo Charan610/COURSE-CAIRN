@@ -4,3 +4,16 @@
 @media(prefers-reduced-motion:reduce){.progress-week-card:hover{transform:none}}
 
 .session-schedule{display:flex;gap:24px;justify-content:space-between;align-items:center;margin:0 0 24px;border-left:4px solid #a85d37}.session-schedule h2{margin:8px 0;font-size:22px}.session-schedule p,.skipped-sessions p{color:var(--muted);line-height:1.6}.session-schedule button{flex-shrink:0}.skipped-sessions{margin:24px 0}@media(max-width:600px){.session-schedule{align-items:stretch;flex-direction:column}}
+
+/* Compact journey controls share the existing forest and paper palette. */
+.journey-filters{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 8px}
+.journey-filter{font:inherit;font-size:13px;padding:10px 15px;background:#fffef9;color:#314337;border:1px solid #d8ddd3;border-radius:999px;cursor:pointer;transition:background .18s,color .18s}
+.journey-filter[aria-pressed="true"]{background:#263f30;color:#fffef9;border-color:#263f30}
+.journey-filter:hover{border-color:#617d43}
+.progress-week-card[hidden]{display:none}
+.journey-resume{margin:0 0 24px;display:flex;align-items:center;justify-content:space-between;gap:24px;border-left:4px solid #748b40}
+.journey-resume h2{font-size:22px;margin:8px 0;line-height:1.3}
+.journey-resume p{color:var(--muted);margin:0}
+.journey-resume .button-row{flex-shrink:0;flex-direction:column;align-items:stretch}
+@media(max-width:760px){.journey-resume{flex-direction:column;align-items:stretch}.journey-filter{min-height:44px}.journey-resume h2{font-size:20px}}
+@media(prefers-reduced-motion:reduce){.journey-filter{transition:none}}
