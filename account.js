@@ -2,7 +2,7 @@
  let user=null,csrfToken='',records={},queue=Promise.resolve(),pending=0,failures=new Map(),inFlight=new Set();
  const clone=v=>JSON.parse(JSON.stringify(v));
  function status(text,failed=false){const el=document.querySelector('#save-status');if(el){el.textContent=text;el.classList.toggle('save-failed',failed)}}
- async function api(path,options={}){const response=await fetch('/api'+path,{credentials:'same-origin',...options,headers:{'Content-Type':'application/json',...(csrfToken?{'X-CSRF-Token':csrfToken}:{}),...options.headers}});const data=await response.json().catch(()=>({error:'The account server is unavailable. Start it using npm start.'}));if(!response.ok){const e=Object.assign(new Error(data.error||'Request failed.'),{status:response.status});if(response.status===401&&user)status('Session expired · sign in again',true);throw e}return data}
+ async function api(path,options={}){const response=await fetch('/api'+path,{credentials:'same-origin',...options,headers:{'Content-Type':'application/json',...(csrfToken?{'X-CSRF-Token':csrfToken}:{}),...options.headers}});const data=await response.json().catch(()=>({error:'The service is temporarily unavailable. Please try again shortly.'}));if(!response.ok){const e=Object.assign(new Error(data.error||'Request failed.'),{status:response.status});if(response.status===401&&user)status('Session expired · sign in again',true);throw e}return data}
  const account={
  async boot(){try{const result=await api('/auth/me');user=result.user;csrfToken=result.csrfToken;records=(await api('/courses')).courses;status('All changes saved');return user}catch(e){if(e.status===401)return null;throw e}},
  async authenticate(mode,values){const result=await api('/auth/'+mode,{method:'POST',body:JSON.stringify(values)});user=result.user;csrfToken=result.csrfToken;records=(await api('/courses')).courses;return result},
@@ -16,5 +16,6 @@
  };
  window.Account=account;
  window.addEventListener('beforeunload',e=>{if(pending||failures.size){e.preventDefault();e.returnValue=''}});
+ window.addEventListener('online',()=>status(pending?'Saving…':failures.size?'Connection restored · retry your pending save':'All changes saved',!!failures.size));
  window.addEventListener('offline',()=>status('Offline · changes require a connection',true));
 })();
