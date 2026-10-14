@@ -84,3 +84,7 @@ input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px soli
 .sidebar .nav-list a.active small{color:#354a2e}
 .lesson-main .read-card small,.lesson-aside .small-muted{font-size:12px}
 @media(max-width:760px){.page-head p,.lesson-section p{font-size:14px}.calendar-day>span,.calendar-day small{font-size:10px}}
+/* Desktop navigation can slide away without changing course context. */
+.desktop-nav-toggle{display:none}
+@media(min-width:761px){.desktop-nav-toggle{display:block;flex-shrink:0;font-size:24px;margin-right:12px}.sidebar{transition:transform .24s ease,visibility .24s}.app-main{transition:margin-left .24s ease}.sidebar-collapsed .sidebar{transform:translateX(-100%);visibility:hidden}.sidebar-collapsed .app-main{margin-left:0}.sidebar-collapsed .app-main main{max-width:none}}
+@media(prefers-reduced-motion:reduce){.sidebar,.app-main{transition:none!important}}
