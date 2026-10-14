@@ -53,7 +53,7 @@
    const next=nextSession(curriculum,ctx.state),href=next?`#/${prefix(activeCourseId)}learn/${next.w.number}/${next.d.day.toLowerCase()}`:`#/${prefix(activeCourseId)}progress`;
    if(page==='dashboard'){
     const card=document.createElement('section');card.className='card panel journey-resume';
-    card.innerHTML=`<div><span class="eyebrow">PICK UP WHERE YOU LEFT OFF</span><h2>${next?esc(next.d.outline):'Your learning journey, at a glance.'}</h2><p>${next?`Week ${next.w.number} · Session ${next.w.days.indexOf(next.d)+1} · ${next.d.durationMinutes} minutes planned`:'Review skipped sessions, projects and weekly checkpoints.'}</p></div><div class="button-row"><a class="button button-primary" href="${href}">${next?'Continue unfinished session':'Review progress'} →</a><a class="button button-secondary" href="#/${prefix(activeCourseId)}progress">Your progress ↗</a></div>`;
+    card.innerHTML=`<div><span class="journey-kicker"><span class="eyebrow">PICK UP WHERE YOU LEFT OFF</span><span class="cairn-motion" aria-hidden="true"><i></i><i></i><i></i><em></em></span></span><h2>${next?esc(next.d.outline):'Your learning journey, at a glance.'}</h2><p>${next?`Week ${next.w.number} · Session ${next.w.days.indexOf(next.d)+1} · ${next.d.durationMinutes} minutes planned`:'Review skipped sessions, projects and weekly checkpoints.'}</p></div><div class="button-row"><a class="button button-primary" href="${href}">${next?'Continue unfinished session':'Review progress'} →</a><a class="button button-secondary" href="#/${prefix(activeCourseId)}progress">Your progress ↗</a></div>`;
     main.querySelector('.active-course-bar')?.after(card);
    }
   }

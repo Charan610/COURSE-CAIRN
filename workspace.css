@@ -49,3 +49,21 @@ input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px soli
 .mobile-continue>span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 @media(max-width:760px){.learning-metric:last-child{grid-column:span 2;border-left:0}.lesson-traversal{gap:10px}.workspace-search-button{min-width:36px;min-height:36px;justify-content:center}.course-card[data-course]:hover{transform:none}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.course-card[data-course],.progress-week-card{transition:none}.course-card[data-course]:hover,.progress-week-card:hover{transform:none}}
+
+/* Quiet, decorative movement: no motion is needed to use the interface. */
+.journey-kicker{display:flex;align-items:center;gap:20px;min-height:45px;margin-bottom:5px}
+.cairn-motion{position:relative;display:inline-block;width:46px;height:44px;flex-shrink:0}
+.cairn-motion i{position:absolute;display:block;left:50%;border-radius:48% 52% 42% 58%;transform:translateX(-50%);animation:cairn-breathe 5s ease-in-out infinite}
+.cairn-motion i:nth-child(1){width:33px;height:11px;bottom:5px;background:#304e3b;animation-delay:0s}
+.cairn-motion i:nth-child(2){width:25px;height:13px;bottom:18px;background:#7c9150;animation-delay:-.35s}
+.cairn-motion i:nth-child(3){width:15px;height:11px;bottom:33px;background:#b0bf76;animation-delay:-.7s}
+.cairn-motion em{position:absolute;left:9px;bottom:0;width:29px;height:3px;background:#304e3b20;border-radius:50%;animation:cairn-shadow 5s ease-in-out infinite}
+.focus-art{transform-origin:center;animation:contour-drift 14s ease-in-out infinite}
+.progress-fill{transition:width .6s ease}
+.button{transition:background .2s,box-shadow .2s,transform .2s}
+@media(hover:hover){.button:hover{transform:translateY(-2px);box-shadow:0 5px 14px #263e2d12}.button:active{transform:translateY(0)}}
+@keyframes cairn-breathe{0%,100%{transform:translateX(-50%) translateY(0) rotate(-2deg)}50%{transform:translateX(-50%) translateY(-3px) rotate(3deg)}}
+@keyframes cairn-shadow{0%,100%{transform:scaleX(1);opacity:.8}50%{transform:scaleX(.8);opacity:.45}}
+@keyframes contour-drift{0%,100%{transform:translate(0,0) rotate(0)}50%{transform:translate(5px,-7px) rotate(4deg)}}
+@media(prefers-reduced-motion:reduce){.cairn-motion i,.cairn-motion em,.focus-art{animation:none}.button,.progress-fill{transition:none}.button:hover{transform:none}}
+@media print{.cairn-motion{display:none}.focus-art{animation:none}}
