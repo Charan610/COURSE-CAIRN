@@ -5,16 +5,16 @@ The floating assistant uses each learner's own provider account. No Vercel AI Ga
 ## Connect
 
 1. Sign in and open **Ask Cairn** at the bottom right.
-2. Select OpenAI, Anthropic, Google Gemini, or OpenRouter.
-3. Enter a text-capable model ID available in that account and its API key.
+2. Select OpenRouter Free or Google Gemini on a free-tier project. OpenAI and Anthropic have no ongoing free API default in this interface.
+3. Enter its API key. Model IDs are enforced server-side: `openrouter/free` or `gemini-3.5-flash-lite` (pricing reviewed 2026-10-14). There is no paid fallback. Gemini requires confirmation of a free-tier project; CourseCairn cannot independently verify Google billing status.
 4. Review the data-sharing notice and connect. The first question validates the connection with the provider.
 
-Keys and chat are kept in tab memory only. Refresh or Disconnect clears the key. Changing courses starts a new conversation. Neither keys nor conversations are persisted to the application database or browser storage. Requests pass through the authenticated CourseCairn endpoint to the fixed endpoint for the selected provider. Provider usage fees and retention policies apply. OpenAI response storage is disabled explicitly.
+Keys and chat are kept in tab memory only. Refresh or Disconnect clears the key. Changing courses starts a new conversation. Neither keys nor conversations are persisted to the application database or browser storage. Requests pass through the authenticated CourseCairn endpoint to the fixed endpoint for the selected provider. Provider usage fees and retention policies apply. Free-tier providers may use submitted content under their own data policies.
 
 ## Context and boundaries
 
 - Server reads only `course_states` rows belonging to the authenticated user.
-- Context contains the learner display name, course outline index, current/relevant lesson excerpts, progress, schedule, skipped sessions and assessment status.
+- Context contains the learner display name, course and resource index, current/relevant lesson excerpts, per-session activity, topic progress, schedule, skipped sessions, assessments, selected bookmarks and practice history. Larger collections are bounded with totals exposed.
 - Notes, practice drafts and saved links are opt-in per conversation. Disabling the option clears previous chat context.
 - External source bodies are not downloaded. Coming-soon content is labelled. Retrieval is bounded keyword matching plus the current and next lesson; it is not exhaustive semantic search.
 - Replies include links to the retrieved context. These links are context references, not a guarantee that every AI statement is correct.
@@ -25,4 +25,4 @@ Keys and chat are kept in tab memory only. Refresh or Disconnect clears the key.
 
 ## Deployment
 
-The existing Node/Vercel build packages the frontend assets and bundled AI SDK providers. No new database migration or AI environment variables are needed. The connection form is the only way to supply a key. Test a real provider connection using your own key; do not put credentials in tickets, chat or source control.
+The existing Node/Vercel build packages the frontend assets and bundled AI SDK providers. No new database migration or AI environment variables are needed. The assistant is instructed to answer only CourseCairn questions and course-related learning, and redirect unrelated requests. Open/close and message animations respect reduced motion. The connection form is the only way to supply a key. Test a real provider connection using your own key; do not put credentials in tickets, chat or source control.
