@@ -11,7 +11,7 @@
  async askAssistant(payload){return api('/assistant',{method:'POST',body:JSON.stringify(payload)})},
  async flush(){await queue;if(failures.size)throw [...failures.values()][0]},
  async updateName(displayName){const result=await api('/profile',{method:'PATCH',body:JSON.stringify({displayName})});user=result.user;return user},
- async logout(){await account.flush();await api('/auth/logout',{method:'POST',body:'{}'});user=null;csrfToken='';records={};location.reload()},
+ async logout(){await account.flush();if(window.CairnAssistant)await CairnAssistant.forgetConnection();await api('/auth/logout',{method:'POST',body:'{}'});user=null;csrfToken='';records={};location.reload()},
  async exportAll(drafts={}){await queue;const data=await api('/export');if(failures.size||pending)data.unsavedDrafts=clone(drafts);return data},
  status
  };

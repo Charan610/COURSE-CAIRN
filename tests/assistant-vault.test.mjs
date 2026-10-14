@@ -1,0 +1,17 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {runInNewContext} from 'node:vm';
+import {webcrypto} from 'node:crypto';
+import {IDBFactory} from 'fake-indexeddb';
+const source=await readFile(new URL('../assistant-vault.js',import.meta.url),'utf8');
+const connection={provider:'openrouter',apiKey:'test-only-key-not-a-real-provider-key',consent:true,freeTierConfirmed:false};
+function create(indexedDB=new IDBFactory()){const context={indexedDB,crypto:webcrypto,TextEncoder,TextDecoder,Uint8Array,Date};runInNewContext(source,context);return {store:context.CairnConnectionStore,indexedDB}}
+async function record(indexedDB,id,change){return new Promise((resolve,reject)=>{const open=indexedDB.open('coursecairn-assistant-device-v1',1);open.onsuccess=()=>{const db=open.result,tx=db.transaction('connections',change?'readwrite':'readonly'),s=tx.objectStore('connections'),r=s.get(id);let result;r.onsuccess=()=>{result=r.result;if(change)change(s,result)};tx.oncomplete=()=>{db.close();resolve(result)};tx.onerror=()=>{db.close();reject(tx.error)}};open.onerror=()=>reject(open.error)})}
+test('a new page instance restores the connection without storing plaintext',async()=>{const first=create();await first.store.save('alice',connection);const raw=await record(first.indexedDB,'alice');assert.equal(raw.key.extractable,false);assert.equal(JSON.stringify(raw).includes(connection.apiKey),false);assert.equal(raw.ciphertext instanceof ArrayBuffer,true);const second=create(first.indexedDB);assert.equal((await second.store.load('alice')).apiKey,connection.apiKey);assert.equal(await second.store.load('bob'),null)});
+test('disconnect removes only the current account connection',async()=>{const {store}=create();await store.save('alice',connection);await store.save('bob',connection);await store.remove('alice');assert.equal(await store.load('alice'),null);assert.equal((await store.load('bob')).provider,'openrouter')});
+test('expired and tampered records are rejected and removed',async()=>{const {store,indexedDB}=create();await store.save('alice',connection);await record(indexedDB,'alice',(s,r)=>s.put({...r,expiresAt:0},'alice'));assert.equal(await store.load('alice'),null);assert.equal(await record(indexedDB,'alice'),undefined);await store.save('alice',connection);await record(indexedDB,'alice',(s,r)=>{const data=new Uint8Array(r.ciphertext);data[0]^=1;s.put({...r,ciphertext:data.buffer},'alice')});assert.equal(await store.load('alice'),null);assert.equal(await record(indexedDB,'alice'),undefined)});
+test('an encrypted record cannot be reassigned to a different account',async()=>{const {store,indexedDB}=create();await store.save('alice',connection);const raw=await record(indexedDB,'alice');await record(indexedDB,'bob',s=>s.put(raw,'bob'));assert.equal(await store.load('bob'),null);assert.equal((await store.load('alice')).apiKey,connection.apiKey)});
+test('remembering requires explicit consent and valid free-tier settings',async()=>{const {store}=create();await assert.rejects(store.save('alice',{...connection,consent:false}));await assert.rejects(store.save('alice',{...connection,provider:'google',freeTierConfirmed:false}));assert.equal(await store.load('alice'),null)});
+
+test('disconnect cannot race an in-progress save and leave a remembered key',async()=>{const {store}=create();await Promise.all([store.save('alice',connection),store.remove('alice')]);assert.equal(await store.load('alice'),null)});

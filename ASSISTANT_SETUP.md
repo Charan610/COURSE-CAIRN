@@ -9,7 +9,7 @@ The floating assistant uses each learner's own provider account. No Vercel AI Ga
 3. Enter its API key. Model IDs are enforced server-side: `openrouter/free` or `gemini-3.5-flash-lite` (pricing reviewed 2026-10-14). There is no paid fallback. Gemini requires confirmation of a free-tier project; CourseCairn cannot independently verify Google billing status.
 4. Review the data-sharing notice and connect. The first question validates the connection with the provider.
 
-Keys and chat are kept in tab memory only. Refresh or Disconnect clears the key. Changing courses starts a new conversation. Neither keys nor conversations are persisted to the application database or browser storage. Requests pass through the authenticated CourseCairn endpoint to the fixed endpoint for the selected provider. Provider usage fees and retention policies apply. Free-tier providers may use submitted content under their own data policies.
+Chat is kept in tab memory and clears on refresh. Keys default to tab memory; the optional **Remember on this device for 30 days** control stores an encrypted connection in IndexedDB for the signed-in account. Reload restores that connection after authentication. **Disconnect & forget** and sign out delete that account’s remembered connection on this device. Changing courses starts a new conversation. Neither keys nor conversations are persisted to the application database. Requests pass through the authenticated CourseCairn endpoint to the fixed endpoint for the selected provider. Provider usage fees and retention policies apply. Free-tier providers may use submitted content under their own data policies.
 
 ## Context and boundaries
 
@@ -31,4 +31,10 @@ The existing Node/Vercel build packages the frontend assets and bundled AI SDK p
 
 The bubble opens an Explore & help guide with course-specific shortcuts and searchable website FAQs. This guide uses written local help and requires no API key. AI chat remains an explicit, opt-in provider connection. The selected course, privacy scope, and optional notes sharing remain visible.
 
-Chat offers question starters, one-question-at-a-time quiz guidance, copy answer, plain-text chat export, and Ctrl/Cmd+Enter to send. Drafts survive assistant view changes within the tab; changing courses clears the conversation and draft. Exports contain conversation text and reference links, never the provider key. Conversations and credentials remain memory-only.
+Chat offers question starters, one-question-at-a-time quiz guidance, copy answer, plain-text chat export, and Ctrl/Cmd+Enter to send. Drafts survive assistant view changes within the tab; changing courses clears the conversation and draft. Exports contain conversation text and reference links, never the provider key. Conversations remain memory-only. Credentials can be remembered with explicit opt-in.
+
+## Device storage
+
+Each connection is encrypted with AES-GCM using a non-extractable Web Crypto key stored in the browser’s IndexedDB. The authenticated account ID is both the record key and authenticated encryption data. The connection expires 30 days after it is saved. Restored records are validated, and expired or corrupted entries are removed. Only provider configuration and consent are stored; notes-sharing stays off after reload.
+
+This protects against storing a plain API key in localStorage but does not protect against a compromised same-origin script or someone controlling this browser profile. Remembering is off by default and should be used only on trusted devices. Connections do not sync between devices or browsers. Clearing site data removes them. No real user key is used in automated verification.

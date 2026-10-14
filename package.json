@@ -18,5 +18,8 @@
     "@ai-sdk/openai-compatible": "^3.0.68",
     "ai": "^7.0.139",
     "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "fake-indexeddb": "^6.2.5"
   }
 }
