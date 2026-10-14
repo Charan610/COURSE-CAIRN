@@ -26,3 +26,9 @@ Keys and chat are kept in tab memory only. Refresh or Disconnect clears the key.
 ## Deployment
 
 The existing Node/Vercel build packages the frontend assets and bundled AI SDK providers. No new database migration or AI environment variables are needed. The assistant is instructed to answer only CourseCairn questions and course-related learning, and redirect unrelated requests. Open/close and message animations respect reduced motion. The connection form is the only way to supply a key. Test a real provider connection using your own key; do not put credentials in tickets, chat or source control.
+
+## Assistant experience
+
+The bubble opens an Explore & help guide with course-specific shortcuts and searchable website FAQs. This guide uses written local help and requires no API key. AI chat remains an explicit, opt-in provider connection. The selected course, privacy scope, and optional notes sharing remain visible.
+
+Chat offers question starters, one-question-at-a-time quiz guidance, copy answer, plain-text chat export, and Ctrl/Cmd+Enter to send. Drafts survive assistant view changes within the tab; changing courses clears the conversation and draft. Exports contain conversation text and reference links, never the provider key. Conversations and credentials remain memory-only.

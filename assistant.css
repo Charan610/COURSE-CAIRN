@@ -9,3 +9,20 @@
 @keyframes cairn-message{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
 @keyframes cairn-think{0%,100%{opacity:.4}50%{opacity:1}}
 @media(prefers-reduced-motion:reduce){.assistant-bubble,.assistant-bubble>span,.assistant-dialog[open],.assistant-dialog[open]::backdrop,.assistant-dialog.assistant-closing,.assistant-dialog.assistant-closing::backdrop,.assistant-message,.assistant-thinking:after{animation:none}}
+/* Cairn's guide and chat share one accessible, course-aware workspace. */
+.assistant-dialog{width:min(490px,calc(100vw - 24px));border-color:#b8c5ad;box-shadow:0 24px 90px #172c2940}
+.assistant-head{background:linear-gradient(120deg,#203c2b,#3c5734);padding:20px 22px}
+.assistant-tabs{display:flex;gap:6px;padding:10px 16px;background:#f0f3e8;border-bottom:1px solid #dbe2ce;position:sticky;top:0;z-index:1}
+.assistant-tabs button{flex:1;border:1px solid transparent;border-radius:10px;padding:10px;background:transparent;color:#40513b;font-size:12px;font-weight:700;cursor:pointer}
+.assistant-tabs button[aria-pressed=true]{background:#fffefa;color:#243f2e;border-color:#ccd5bf;box-shadow:0 2px 5px #253f3010}
+.assistant-home{padding:22px}.assistant-welcome h3{font:30px/1.14 'DM Serif Display',Georgia,serif;letter-spacing:-.6px;max-width:310px;margin:12px 0}.assistant-welcome p{font-size:13px;line-height:1.7;color:#4a5842;margin-bottom:18px}
+.assistant-current{display:grid;gap:5px;padding:15px 17px;border:1px solid #c6d2b8;border-radius:13px;background:#edf2e2}
+.assistant-current>span{font-size:9px;letter-spacing:.13em;color:#4d6240}.assistant-current strong{font-size:15px}.assistant-current a{font-size:12px;margin-top:2px}
+.assistant-shortcuts{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:12px 0 18px}.assistant-shortcuts a{padding:13px 11px;background:#f7f4ec;border:1px solid #dedbc9;border-radius:10px;text-decoration:none;font-size:12px;font-weight:600;transition:background .18s,transform .18s}.assistant-shortcuts a:hover{background:#ecefdc;transform:translateY(-2px)}
+.assistant-ai-entry{display:grid;gap:5px;width:100%;text-align:left;background:#294731;color:#fffef6;border:1px solid #486446;border-radius:13px;padding:16px;cursor:pointer}.assistant-ai-entry b{font-size:14px}.assistant-ai-entry span{font-size:12px;line-height:1.6;color:#e6eddb}.assistant-ai-entry:hover{background:#35583b}
+.assistant-home h4{font-size:15px;margin:24px 0 10px}.assistant-home input[type=search]{width:100%;padding:12px;border:1px solid #a7b59a;border-radius:10px;background:#fffefa;color:#25352d;font:13px 'DM Sans',sans-serif}
+.assistant-help-results details{border-bottom:1px solid #e0e4d5;padding:13px 0}.assistant-help-results summary{font-size:13px;font-weight:600;cursor:pointer}.assistant-help-results p{font-size:12px;line-height:1.75;color:#45543e;margin:10px 0}.assistant-help-results a{font-size:12px;font-weight:600}.assistant-guide-note{font-size:11px;line-height:1.6;color:#56624e;margin:18px 0 0}
+.assistant-copy{display:block;margin:10px 0 0;border:1px solid #c5d1b9;background:#fffefa;color:#34512c;border-radius:6px;padding:5px 9px;font-size:11px;cursor:pointer}.assistant-message.user{border-radius:15px 15px 4px 15px}.assistant-message.assistant{border-radius:15px 15px 15px 4px}.assistant-message p{font-size:14px}.assistant-prompts button{font-size:11px;line-height:1.4;padding:8px 10px}.assistant-toolbar button{min-height:32px}.assistant-messages{max-height:40dvh}.assistant-send-row small{font-size:10px}.assistant-body :focus-visible{outline:3px solid #986b25;outline-offset:3px}.assistant-bubble{transition:transform .2s,background .2s}
+@media(max-width:760px){.assistant-bubble{bottom:82px;right:16px}}
+@media(max-width:400px){.assistant-home{padding:16px}.assistant-welcome h3{font-size:27px}.assistant-shortcuts{gap:7px}.assistant-shortcuts a{font-size:11px}.assistant-send-row{align-items:flex-start}.assistant-head{padding:16px}.assistant-dialog{bottom:8px;right:8px;width:calc(100vw - 16px)}}
+@media(prefers-reduced-motion:reduce){.assistant-shortcuts a,.assistant-bubble{transition:none}.assistant-shortcuts a:hover{transform:none}}
