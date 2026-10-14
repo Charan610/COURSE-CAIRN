@@ -18,3 +18,12 @@
 @media(max-width:760px){.overview-layout,.profile-layout{grid-template-columns:1fr}.profile-storage{grid-column:auto}.today-card-head{align-items:flex-start;flex-direction:column}.today-meta{justify-content:flex-start}.course-select{max-width:145px}.top-actions{gap:8px}}
 
 .resource-tree-note{font-size:10px;color:var(--muted);margin:3px 0 10px}.resource-tree{display:grid;gap:8px}.resource-branch{background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden}.resource-branch>summary{list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:13px 15px;cursor:pointer;font-size:12px;font-weight:700;color:var(--ink)}.resource-branch>summary::-webkit-details-marker{display:none}.resource-branch>summary::before{content:'＋';font:14px 'IBM Plex Mono',monospace;color:var(--forest);margin-right:2px}.resource-branch[open]>summary::before{content:'−'}.resource-branch>summary span{margin-right:auto}.resource-branch>summary b{font:10px 'IBM Plex Mono',monospace;color:var(--muted);font-weight:400}.resource-branch[open]>summary{border-bottom:1px solid var(--line);background:var(--paper-strong)}.resource-branch-items{display:grid;gap:8px;padding:10px}.resource-branch-items .resource-card{box-shadow:none}
+
+/* External DSA practice companion */
+.algomaster-practice{margin-bottom:20px;border-top:4px solid var(--forest)}
+.algomaster-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:20px 0}
+.algomaster-options>a{display:block;padding:20px;border:1px solid var(--line);border-radius:12px;background:var(--paper-strong);text-decoration:none;color:var(--ink);transition:transform .2s,border-color .2s}
+.algomaster-options>a:hover{transform:translateY(-3px);border-color:var(--forest)}
+.algomaster-options h3{margin:12px 0 8px}.algomaster-options p{margin:0;color:var(--ink)}
+@media(max-width:640px){.algomaster-options{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.algomaster-options>a{transition:none}.algomaster-options>a:hover{transform:none}}
