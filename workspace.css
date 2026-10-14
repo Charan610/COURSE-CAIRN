@@ -67,3 +67,20 @@ input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px soli
 @keyframes contour-drift{0%,100%{transform:translate(0,0) rotate(0)}50%{transform:translate(5px,-7px) rotate(4deg)}}
 @media(prefers-reduced-motion:reduce){.cairn-motion i,.cairn-motion em,.focus-art{animation:none}.button,.progress-fill{transition:none}.button:hover{transform:none}}
 @media print{.cairn-motion{display:none}.focus-art{animation:none}}
+/* Stronger reading contrast on warm surfaces, without changing dark panels. */
+:root{--ink:#1f3026;--muted:#465549}
+.app-main .eyebrow{color:#465c3e}
+.app-main .small-muted,.page-head p,.read-card small,.course-card p,.course-facts,.week-caption,.journal-footer>span,.resource-card .domain,.resource-card p,.search-help,.workspace-result small,.course-saved-progress span,.course-saved-progress small,.progress-week-card>small,.progress-week-card>div:first-child,.learning-total p,.site-footer,.site-footer a,.date-label{color:#465549}
+.lesson-main .outline-alert,.lesson-main .muted-banner,.lesson-aside .small-muted{color:#40503f}
+.app-main input::placeholder,.app-main textarea::placeholder,.course-search-dialog input::placeholder{color:#626d60;opacity:1}
+.lesson-section p,.lesson-objective,.task-check{color:#26372b}
+.calendar-day>span,.calendar-day small{color:#4b5b43}
+.calendar-day.selected>span,.calendar-day.selected small{color:#f4f8e8}
+.focus-card .eyebrow{color:#e3f4b5}
+.focus-card p,.focus-bottom>span{color:#e3eddc}
+.focus-week{color:#eef4df}
+.sidebar .side-label,.sidebar .brand small{color:#c1d1be}
+.sidebar .nav-list a small{color:#bcccbd}
+.sidebar .nav-list a.active small{color:#354a2e}
+.lesson-main .read-card small,.lesson-aside .small-muted{font-size:12px}
+@media(max-width:760px){.page-head p,.lesson-section p{font-size:14px}.calendar-day>span,.calendar-day small{font-size:10px}}
