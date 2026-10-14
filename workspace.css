@@ -75,7 +75,7 @@ input:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px soli
 .app-main input::placeholder,.app-main textarea::placeholder,.course-search-dialog input::placeholder{color:#626d60;opacity:1}
 .lesson-section p,.lesson-objective,.task-check{color:#26372b}
 .calendar-day>span,.calendar-day small{color:#4b5b43}
-.calendar-day.selected>span,.calendar-day.selected small{color:#f4f8e8}
+.calendar-day.selected>span,.calendar-day.selected small{color:#304427}
 .focus-card .eyebrow{color:#e3f4b5}
 .focus-card p,.focus-bottom>span{color:#e3eddc}
 .focus-week{color:#eef4df}
