@@ -8,6 +8,7 @@
  async authenticate(mode,values){const result=await api('/auth/'+mode,{method:'POST',body:JSON.stringify(values)});user=result.user;csrfToken=result.csrfToken;records=(await api('/courses')).courses;return result},
  get user(){return user},read(id){return clone(records[id]?.state||{})},get saving(){return pending>0},
  save(id,state){const snapshot=clone(state),owner=user.id;pending++;inFlight.add(id);status('Saving…');const operation=queue.then(async()=>{if(user?.id!==owner)throw new Error('Account changed. Reload before saving.');if(failures.get(id)?.status===409)throw failures.get(id);const result=await api('/courses/'+encodeURIComponent(id),{method:'PUT',body:JSON.stringify({state:snapshot,revision:records[id]?.revision||0})});records[id]={state:snapshot,revision:result.revision};failures.delete(id);return result});queue=operation.catch(e=>{failures.set(id,e)});return operation.finally(()=>{pending--;if(!pending){inFlight.clear();status(failures.size?'Save failed · export draft, then retry or reload':'All changes saved',!!failures.size)}})},
+ async askAssistant(payload){return api('/assistant',{method:'POST',body:JSON.stringify(payload)})},
  async flush(){await queue;if(failures.size)throw [...failures.values()][0]},
  async updateName(displayName){const result=await api('/profile',{method:'PATCH',body:JSON.stringify({displayName})});user=result.user;return user},
  async logout(){await account.flush();await api('/auth/logout',{method:'POST',body:'{}'});user=null;csrfToken='';records={};location.reload()},

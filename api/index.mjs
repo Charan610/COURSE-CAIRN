@@ -2,6 +2,7 @@ import {readFile} from 'node:fs/promises';
 import {randomUUID} from 'node:crypto';
 import {database} from '../lib/database.mjs';
 import {randomToken,hashToken,hashPassword,verifyPassword,checkPassword,checkUsername,checkName} from '../lib/security.mjs';
+import {buildAssistantContext,validateAssistantRequest,answerAssistant} from '../lib/assistant.mjs';
 import {validateState} from '../lib/state.mjs';
 let contentPromise;
 async function content(){return contentPromise??= (async()=>{const catalog=JSON.parse(await readFile(new URL('../content/catalog.json',import.meta.url)));const courses=new Map();for(const c of catalog.courses)courses.set(c.id,JSON.parse(await readFile(new URL(`../content/${c.curriculum}`,import.meta.url))));return {catalog,courses}})()}
@@ -31,6 +32,13 @@ export default async function handler(req,res){
  }
  const user=await session(req);if(write&&req.headers['x-csrf-token']!==user.csrf_token)fail(403,'Session verification failed. Refresh and try again.');
  if(write)await rateLimit('write:'+user.id,600,60);
+ if(path==='/api/assistant'&&req.method==='POST'){
+ const loaded=await content(),b=validateAssistantRequest(await body(req),loaded.courses);
+ await rateLimit('assistant:'+user.id,20,3600);
+ const {rows}=await database().query('SELECT course_id,state FROM course_states WHERE user_id=$1',[user.id]);
+ const context=buildAssistantContext({...loaded,rows,user,...b});
+ return send(res,200,await answerAssistant(b,context));
+ }
  if(path==='/api/auth/me'&&req.method==='GET')return send(res,200,{user:publicUser(user),csrfToken:user.csrf_token});
  if(path==='/api/auth/logout'&&req.method==='POST'){await database().query('DELETE FROM sessions WHERE token_hash=$1',[user.token_hash]);setCookie(res,'',true);return send(res,200,{ok:true})}
  if(path==='/api/profile'&&req.method==='PATCH'){const b=await body(req);const {rows:[updated]}=await database().query('UPDATE users SET display_name=$1,updated_at=now() WHERE id=$2 RETURNING *',[checkName(b.displayName),user.id]);return send(res,200,{user:publicUser(updated)})}
