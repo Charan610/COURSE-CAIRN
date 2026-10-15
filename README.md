@@ -71,3 +71,13 @@ The course sidebar places **Visual** directly below **Resource library**. The DS
 - Sessions, trace cursors, notes, predictions and practice bookmarks use the existing authenticated DSA course state; attempts use existing DSA history. Backend curriculum and records remain isolated. Account JSON export includes these fields.
 
 Input limits and trace limits are enforced in both browser and server validation. Diagram colors are accompanied by symbols, labels or stroke patterns. Large diagrams scroll within the canvas. Playback does not execute submitted code or grant coding mastery.
+
+### Free Python execution tracing
+
+Every DSA visual lab has **Python · Run & visualize** alongside the existing external compiler. This executes the edited Python source with Pyodide 314.0.7 in a disposable module worker inside an opaque-origin iframe (`sandbox="allow-scripts"`, no `allow-same-origin`). The runtime downloads from jsDelivr on demand. No paid compiler, backend execution, or AI service is used. The frame receives only source code, stdin and runner assets, never account data or credentials.
+
+The Python trace records user-source line/call/return/exception events, bounded locals, call frames, lists, tuples, sets, dictionaries, deques, ordinary object fields and object references. The player shows the state **before** a highlighted line executes; return events show the completed function state. Imported library internals, native operations, threads and asynchronous execution are outside the visual tracing contract. Graph-shaped data is displayed as actual collections/objects, not inferred algorithm-specific graph animations. Not every Python object has a full visual adapter.
+
+Limits: 20,000 source characters / 1,500 lines, 800 events or 4 MB trace, 10 seconds execution, 60 seconds runtime loading, 10,000 output characters. Display truncation is labelled. Code changes invalidate the previous trace. Runtime errors retain recorded events when possible; forced termination discards the incomplete run. Code can be downloaded; drafts and traces are not persisted to the account. C++/Java remain external compiler-only and do not drive the native visual.
+
+`trace-frame.html` has a separate restrictive CSP; other pages retain the existing policy. The worker uses a data URL for opaque-origin browser compatibility. Only the isolated runtime permits the pinned CDN and WebAssembly, while application script policy is unchanged. Untrusted code can alter its own trace/runtime; snapshots are debugging aids, never trusted completion evidence. This browser runner is for small educational programs, not a hard per-process memory sandbox for hostile workloads.
